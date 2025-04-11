@@ -1,45 +1,11 @@
-/* USER CODE BEGIN Header */
-/**
-  ******************************************************************************
-  * @file           : main.c
-  * @brief          : Main program body
-  ******************************************************************************
-  * @attention
-  *
-  * Copyright (c) 2025 STMicroelectronics.
-  * All rights reserved.
-  *
-  * This software is licensed under terms that can be found in the LICENSE file
-  * in the root directory of this software component.
-  * If no LICENSE file comes with this software, it is provided AS-IS.
-  *
-  ******************************************************************************
-  */
-/* USER CODE END Header */
-/* Includes ------------------------------------------------------------------*/
+// jtl
+// 4/11/25
 #include "main.h"
+#include "stdint.h"
+#include "stdio.h"
+#include "font6x8.h"
 
-/* Private includes ----------------------------------------------------------*/
-/* USER CODE BEGIN Includes */
-
-/* USER CODE END Includes */
-
-/* Private typedef -----------------------------------------------------------*/
-/* USER CODE BEGIN PTD */
-
-/* USER CODE END PTD */
-
-/* Private define ------------------------------------------------------------*/
-/* USER CODE BEGIN PD */
-
-/* USER CODE END PD */
-
-/* Private macro -------------------------------------------------------------*/
-/* USER CODE BEGIN PM */
-
-/* USER CODE END PM */
-
-/* Private variables ---------------------------------------------------------*/
+extern const uint8_t font6x8[];
 
 COM_InitTypeDef BspCOMInit;
 I2C_HandleTypeDef hi2c1;
@@ -48,7 +14,11 @@ I2C_HandleTypeDef hi2c1;
 
 volatile uint8_t conditionMet = 0;
 uint8_t scd41_addr = 0x62 << 1; //7 bit address shifted left
-uint8_t ssd1306_aadr = 0x3C << 1 //7 bit address shifted left
+uint8_t ssd1306_addr = 0x3C << 1; //7 bit address shifted left
+
+uint16_t co2 = 0; //co2 in ppm
+float temp; // temp in F
+float rh; //rh in %
 
 /* USER CODE END PV */
 
@@ -59,14 +29,11 @@ static void MX_I2C1_Init(void);
 /* USER CODE BEGIN PFP */
 
 void scd41_start(void);
-uint8_t scd41_read(void);
+uint8_t scd41_read(uint16_t *co2, float *temp, float *rh);
 
-/* USER CODE END PFP */
-
-/* Private user code ---------------------------------------------------------*/
-/* USER CODE BEGIN 0 */
-
-/* USER CODE END 0 */
+void ssd1306_start(void);
+void ssd1306_fill(uint8_t pattern);
+void ssd1306_print(uint8_t x, uint8_t page, const char *str);  
 
 /**
   * @brief  The application entry point.
@@ -74,40 +41,17 @@ uint8_t scd41_read(void);
   */
 int main(void)
 {
-
-  /* USER CODE BEGIN 1 */
-
-  /* USER CODE END 1 */
-
-  /* MCU Configuration--------------------------------------------------------*/
-
   /* Reset of all peripherals, Initializes the Flash interface and the Systick. */
   HAL_Init();
-
-  /* USER CODE BEGIN Init */
-
-  /* USER CODE END Init */
-
   /* Configure the system clock */
   SystemClock_Config();
-
-  /* USER CODE BEGIN SysInit */
-
-  /* USER CODE END SysInit */
-
   /* Initialize all configured peripherals */
   MX_GPIO_Init();
   MX_I2C1_Init();
-  /* USER CODE BEGIN 2 */
-
-  /* USER CODE END 2 */
-
   /* Initialize led */
   BSP_LED_Init(LED_GREEN);
-
   /* Initialize USER push-button, will be used to trigger an interrupt each time it's pressed.*/
   BSP_PB_Init(BUTTON_USER, BUTTON_MODE_EXTI);
-
   /* Initialize COM1 port (115200, 8 bits (7-bit data + 1 stop bit), no parity */
   BspCOMInit.BaudRate   = 115200;
   BspCOMInit.WordLength = COM_WORDLENGTH_8B;
@@ -119,23 +63,28 @@ int main(void)
     Error_Handler();
   }
 
-  /* Infinite loop */
-  /* USER CODE BEGIN WHILE */
-
   scd41_start();
+  ssd1306_start();
   HAL_Delay(5000);  // warm-up delay
-  
+
+  char line[22];
+
   while (1)
   {
+    ssd1306_fill(0x00);  // clear display
+    scd41_read(&co2, &temp, &rh);
+    
+    sprintf(line, "CO2: %4d ppm", co2);
+    ssd1306_print(0, 0, line);
+  
+    sprintf(line, "T: %2.1f F", temp);
+    ssd1306_print(0, 1, line);
+  
+    sprintf(line, "RH: %2.1f %%", rh);
+    ssd1306_print(0, 2, line);
 
-    /* USER CODE END WHILE */
-    if (scd41_read()) {
-      BSP_LED_Toggle(LED_GREEN);
-    }
-    HAL_Delay(5000);
-    /* USER CODE BEGIN 3 */
+    HAL_Delay(5000);   
   }
-  /* USER CODE END 3 */
 }
 
 /**
@@ -191,14 +140,6 @@ void SystemClock_Config(void)
   */
 static void MX_I2C1_Init(void)
 {
-
-  /* USER CODE BEGIN I2C1_Init 0 */
-
-  /* USER CODE END I2C1_Init 0 */
-
-  /* USER CODE BEGIN I2C1_Init 1 */
-
-  /* USER CODE END I2C1_Init 1 */
   hi2c1.Instance = I2C1;
   hi2c1.Init.Timing = 0x40B285C2;
   hi2c1.Init.OwnAddress1 = 0;
@@ -226,10 +167,6 @@ static void MX_I2C1_Init(void)
   {
     Error_Handler();
   }
-  /* USER CODE BEGIN I2C1_Init 2 */
-
-  /* USER CODE END I2C1_Init 2 */
-
 }
 
 /**
@@ -239,22 +176,11 @@ static void MX_I2C1_Init(void)
   */
 static void MX_GPIO_Init(void)
 {
-  /* USER CODE BEGIN MX_GPIO_Init_1 */
-
-  /* USER CODE END MX_GPIO_Init_1 */
-
-  /* GPIO Ports Clock Enable */
   __HAL_RCC_GPIOC_CLK_ENABLE();
   __HAL_RCC_GPIOF_CLK_ENABLE();
   __HAL_RCC_GPIOA_CLK_ENABLE();
   __HAL_RCC_GPIOB_CLK_ENABLE();
-
-  /* USER CODE BEGIN MX_GPIO_Init_2 */
-
-  /* USER CODE END MX_GPIO_Init_2 */
 }
-
-/* USER CODE BEGIN 4 */
 
 //start periodic measurement (command 0x21B1)
 void scd41_start(void){
@@ -264,19 +190,88 @@ void scd41_start(void){
 
 
 //read measurement (command 0xEC05)
-uint8_t scd41_read(void){
+uint8_t scd41_read(uint16_t *co2, float *temp, float *rh){
   uint8_t cmd[2] = {0xEC, 0x05};
-  uint8_t rx_buffer[9];
+  uint8_t rx[9];
 
-  //HAL_I2C_Master_Transmit(&hi2c1, scd41_addr, cmd, 2, HAL_MAX_DELAY);
+  HAL_I2C_Master_Transmit(&hi2c1, scd41_addr, cmd, 2, HAL_MAX_DELAY);
   HAL_Delay(1);
-  if (HAL_I2C_Master_Receive(&hi2c1, scd41_addr, rx_buffer, 9, HAL_MAX_DELAY) == HAL_OK)
-  {
+
+  if (HAL_I2C_Master_Receive(&hi2c1, scd41_addr, rx, 9, HAL_MAX_DELAY) != HAL_OK)
+    return 0;
+
+  *co2 = (rx[0] << 8) | rx[1];
+  uint16_t temp_raw = (rx[3] << 8) | rx[4];
+  float temp_c = -45.0f + 175.0f * ((float)temp_raw / 65535.0f);
+  *temp = temp_c * 9.0f / 5.0f + 32.0f;
+
+  uint16_t rh_raw = (rx[6] << 8) | rx[7];
+  *rh = 100.0f * ((float)rh_raw / 65535.0f);
+
   return 1;
-  }
-  return 0;
 }
 
+//initialize ssd1306
+void ssd1306_start(void){
+  const uint8_t cmds[] = { //initialization commands
+    0xAE,       // Display OFF
+    0xD5, 0x80, // Set display clock divide ratio/oscillator freq
+    0xA8, 0x3F, // Set multiplex ratio (1 to 64)
+    0xD3, 0x00, // Display offset
+    0x40,       // Start line address
+    0x8D, 0x14, // Charge pump ON
+    0x20, 0x00, // Memory addressing mode: horizontal
+    0xA1,       // Segment re-map (mirror horizontally)
+    0xC8,       // COM Output Scan Direction
+    0xDA, 0x12, // COM pins hardware config
+    0x81, 0x7F, // Contrast
+    0xD9, 0xF1, // Pre-charge period
+    0xDB, 0x40, // VCOMH deselect level
+    0xA4,       // Entire display ON resume
+    0xA6,       // Normal (not inverted)
+    0xAF        // Display ON
+  };
+    for (uint8_t i = 0; i < sizeof(cmds); i++) {
+      HAL_I2C_Mem_Write(&hi2c1, ssd1306_addr, 0x00, 1, &cmds[i], 1, HAL_MAX_DELAY);
+    }
+}
+
+void ssd1306_fill(uint8_t pattern) {
+  uint8_t data[128];
+  for (int i = 0; i < 128; i++) data[i] = pattern;
+
+  for (uint8_t page = 0; page < 8; page++) {
+    uint8_t set_page[] = {
+      0xB0 | page, // Set page (0–7)
+      0x00,        // Low column
+      0x10         // High column
+    };
+
+    for (uint8_t i = 0; i < 3; i++) {
+      HAL_I2C_Mem_Write(&hi2c1, ssd1306_addr, 0x00, 1, &set_page[i], 1, HAL_MAX_DELAY);
+    }
+
+    // Now send 128 bytes of pixel data
+    HAL_I2C_Mem_Write(&hi2c1, ssd1306_addr, 0x40, 1, data, 128, HAL_MAX_DELAY);
+  }
+}
+
+
+extern const uint8_t font6x8[];
+
+void ssd1306_draw_char(uint8_t x, uint8_t page, char c) {
+  if (c < 32 || c > 127) c = '?';  // fallback
+  uint8_t *glyph = (uint8_t *)&font6x8[(c - 32) * 6];
+  HAL_I2C_Mem_Write(&hi2c1, ssd1306_addr, 0x00, 1, (uint8_t[]){0xB0 | page, 0x00 | (x & 0x0F), 0x10 | (x >> 4)}, 3, HAL_MAX_DELAY);
+  HAL_I2C_Mem_Write(&hi2c1, ssd1306_addr, 0x40, 1, glyph, 6, HAL_MAX_DELAY);
+}
+
+void ssd1306_print(uint8_t x, uint8_t page, const char *str) {
+  while (*str) {
+    ssd1306_draw_char(x, page, *str++);
+    x += 6;
+  }
+}
 
 /* USER CODE END 4 */
 
