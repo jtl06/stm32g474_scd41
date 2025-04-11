@@ -48,6 +48,7 @@ I2C_HandleTypeDef hi2c1;
 
 volatile uint8_t conditionMet = 0;
 uint8_t scd41_addr = 0x62 << 1; //7 bit address shifted left
+uint8_t ssd1306_aadr = 0x3C << 1 //7 bit address shifted left
 
 /* USER CODE END PV */
 
@@ -99,9 +100,6 @@ int main(void)
   MX_I2C1_Init();
   /* USER CODE BEGIN 2 */
 
-  scd41_start();
-  HAL_Delay(5000);
-
   /* USER CODE END 2 */
 
   /* Initialize led */
@@ -123,19 +121,20 @@ int main(void)
 
   /* Infinite loop */
   /* USER CODE BEGIN WHILE */
-  while (1)
-    {
-      if (scd41_read())
-      {
-        conditionMet = 1;   // Successful reading
-      }
-      if(conditionMet)
-      {
-        BSP_LED_On(LED_GREEN);
-      }
 
-      HAL_Delay(1000); // Read every second
+  scd41_start();
+  HAL_Delay(5000);  // warm-up delay
+  
+  while (1)
+  {
+
+    /* USER CODE END WHILE */
+    if (scd41_read()) {
+      BSP_LED_Toggle(LED_GREEN);
     }
+    HAL_Delay(5000);
+    /* USER CODE BEGIN 3 */
+  }
   /* USER CODE END 3 */
 }
 
@@ -240,7 +239,6 @@ static void MX_I2C1_Init(void)
   */
 static void MX_GPIO_Init(void)
 {
-  GPIO_InitTypeDef GPIO_InitStruct = {0};
   /* USER CODE BEGIN MX_GPIO_Init_1 */
 
   /* USER CODE END MX_GPIO_Init_1 */
@@ -250,16 +248,6 @@ static void MX_GPIO_Init(void)
   __HAL_RCC_GPIOF_CLK_ENABLE();
   __HAL_RCC_GPIOA_CLK_ENABLE();
   __HAL_RCC_GPIOB_CLK_ENABLE();
-
-  /*Configure GPIO pin Output Level */
-  HAL_GPIO_WritePin(GPIOA, GPIO_PIN_5, GPIO_PIN_RESET);
-
-  /*Configure GPIO pin : PA5 */
-  GPIO_InitStruct.Pin = GPIO_PIN_5;
-  GPIO_InitStruct.Mode = GPIO_MODE_OUTPUT_PP;
-  GPIO_InitStruct.Pull = GPIO_NOPULL;
-  GPIO_InitStruct.Speed = GPIO_SPEED_FREQ_LOW;
-  HAL_GPIO_Init(GPIOA, &GPIO_InitStruct);
 
   /* USER CODE BEGIN MX_GPIO_Init_2 */
 
@@ -280,10 +268,11 @@ uint8_t scd41_read(void){
   uint8_t cmd[2] = {0xEC, 0x05};
   uint8_t rx_buffer[9];
 
-  HAL_I2C_Master_Transmit(&hi2c1, scd41_addr, cmd, 2, HAL_MAX_DELAY);
+  //HAL_I2C_Master_Transmit(&hi2c1, scd41_addr, cmd, 2, HAL_MAX_DELAY);
   HAL_Delay(1);
-  if (HAL_I2C_Master_Receive(&hi2c1, scd41_addr, rx_buffer, 9, HAL_MAX_DELAY) == HAL_OK){
-    return 1;
+  if (HAL_I2C_Master_Receive(&hi2c1, scd41_addr, rx_buffer, 9, HAL_MAX_DELAY) == HAL_OK)
+  {
+  return 1;
   }
   return 0;
 }

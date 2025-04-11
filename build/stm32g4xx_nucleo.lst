@@ -1,4 +1,4 @@
-ARM GAS  /tmp/ccm4ao9X.s 			page 1
+ARM GAS  /tmp/ccJgo9NE.s 			page 1
 
 
    1              		.cpu cortex-m4
@@ -58,7 +58,7 @@ ARM GAS  /tmp/ccm4ao9X.s 			page 1
   28:Drivers/BSP/STM32G4xx_Nucleo/stm32g4xx_nucleo.c ****   * @{
   29:Drivers/BSP/STM32G4xx_Nucleo/stm32g4xx_nucleo.c ****   */
   30:Drivers/BSP/STM32G4xx_Nucleo/stm32g4xx_nucleo.c **** 
-ARM GAS  /tmp/ccm4ao9X.s 			page 2
+ARM GAS  /tmp/ccJgo9NE.s 			page 2
 
 
   31:Drivers/BSP/STM32G4xx_Nucleo/stm32g4xx_nucleo.c **** /** @addtogroup STM32G4XX_NUCLEO
@@ -118,7 +118,7 @@ ARM GAS  /tmp/ccm4ao9X.s 			page 1
   85:Drivers/BSP/STM32G4xx_Nucleo/stm32g4xx_nucleo.c **** static const IRQn_Type BUTTON_IRQn[BUTTONn] = {USER_BUTTON_EXTI_IRQn};
   86:Drivers/BSP/STM32G4xx_Nucleo/stm32g4xx_nucleo.c **** #endif /* USE_NUCLEO_64 */
   87:Drivers/BSP/STM32G4xx_Nucleo/stm32g4xx_nucleo.c **** 
-ARM GAS  /tmp/ccm4ao9X.s 			page 3
+ARM GAS  /tmp/ccJgo9NE.s 			page 3
 
 
   88:Drivers/BSP/STM32G4xx_Nucleo/stm32g4xx_nucleo.c **** #if (USE_BSP_COM_FEATURE > 0)
@@ -178,7 +178,7 @@ ARM GAS  /tmp/ccm4ao9X.s 			page 1
  142:Drivers/BSP/STM32G4xx_Nucleo/stm32g4xx_nucleo.c **** 
  143:Drivers/BSP/STM32G4xx_Nucleo/stm32g4xx_nucleo.c **** /**
  144:Drivers/BSP/STM32G4xx_Nucleo/stm32g4xx_nucleo.c ****   * @brief  This method returns the board name
-ARM GAS  /tmp/ccm4ao9X.s 			page 4
+ARM GAS  /tmp/ccJgo9NE.s 			page 4
 
 
  145:Drivers/BSP/STM32G4xx_Nucleo/stm32g4xx_nucleo.c ****   * @retval pointer to the board name string
@@ -238,7 +238,7 @@ ARM GAS  /tmp/ccm4ao9X.s 			page 1
  199:Drivers/BSP/STM32G4xx_Nucleo/stm32g4xx_nucleo.c **** 
  200:Drivers/BSP/STM32G4xx_Nucleo/stm32g4xx_nucleo.c ****   /* DeInit the GPIO_LED pin */
  201:Drivers/BSP/STM32G4xx_Nucleo/stm32g4xx_nucleo.c ****   HAL_GPIO_DeInit(LED_PORT[Led], LED_PIN[Led]);
-ARM GAS  /tmp/ccm4ao9X.s 			page 5
+ARM GAS  /tmp/ccJgo9NE.s 			page 5
 
 
  202:Drivers/BSP/STM32G4xx_Nucleo/stm32g4xx_nucleo.c **** 
@@ -298,7 +298,7 @@ ARM GAS  /tmp/ccm4ao9X.s 			page 1
  256:Drivers/BSP/STM32G4xx_Nucleo/stm32g4xx_nucleo.c **** {
  257:Drivers/BSP/STM32G4xx_Nucleo/stm32g4xx_nucleo.c ****   return (int32_t)HAL_GPIO_ReadPin(LED_PORT[Led], LED_PIN[Led]);
  258:Drivers/BSP/STM32G4xx_Nucleo/stm32g4xx_nucleo.c **** }
-ARM GAS  /tmp/ccm4ao9X.s 			page 6
+ARM GAS  /tmp/ccJgo9NE.s 			page 6
 
 
  259:Drivers/BSP/STM32G4xx_Nucleo/stm32g4xx_nucleo.c **** 
@@ -358,7 +358,7 @@ ARM GAS  /tmp/ccm4ao9X.s 			page 1
  313:Drivers/BSP/STM32G4xx_Nucleo/stm32g4xx_nucleo.c ****   * @param  Button Button to be configured
  314:Drivers/BSP/STM32G4xx_Nucleo/stm32g4xx_nucleo.c ****   *          This parameter can be one of the following values:
  315:Drivers/BSP/STM32G4xx_Nucleo/stm32g4xx_nucleo.c ****   *            @arg  BUTTON_USER: User Push Button
-ARM GAS  /tmp/ccm4ao9X.s 			page 7
+ARM GAS  /tmp/ccJgo9NE.s 			page 7
 
 
  316:Drivers/BSP/STM32G4xx_Nucleo/stm32g4xx_nucleo.c ****   * @note PB DeInit does not disable the GPIO clock
@@ -418,7 +418,7 @@ ARM GAS  /tmp/ccm4ao9X.s 			page 1
  370:Drivers/BSP/STM32G4xx_Nucleo/stm32g4xx_nucleo.c ****   *                  configuration information for the specified USART peripheral.
  371:Drivers/BSP/STM32G4xx_Nucleo/stm32g4xx_nucleo.c ****   * @retval BSP error code
  372:Drivers/BSP/STM32G4xx_Nucleo/stm32g4xx_nucleo.c ****   */
-ARM GAS  /tmp/ccm4ao9X.s 			page 8
+ARM GAS  /tmp/ccJgo9NE.s 			page 8
 
 
  373:Drivers/BSP/STM32G4xx_Nucleo/stm32g4xx_nucleo.c **** int32_t BSP_COM_Init(COM_TypeDef COM, COM_InitTypeDef *COM_Init)
@@ -478,7 +478,7 @@ ARM GAS  /tmp/ccm4ao9X.s 			page 1
  427:Drivers/BSP/STM32G4xx_Nucleo/stm32g4xx_nucleo.c **** 
  428:Drivers/BSP/STM32G4xx_Nucleo/stm32g4xx_nucleo.c ****     if(HAL_UART_DeInit(&hcom_uart[COM]) != HAL_OK)
  429:Drivers/BSP/STM32G4xx_Nucleo/stm32g4xx_nucleo.c ****     {
-ARM GAS  /tmp/ccm4ao9X.s 			page 9
+ARM GAS  /tmp/ccJgo9NE.s 			page 9
 
 
  430:Drivers/BSP/STM32G4xx_Nucleo/stm32g4xx_nucleo.c ****       return BSP_ERROR_PERIPH_FAILURE;
@@ -538,7 +538,7 @@ ARM GAS  /tmp/ccm4ao9X.s 			page 1
  484:Drivers/BSP/STM32G4xx_Nucleo/stm32g4xx_nucleo.c ****     {
  485:Drivers/BSP/STM32G4xx_Nucleo/stm32g4xx_nucleo.c ****       ret = BSP_ERROR_PERIPH_FAILURE;
  486:Drivers/BSP/STM32G4xx_Nucleo/stm32g4xx_nucleo.c ****     }
-ARM GAS  /tmp/ccm4ao9X.s 			page 10
+ARM GAS  /tmp/ccJgo9NE.s 			page 10
 
 
  487:Drivers/BSP/STM32G4xx_Nucleo/stm32g4xx_nucleo.c ****     else
@@ -598,7 +598,7 @@ ARM GAS  /tmp/ccm4ao9X.s 			page 1
  541:Drivers/BSP/STM32G4xx_Nucleo/stm32g4xx_nucleo.c ****   */
  542:Drivers/BSP/STM32G4xx_Nucleo/stm32g4xx_nucleo.c **** int32_t BSP_COM_SelectLogPort(COM_TypeDef COM)
  543:Drivers/BSP/STM32G4xx_Nucleo/stm32g4xx_nucleo.c **** {
-ARM GAS  /tmp/ccm4ao9X.s 			page 11
+ARM GAS  /tmp/ccJgo9NE.s 			page 11
 
 
  544:Drivers/BSP/STM32G4xx_Nucleo/stm32g4xx_nucleo.c ****   if(COM_ActiveLogPort != COM)
@@ -658,7 +658,7 @@ ARM GAS  /tmp/ccm4ao9X.s 			page 1
  598:Drivers/BSP/STM32G4xx_Nucleo/stm32g4xx_nucleo.c ****   BSP_PB_Callback(BUTTON_USER);
  599:Drivers/BSP/STM32G4xx_Nucleo/stm32g4xx_nucleo.c **** }
  600:Drivers/BSP/STM32G4xx_Nucleo/stm32g4xx_nucleo.c **** #endif /* USE_NUCLEO_64 */
-ARM GAS  /tmp/ccm4ao9X.s 			page 12
+ARM GAS  /tmp/ccJgo9NE.s 			page 12
 
 
  601:Drivers/BSP/STM32G4xx_Nucleo/stm32g4xx_nucleo.c **** 
@@ -718,7 +718,7 @@ ARM GAS  /tmp/ccm4ao9X.s 			page 1
   66 001a 42F00102 		orr	r2, r2, #1
   67 001e DA64     		str	r2, [r3, #76]
   68              		.loc 1 617 3 view .LVU13
-ARM GAS  /tmp/ccm4ao9X.s 			page 13
+ARM GAS  /tmp/ccJgo9NE.s 			page 13
 
 
   69 0020 DA6C     		ldr	r2, [r3, #76]
@@ -778,7 +778,7 @@ ARM GAS  /tmp/ccm4ao9X.s 			page 1
  112 0052 4FF09040 		mov	r0, #1207959552
  113              	.LVL1:
  114              		.loc 1 628 3 is_stmt 0 view .LVU33
-ARM GAS  /tmp/ccm4ao9X.s 			page 14
+ARM GAS  /tmp/ccJgo9NE.s 			page 14
 
 
  115 0056 FFF7FEFF 		bl	HAL_GPIO_Init
@@ -838,7 +838,7 @@ ARM GAS  /tmp/ccm4ao9X.s 			page 1
  156              		@ args = 0, pretend = 0, frame = 24
  157              		@ frame_needed = 0, uses_anonymous_args = 0
  158              		.loc 1 643 1 is_stmt 0 view .LVU43
-ARM GAS  /tmp/ccm4ao9X.s 			page 15
+ARM GAS  /tmp/ccJgo9NE.s 			page 15
 
 
  159 0000 00B5     		push	{lr}
@@ -898,7 +898,7 @@ ARM GAS  /tmp/ccm4ao9X.s 			page 1
  198              		.align	2
  199              	.L7:
  200 002c 00100240 		.word	1073876992
-ARM GAS  /tmp/ccm4ao9X.s 			page 16
+ARM GAS  /tmp/ccJgo9NE.s 			page 16
 
 
  201              		.cfi_endproc
@@ -958,7 +958,7 @@ ARM GAS  /tmp/ccm4ao9X.s 			page 1
  249 0000 0048     		ldr	r0, .L13
  250 0002 7047     		bx	lr
  251              	.L14:
-ARM GAS  /tmp/ccm4ao9X.s 			page 17
+ARM GAS  /tmp/ccJgo9NE.s 			page 17
 
 
  252              		.align	2
@@ -1018,7 +1018,7 @@ ARM GAS  /tmp/ccm4ao9X.s 			page 1
  304              		.cfi_def_cfa_offset 12
  305              		.cfi_offset 4, -12
  306              		.cfi_offset 5, -8
-ARM GAS  /tmp/ccm4ao9X.s 			page 18
+ARM GAS  /tmp/ccJgo9NE.s 			page 18
 
 
  307              		.cfi_offset 14, -4
@@ -1078,7 +1078,7 @@ ARM GAS  /tmp/ccm4ao9X.s 			page 1
  345 0028 01A9     		add	r1, sp, #4
  346 002a 4FF09040 		mov	r0, #1207959552
  347              	.LVL9:
-ARM GAS  /tmp/ccm4ao9X.s 			page 19
+ARM GAS  /tmp/ccJgo9NE.s 			page 19
 
 
  181:Drivers/BSP/STM32G4xx_Nucleo/stm32g4xx_nucleo.c ****   HAL_GPIO_WritePin(LED_PORT[Led], LED_PIN[Led], GPIO_PIN_RESET);
@@ -1138,7 +1138,7 @@ ARM GAS  /tmp/ccm4ao9X.s 			page 1
  198:Drivers/BSP/STM32G4xx_Nucleo/stm32g4xx_nucleo.c **** 
  397              		.loc 1 198 3 is_stmt 0 view .LVU89
  398 000a FFF7FEFF 		bl	HAL_GPIO_WritePin
-ARM GAS  /tmp/ccm4ao9X.s 			page 20
+ARM GAS  /tmp/ccJgo9NE.s 			page 20
 
 
  399              	.LVL14:
@@ -1198,7 +1198,7 @@ ARM GAS  /tmp/ccm4ao9X.s 			page 1
  447              		.section	.text.BSP_LED_Off,"ax",%progbits
  448              		.align	1
  449              		.global	BSP_LED_Off
-ARM GAS  /tmp/ccm4ao9X.s 			page 21
+ARM GAS  /tmp/ccJgo9NE.s 			page 21
 
 
  450              		.syntax unified
@@ -1258,7 +1258,7 @@ ARM GAS  /tmp/ccm4ao9X.s 			page 1
  499              		.cfi_def_cfa_offset 8
  500              		.cfi_offset 3, -8
  501              		.cfi_offset 14, -4
-ARM GAS  /tmp/ccm4ao9X.s 			page 22
+ARM GAS  /tmp/ccJgo9NE.s 			page 22
 
 
  243:Drivers/BSP/STM32G4xx_Nucleo/stm32g4xx_nucleo.c **** 
@@ -1318,7 +1318,7 @@ ARM GAS  /tmp/ccm4ao9X.s 			page 1
  549              		.section	.text.BSP_PB_Init,"ax",%progbits
  550              		.align	1
  551              		.global	BSP_PB_Init
-ARM GAS  /tmp/ccm4ao9X.s 			page 23
+ARM GAS  /tmp/ccJgo9NE.s 			page 23
 
 
  552              		.syntax unified
@@ -1378,7 +1378,7 @@ ARM GAS  /tmp/ccm4ao9X.s 			page 1
  593              		.loc 1 283 27 is_stmt 0 view .LVU130
  594 0018 4FF40053 		mov	r3, #8192
  595 001c 0193     		str	r3, [sp, #4]
-ARM GAS  /tmp/ccm4ao9X.s 			page 24
+ARM GAS  /tmp/ccJgo9NE.s 			page 24
 
 
  284:Drivers/BSP/STM32G4xx_Nucleo/stm32g4xx_nucleo.c ****   gpio_init_structure.Speed = GPIO_SPEED_FREQ_HIGH;
@@ -1438,7 +1438,7 @@ ARM GAS  /tmp/ccm4ao9X.s 			page 1
  635              		.loc 1 296 5 is_stmt 1 view .LVU145
  296:Drivers/BSP/STM32G4xx_Nucleo/stm32g4xx_nucleo.c **** 
  636              		.loc 1 296 30 is_stmt 0 view .LVU146
-ARM GAS  /tmp/ccm4ao9X.s 			page 25
+ARM GAS  /tmp/ccJgo9NE.s 			page 25
 
 
  637 003a 4FF48813 		mov	r3, #1114112
@@ -1498,7 +1498,7 @@ ARM GAS  /tmp/ccm4ao9X.s 			page 1
  682              		.cfi_endproc
  683              	.LFE141:
  685              		.section	.text.BSP_PB_DeInit,"ax",%progbits
-ARM GAS  /tmp/ccm4ao9X.s 			page 26
+ARM GAS  /tmp/ccJgo9NE.s 			page 26
 
 
  686              		.align	1
@@ -1558,7 +1558,7 @@ ARM GAS  /tmp/ccm4ao9X.s 			page 1
  736              	.LFB143:
  335:Drivers/BSP/STM32G4xx_Nucleo/stm32g4xx_nucleo.c ****   return (int32_t)HAL_GPIO_ReadPin(BUTTON_PORT[Button], BUTTON_PIN[Button]);
  737              		.loc 1 335 1 is_stmt 1 view -0
-ARM GAS  /tmp/ccm4ao9X.s 			page 27
+ARM GAS  /tmp/ccJgo9NE.s 			page 27
 
 
  738              		.cfi_startproc
@@ -1618,7 +1618,7 @@ ARM GAS  /tmp/ccm4ao9X.s 			page 1
  786 0004 03EBC000 		add	r0, r3, r0, lsl #3
  787              	.LVL48:
  346:Drivers/BSP/STM32G4xx_Nucleo/stm32g4xx_nucleo.c **** }
-ARM GAS  /tmp/ccm4ao9X.s 			page 28
+ARM GAS  /tmp/ccJgo9NE.s 			page 28
 
 
  788              		.loc 1 346 3 is_stmt 0 view .LVU172
@@ -1678,7 +1678,7 @@ ARM GAS  /tmp/ccm4ao9X.s 			page 1
  840 0004 FFF7FEFF 		bl	BSP_PB_Callback
  841              	.LVL51:
  599:Drivers/BSP/STM32G4xx_Nucleo/stm32g4xx_nucleo.c **** #endif /* USE_NUCLEO_64 */
-ARM GAS  /tmp/ccm4ao9X.s 			page 29
+ARM GAS  /tmp/ccJgo9NE.s 			page 29
 
 
  842              		.loc 1 599 1 is_stmt 0 view .LVU179
@@ -1738,7 +1738,7 @@ ARM GAS  /tmp/ccm4ao9X.s 			page 1
  887              		.loc 1 428 8 is_stmt 0 view .LVU190
  888 001a 2046     		mov	r0, r4
  889 001c FFF7FEFF 		bl	HAL_UART_DeInit
-ARM GAS  /tmp/ccm4ao9X.s 			page 30
+ARM GAS  /tmp/ccJgo9NE.s 			page 30
 
 
  890              	.LVL55:
@@ -1798,7 +1798,7 @@ ARM GAS  /tmp/ccm4ao9X.s 			page 1
  939              		@ frame_needed = 0, uses_anonymous_args = 0
  445:Drivers/BSP/STM32G4xx_Nucleo/stm32g4xx_nucleo.c ****   /* USART configuration */
  940              		.loc 1 445 1 is_stmt 0 view .LVU198
-ARM GAS  /tmp/ccm4ao9X.s 			page 31
+ARM GAS  /tmp/ccJgo9NE.s 			page 31
 
 
  941 0000 08B5     		push	{r3, lr}
@@ -1858,7 +1858,7 @@ ARM GAS  /tmp/ccm4ao9X.s 			page 1
  453:Drivers/BSP/STM32G4xx_Nucleo/stm32g4xx_nucleo.c ****  huart->Init.OverSampling = UART_OVERSAMPLING_8;
  977              		.loc 1 453 27 view .LVU217
  978 001c 8261     		str	r2, [r0, #24]
-ARM GAS  /tmp/ccm4ao9X.s 			page 32
+ARM GAS  /tmp/ccJgo9NE.s 			page 32
 
 
  454:Drivers/BSP/STM32G4xx_Nucleo/stm32g4xx_nucleo.c **** 
@@ -1918,7 +1918,7 @@ ARM GAS  /tmp/ccm4ao9X.s 			page 1
  1024              		.loc 1 385 5 is_stmt 1 view .LVU228
  1025 0008 9423     		movs	r3, #148
  1026 000a 094C     		ldr	r4, .L75
-ARM GAS  /tmp/ccm4ao9X.s 			page 33
+ARM GAS  /tmp/ccJgo9NE.s 			page 33
 
 
  1027 000c 03FB0044 		mla	r4, r3, r0, r4
@@ -1978,7 +1978,7 @@ ARM GAS  /tmp/ccm4ao9X.s 			page 1
  1072 002e 00BF     		.align	2
  1073              	.L75:
  1074 0030 00000000 		.word	hcom_uart
-ARM GAS  /tmp/ccm4ao9X.s 			page 34
+ARM GAS  /tmp/ccJgo9NE.s 			page 34
 
 
  1075              		.cfi_endproc
@@ -2038,7 +2038,7 @@ ARM GAS  /tmp/ccm4ao9X.s 			page 1
  1123              		.thumb_func
  1125              	__io_putchar:
  1126              	.LVL73:
-ARM GAS  /tmp/ccm4ao9X.s 			page 35
+ARM GAS  /tmp/ccJgo9NE.s 			page 35
 
 
  1127              	.LFB150:
@@ -2098,7 +2098,7 @@ ARM GAS  /tmp/ccm4ao9X.s 			page 1
  1174              		.section	.bss.COM_ActiveLogPort,"aw",%nobits
  1177              	COM_ActiveLogPort:
  1178 0000 00       		.space	1
-ARM GAS  /tmp/ccm4ao9X.s 			page 36
+ARM GAS  /tmp/ccJgo9NE.s 			page 36
 
 
  1179              		.global	hcom_uart
@@ -2127,81 +2127,81 @@ ARM GAS  /tmp/ccm4ao9X.s 			page 1
  1201              		.file 8 "Drivers/STM32G4xx_HAL_Driver/Inc/stm32g4xx_hal_uart.h"
  1202              		.file 9 "Drivers/BSP/STM32G4xx_Nucleo/stm32g4xx_nucleo.h"
  1203              		.file 10 "Drivers/STM32G4xx_HAL_Driver/Inc/stm32g4xx_hal_cortex.h"
-ARM GAS  /tmp/ccm4ao9X.s 			page 37
+ARM GAS  /tmp/ccJgo9NE.s 			page 37
 
 
 DEFINED SYMBOLS
                             *ABS*:00000000 stm32g4xx_nucleo.c
-     /tmp/ccm4ao9X.s:21     .text.COM1_MspInit:00000000 $t
-     /tmp/ccm4ao9X.s:26     .text.COM1_MspInit:00000000 COM1_MspInit
-     /tmp/ccm4ao9X.s:141    .text.COM1_MspInit:00000074 $d
-     /tmp/ccm4ao9X.s:146    .text.COM1_MspDeInit:00000000 $t
-     /tmp/ccm4ao9X.s:151    .text.COM1_MspDeInit:00000000 COM1_MspDeInit
-     /tmp/ccm4ao9X.s:200    .text.COM1_MspDeInit:0000002c $d
-     /tmp/ccm4ao9X.s:205    .text.BSP_GetVersion:00000000 $t
-     /tmp/ccm4ao9X.s:211    .text.BSP_GetVersion:00000000 BSP_GetVersion
-     /tmp/ccm4ao9X.s:225    .text.BSP_GetVersion:00000004 $d
-     /tmp/ccm4ao9X.s:230    .rodata.BSP_GetBoardName.str1.4:00000000 $d
-     /tmp/ccm4ao9X.s:234    .text.BSP_GetBoardName:00000000 $t
-     /tmp/ccm4ao9X.s:240    .text.BSP_GetBoardName:00000000 BSP_GetBoardName
-     /tmp/ccm4ao9X.s:254    .text.BSP_GetBoardName:00000004 $d
-     /tmp/ccm4ao9X.s:259    .rodata.BSP_GetBoardID.str1.4:00000000 $d
-     /tmp/ccm4ao9X.s:263    .text.BSP_GetBoardID:00000000 $t
-     /tmp/ccm4ao9X.s:269    .text.BSP_GetBoardID:00000000 BSP_GetBoardID
-     /tmp/ccm4ao9X.s:283    .text.BSP_GetBoardID:00000004 $d
-     /tmp/ccm4ao9X.s:288    .text.BSP_LED_Init:00000000 $t
-     /tmp/ccm4ao9X.s:294    .text.BSP_LED_Init:00000000 BSP_LED_Init
-     /tmp/ccm4ao9X.s:368    .text.BSP_LED_Init:00000044 $d
-     /tmp/ccm4ao9X.s:373    .text.BSP_LED_DeInit:00000000 $t
-     /tmp/ccm4ao9X.s:379    .text.BSP_LED_DeInit:00000000 BSP_LED_DeInit
-     /tmp/ccm4ao9X.s:413    .text.BSP_LED_On:00000000 $t
-     /tmp/ccm4ao9X.s:419    .text.BSP_LED_On:00000000 BSP_LED_On
-     /tmp/ccm4ao9X.s:448    .text.BSP_LED_Off:00000000 $t
-     /tmp/ccm4ao9X.s:454    .text.BSP_LED_Off:00000000 BSP_LED_Off
-     /tmp/ccm4ao9X.s:483    .text.BSP_LED_Toggle:00000000 $t
-     /tmp/ccm4ao9X.s:489    .text.BSP_LED_Toggle:00000000 BSP_LED_Toggle
-     /tmp/ccm4ao9X.s:517    .text.BSP_LED_GetState:00000000 $t
-     /tmp/ccm4ao9X.s:523    .text.BSP_LED_GetState:00000000 BSP_LED_GetState
-     /tmp/ccm4ao9X.s:550    .text.BSP_PB_Init:00000000 $t
-     /tmp/ccm4ao9X.s:556    .text.BSP_PB_Init:00000000 BSP_PB_Init
-     /tmp/ccm4ao9X.s:677    .text.BSP_PB_Init:00000074 $d
-     /tmp/ccm4ao9X.s:1191   .bss.hpb_exti:00000000 hpb_exti
-     /tmp/ccm4ao9X.s:827    .text.BUTTON_USER_EXTI_Callback:00000000 BUTTON_USER_EXTI_Callback
-     /tmp/ccm4ao9X.s:686    .text.BSP_PB_DeInit:00000000 $t
-     /tmp/ccm4ao9X.s:692    .text.BSP_PB_DeInit:00000000 BSP_PB_DeInit
-     /tmp/ccm4ao9X.s:723    .text.BSP_PB_DeInit:00000018 $d
-     /tmp/ccm4ao9X.s:728    .text.BSP_PB_GetState:00000000 $t
-     /tmp/ccm4ao9X.s:734    .text.BSP_PB_GetState:00000000 BSP_PB_GetState
-     /tmp/ccm4ao9X.s:760    .text.BSP_PB_GetState:00000010 $d
-     /tmp/ccm4ao9X.s:765    .text.BSP_PB_IRQHandler:00000000 $t
-     /tmp/ccm4ao9X.s:771    .text.BSP_PB_IRQHandler:00000000 BSP_PB_IRQHandler
-     /tmp/ccm4ao9X.s:796    .text.BSP_PB_IRQHandler:00000010 $d
-     /tmp/ccm4ao9X.s:801    .text.BSP_PB_Callback:00000000 $t
-     /tmp/ccm4ao9X.s:807    .text.BSP_PB_Callback:00000000 BSP_PB_Callback
-     /tmp/ccm4ao9X.s:822    .text.BUTTON_USER_EXTI_Callback:00000000 $t
-     /tmp/ccm4ao9X.s:848    .text.BSP_COM_DeInit:00000000 $t
-     /tmp/ccm4ao9X.s:854    .text.BSP_COM_DeInit:00000000 BSP_COM_DeInit
-     /tmp/ccm4ao9X.s:921    .text.BSP_COM_DeInit:00000030 $d
-     /tmp/ccm4ao9X.s:1184   .bss.hcom_uart:00000000 hcom_uart
-     /tmp/ccm4ao9X.s:927    .text.MX_LPUART1_Init:00000000 $t
-     /tmp/ccm4ao9X.s:933    .text.MX_LPUART1_Init:00000000 MX_LPUART1_Init
-     /tmp/ccm4ao9X.s:992    .text.MX_LPUART1_Init:0000002c $d
-     /tmp/ccm4ao9X.s:997    .text.BSP_COM_Init:00000000 $t
-ARM GAS  /tmp/ccm4ao9X.s 			page 38
+     /tmp/ccJgo9NE.s:21     .text.COM1_MspInit:00000000 $t
+     /tmp/ccJgo9NE.s:26     .text.COM1_MspInit:00000000 COM1_MspInit
+     /tmp/ccJgo9NE.s:141    .text.COM1_MspInit:00000074 $d
+     /tmp/ccJgo9NE.s:146    .text.COM1_MspDeInit:00000000 $t
+     /tmp/ccJgo9NE.s:151    .text.COM1_MspDeInit:00000000 COM1_MspDeInit
+     /tmp/ccJgo9NE.s:200    .text.COM1_MspDeInit:0000002c $d
+     /tmp/ccJgo9NE.s:205    .text.BSP_GetVersion:00000000 $t
+     /tmp/ccJgo9NE.s:211    .text.BSP_GetVersion:00000000 BSP_GetVersion
+     /tmp/ccJgo9NE.s:225    .text.BSP_GetVersion:00000004 $d
+     /tmp/ccJgo9NE.s:230    .rodata.BSP_GetBoardName.str1.4:00000000 $d
+     /tmp/ccJgo9NE.s:234    .text.BSP_GetBoardName:00000000 $t
+     /tmp/ccJgo9NE.s:240    .text.BSP_GetBoardName:00000000 BSP_GetBoardName
+     /tmp/ccJgo9NE.s:254    .text.BSP_GetBoardName:00000004 $d
+     /tmp/ccJgo9NE.s:259    .rodata.BSP_GetBoardID.str1.4:00000000 $d
+     /tmp/ccJgo9NE.s:263    .text.BSP_GetBoardID:00000000 $t
+     /tmp/ccJgo9NE.s:269    .text.BSP_GetBoardID:00000000 BSP_GetBoardID
+     /tmp/ccJgo9NE.s:283    .text.BSP_GetBoardID:00000004 $d
+     /tmp/ccJgo9NE.s:288    .text.BSP_LED_Init:00000000 $t
+     /tmp/ccJgo9NE.s:294    .text.BSP_LED_Init:00000000 BSP_LED_Init
+     /tmp/ccJgo9NE.s:368    .text.BSP_LED_Init:00000044 $d
+     /tmp/ccJgo9NE.s:373    .text.BSP_LED_DeInit:00000000 $t
+     /tmp/ccJgo9NE.s:379    .text.BSP_LED_DeInit:00000000 BSP_LED_DeInit
+     /tmp/ccJgo9NE.s:413    .text.BSP_LED_On:00000000 $t
+     /tmp/ccJgo9NE.s:419    .text.BSP_LED_On:00000000 BSP_LED_On
+     /tmp/ccJgo9NE.s:448    .text.BSP_LED_Off:00000000 $t
+     /tmp/ccJgo9NE.s:454    .text.BSP_LED_Off:00000000 BSP_LED_Off
+     /tmp/ccJgo9NE.s:483    .text.BSP_LED_Toggle:00000000 $t
+     /tmp/ccJgo9NE.s:489    .text.BSP_LED_Toggle:00000000 BSP_LED_Toggle
+     /tmp/ccJgo9NE.s:517    .text.BSP_LED_GetState:00000000 $t
+     /tmp/ccJgo9NE.s:523    .text.BSP_LED_GetState:00000000 BSP_LED_GetState
+     /tmp/ccJgo9NE.s:550    .text.BSP_PB_Init:00000000 $t
+     /tmp/ccJgo9NE.s:556    .text.BSP_PB_Init:00000000 BSP_PB_Init
+     /tmp/ccJgo9NE.s:677    .text.BSP_PB_Init:00000074 $d
+     /tmp/ccJgo9NE.s:1191   .bss.hpb_exti:00000000 hpb_exti
+     /tmp/ccJgo9NE.s:827    .text.BUTTON_USER_EXTI_Callback:00000000 BUTTON_USER_EXTI_Callback
+     /tmp/ccJgo9NE.s:686    .text.BSP_PB_DeInit:00000000 $t
+     /tmp/ccJgo9NE.s:692    .text.BSP_PB_DeInit:00000000 BSP_PB_DeInit
+     /tmp/ccJgo9NE.s:723    .text.BSP_PB_DeInit:00000018 $d
+     /tmp/ccJgo9NE.s:728    .text.BSP_PB_GetState:00000000 $t
+     /tmp/ccJgo9NE.s:734    .text.BSP_PB_GetState:00000000 BSP_PB_GetState
+     /tmp/ccJgo9NE.s:760    .text.BSP_PB_GetState:00000010 $d
+     /tmp/ccJgo9NE.s:765    .text.BSP_PB_IRQHandler:00000000 $t
+     /tmp/ccJgo9NE.s:771    .text.BSP_PB_IRQHandler:00000000 BSP_PB_IRQHandler
+     /tmp/ccJgo9NE.s:796    .text.BSP_PB_IRQHandler:00000010 $d
+     /tmp/ccJgo9NE.s:801    .text.BSP_PB_Callback:00000000 $t
+     /tmp/ccJgo9NE.s:807    .text.BSP_PB_Callback:00000000 BSP_PB_Callback
+     /tmp/ccJgo9NE.s:822    .text.BUTTON_USER_EXTI_Callback:00000000 $t
+     /tmp/ccJgo9NE.s:848    .text.BSP_COM_DeInit:00000000 $t
+     /tmp/ccJgo9NE.s:854    .text.BSP_COM_DeInit:00000000 BSP_COM_DeInit
+     /tmp/ccJgo9NE.s:921    .text.BSP_COM_DeInit:00000030 $d
+     /tmp/ccJgo9NE.s:1184   .bss.hcom_uart:00000000 hcom_uart
+     /tmp/ccJgo9NE.s:927    .text.MX_LPUART1_Init:00000000 $t
+     /tmp/ccJgo9NE.s:933    .text.MX_LPUART1_Init:00000000 MX_LPUART1_Init
+     /tmp/ccJgo9NE.s:992    .text.MX_LPUART1_Init:0000002c $d
+     /tmp/ccJgo9NE.s:997    .text.BSP_COM_Init:00000000 $t
+ARM GAS  /tmp/ccJgo9NE.s 			page 38
 
 
-     /tmp/ccm4ao9X.s:1003   .text.BSP_COM_Init:00000000 BSP_COM_Init
-     /tmp/ccm4ao9X.s:1074   .text.BSP_COM_Init:00000030 $d
-     /tmp/ccm4ao9X.s:1079   .text.BSP_COM_SelectLogPort:00000000 $t
-     /tmp/ccm4ao9X.s:1085   .text.BSP_COM_SelectLogPort:00000000 BSP_COM_SelectLogPort
-     /tmp/ccm4ao9X.s:1114   .text.BSP_COM_SelectLogPort:00000010 $d
-     /tmp/ccm4ao9X.s:1177   .bss.COM_ActiveLogPort:00000000 COM_ActiveLogPort
-     /tmp/ccm4ao9X.s:1119   .text.__io_putchar:00000000 $t
-     /tmp/ccm4ao9X.s:1125   .text.__io_putchar:00000000 __io_putchar
-     /tmp/ccm4ao9X.s:1169   .text.__io_putchar:00000028 $d
-     /tmp/ccm4ao9X.s:1178   .bss.COM_ActiveLogPort:00000000 $d
-     /tmp/ccm4ao9X.s:1181   .bss.hcom_uart:00000000 $d
-     /tmp/ccm4ao9X.s:1188   .bss.hpb_exti:00000000 $d
+     /tmp/ccJgo9NE.s:1003   .text.BSP_COM_Init:00000000 BSP_COM_Init
+     /tmp/ccJgo9NE.s:1074   .text.BSP_COM_Init:00000030 $d
+     /tmp/ccJgo9NE.s:1079   .text.BSP_COM_SelectLogPort:00000000 $t
+     /tmp/ccJgo9NE.s:1085   .text.BSP_COM_SelectLogPort:00000000 BSP_COM_SelectLogPort
+     /tmp/ccJgo9NE.s:1114   .text.BSP_COM_SelectLogPort:00000010 $d
+     /tmp/ccJgo9NE.s:1177   .bss.COM_ActiveLogPort:00000000 COM_ActiveLogPort
+     /tmp/ccJgo9NE.s:1119   .text.__io_putchar:00000000 $t
+     /tmp/ccJgo9NE.s:1125   .text.__io_putchar:00000000 __io_putchar
+     /tmp/ccJgo9NE.s:1169   .text.__io_putchar:00000028 $d
+     /tmp/ccJgo9NE.s:1178   .bss.COM_ActiveLogPort:00000000 $d
+     /tmp/ccJgo9NE.s:1181   .bss.hcom_uart:00000000 $d
+     /tmp/ccJgo9NE.s:1188   .bss.hpb_exti:00000000 $d
 
 UNDEFINED SYMBOLS
 HAL_GPIO_Init

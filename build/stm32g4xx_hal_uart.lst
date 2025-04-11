@@ -1,4 +1,4 @@
-ARM GAS  /tmp/ccybtFir.s 			page 1
+ARM GAS  /tmp/ccxlBB2Q.s 			page 1
 
 
    1              		.cpu cortex-m4
@@ -58,7 +58,7 @@ ARM GAS  /tmp/ccybtFir.s 			page 1
   29:Drivers/STM32G4xx_HAL_Driver/Src/stm32g4xx_hal_uart.c ****     The UART HAL driver can be used as follows:
   30:Drivers/STM32G4xx_HAL_Driver/Src/stm32g4xx_hal_uart.c **** 
   31:Drivers/STM32G4xx_HAL_Driver/Src/stm32g4xx_hal_uart.c ****     (#) Declare a UART_HandleTypeDef handle structure (eg. UART_HandleTypeDef huart).
-ARM GAS  /tmp/ccybtFir.s 			page 2
+ARM GAS  /tmp/ccxlBB2Q.s 			page 2
 
 
   32:Drivers/STM32G4xx_HAL_Driver/Src/stm32g4xx_hal_uart.c ****     (#) Initialize the UART low level resources by implementing the HAL_UART_MspInit() API:
@@ -118,7 +118,7 @@ ARM GAS  /tmp/ccybtFir.s 			page 1
   86:Drivers/STM32G4xx_HAL_Driver/Src/stm32g4xx_hal_uart.c ****     The compilation define USE_HAL_UART_REGISTER_CALLBACKS when set to 1
   87:Drivers/STM32G4xx_HAL_Driver/Src/stm32g4xx_hal_uart.c ****     allows the user to configure dynamically the driver callbacks.
   88:Drivers/STM32G4xx_HAL_Driver/Src/stm32g4xx_hal_uart.c **** 
-ARM GAS  /tmp/ccybtFir.s 			page 3
+ARM GAS  /tmp/ccxlBB2Q.s 			page 3
 
 
   89:Drivers/STM32G4xx_HAL_Driver/Src/stm32g4xx_hal_uart.c ****     [..]
@@ -178,7 +178,7 @@ ARM GAS  /tmp/ccybtFir.s 			page 1
  143:Drivers/STM32G4xx_HAL_Driver/Src/stm32g4xx_hal_uart.c ****     Callbacks can be registered/unregistered in HAL_UART_STATE_READY state only.
  144:Drivers/STM32G4xx_HAL_Driver/Src/stm32g4xx_hal_uart.c ****     Exception done MspInit/MspDeInit that can be registered/unregistered
  145:Drivers/STM32G4xx_HAL_Driver/Src/stm32g4xx_hal_uart.c ****     in HAL_UART_STATE_READY or HAL_UART_STATE_RESET state, thus registered (user)
-ARM GAS  /tmp/ccybtFir.s 			page 4
+ARM GAS  /tmp/ccxlBB2Q.s 			page 4
 
 
  146:Drivers/STM32G4xx_HAL_Driver/Src/stm32g4xx_hal_uart.c ****     MspInit/DeInit callbacks can be used during the Init/DeInit.
@@ -238,7 +238,7 @@ ARM GAS  /tmp/ccybtFir.s 			page 1
  200:Drivers/STM32G4xx_HAL_Driver/Src/stm32g4xx_hal_uart.c **** static void UART_EndRxTransfer(UART_HandleTypeDef *huart);
  201:Drivers/STM32G4xx_HAL_Driver/Src/stm32g4xx_hal_uart.c **** static void UART_EndTxTransfer(UART_HandleTypeDef *huart);
  202:Drivers/STM32G4xx_HAL_Driver/Src/stm32g4xx_hal_uart.c **** static void UART_DMATransmitCplt(DMA_HandleTypeDef *hdma);
-ARM GAS  /tmp/ccybtFir.s 			page 5
+ARM GAS  /tmp/ccxlBB2Q.s 			page 5
 
 
  203:Drivers/STM32G4xx_HAL_Driver/Src/stm32g4xx_hal_uart.c **** static void UART_DMAReceiveCplt(DMA_HandleTypeDef *hdma);
@@ -298,7 +298,7 @@ ARM GAS  /tmp/ccybtFir.s 			page 1
  257:Drivers/STM32G4xx_HAL_Driver/Src/stm32g4xx_hal_uart.c ****         (++) Hardware flow control
  258:Drivers/STM32G4xx_HAL_Driver/Src/stm32g4xx_hal_uart.c ****         (++) Receiver/transmitter modes
  259:Drivers/STM32G4xx_HAL_Driver/Src/stm32g4xx_hal_uart.c ****         (++) Over Sampling Method
-ARM GAS  /tmp/ccybtFir.s 			page 6
+ARM GAS  /tmp/ccxlBB2Q.s 			page 6
 
 
  260:Drivers/STM32G4xx_HAL_Driver/Src/stm32g4xx_hal_uart.c ****         (++) One-Bit Sampling Method
@@ -358,7 +358,7 @@ ARM GAS  /tmp/ccybtFir.s 			page 1
  314:Drivers/STM32G4xx_HAL_Driver/Src/stm32g4xx_hal_uart.c **** 
  315:Drivers/STM32G4xx_HAL_Driver/Src/stm32g4xx_hal_uart.c ****   if (huart->Init.HwFlowCtl != UART_HWCONTROL_NONE)
  316:Drivers/STM32G4xx_HAL_Driver/Src/stm32g4xx_hal_uart.c ****   {
-ARM GAS  /tmp/ccybtFir.s 			page 7
+ARM GAS  /tmp/ccxlBB2Q.s 			page 7
 
 
  317:Drivers/STM32G4xx_HAL_Driver/Src/stm32g4xx_hal_uart.c ****     /* Check the parameters */
@@ -418,7 +418,7 @@ ARM GAS  /tmp/ccybtFir.s 			page 1
  371:Drivers/STM32G4xx_HAL_Driver/Src/stm32g4xx_hal_uart.c **** 
  372:Drivers/STM32G4xx_HAL_Driver/Src/stm32g4xx_hal_uart.c ****   /* TEACK and/or REACK to check before moving huart->gState and huart->RxState to Ready */
  373:Drivers/STM32G4xx_HAL_Driver/Src/stm32g4xx_hal_uart.c ****   return (UART_CheckIdleState(huart));
-ARM GAS  /tmp/ccybtFir.s 			page 8
+ARM GAS  /tmp/ccxlBB2Q.s 			page 8
 
 
  374:Drivers/STM32G4xx_HAL_Driver/Src/stm32g4xx_hal_uart.c **** }
@@ -478,7 +478,7 @@ ARM GAS  /tmp/ccybtFir.s 			page 1
  428:Drivers/STM32G4xx_HAL_Driver/Src/stm32g4xx_hal_uart.c ****     return HAL_ERROR;
  429:Drivers/STM32G4xx_HAL_Driver/Src/stm32g4xx_hal_uart.c ****   }
  430:Drivers/STM32G4xx_HAL_Driver/Src/stm32g4xx_hal_uart.c **** 
-ARM GAS  /tmp/ccybtFir.s 			page 9
+ARM GAS  /tmp/ccxlBB2Q.s 			page 9
 
 
  431:Drivers/STM32G4xx_HAL_Driver/Src/stm32g4xx_hal_uart.c ****   /* In half-duplex mode, the following bits must be kept cleared:
@@ -538,7 +538,7 @@ ARM GAS  /tmp/ccybtFir.s 			page 1
  485:Drivers/STM32G4xx_HAL_Driver/Src/stm32g4xx_hal_uart.c **** 
  486:Drivers/STM32G4xx_HAL_Driver/Src/stm32g4xx_hal_uart.c **** #if (USE_HAL_UART_REGISTER_CALLBACKS == 1)
  487:Drivers/STM32G4xx_HAL_Driver/Src/stm32g4xx_hal_uart.c ****     UART_InitCallbacksToDefault(huart);
-ARM GAS  /tmp/ccybtFir.s 			page 10
+ARM GAS  /tmp/ccxlBB2Q.s 			page 10
 
 
  488:Drivers/STM32G4xx_HAL_Driver/Src/stm32g4xx_hal_uart.c **** 
@@ -598,7 +598,7 @@ ARM GAS  /tmp/ccybtFir.s 			page 1
  542:Drivers/STM32G4xx_HAL_Driver/Src/stm32g4xx_hal_uart.c ****   * @param Address      UART node address (4-, 6-, 7- or 8-bit long).
  543:Drivers/STM32G4xx_HAL_Driver/Src/stm32g4xx_hal_uart.c ****   * @param WakeUpMethod Specifies the UART wakeup method.
  544:Drivers/STM32G4xx_HAL_Driver/Src/stm32g4xx_hal_uart.c ****   *        This parameter can be one of the following values:
-ARM GAS  /tmp/ccybtFir.s 			page 11
+ARM GAS  /tmp/ccxlBB2Q.s 			page 11
 
 
  545:Drivers/STM32G4xx_HAL_Driver/Src/stm32g4xx_hal_uart.c ****   *          @arg @ref UART_WAKEUPMETHOD_IDLELINE WakeUp by an idle line detection
@@ -658,7 +658,7 @@ ARM GAS  /tmp/ccybtFir.s 			page 1
  599:Drivers/STM32G4xx_HAL_Driver/Src/stm32g4xx_hal_uart.c ****   /* Set the UART Communication parameters */
  600:Drivers/STM32G4xx_HAL_Driver/Src/stm32g4xx_hal_uart.c ****   if (UART_SetConfig(huart) == HAL_ERROR)
  601:Drivers/STM32G4xx_HAL_Driver/Src/stm32g4xx_hal_uart.c ****   {
-ARM GAS  /tmp/ccybtFir.s 			page 12
+ARM GAS  /tmp/ccxlBB2Q.s 			page 12
 
 
  602:Drivers/STM32G4xx_HAL_Driver/Src/stm32g4xx_hal_uart.c ****     return HAL_ERROR;
@@ -718,7 +718,7 @@ ARM GAS  /tmp/ccybtFir.s 			page 1
  656:Drivers/STM32G4xx_HAL_Driver/Src/stm32g4xx_hal_uart.c ****   /* DeInit the low level hardware */
  657:Drivers/STM32G4xx_HAL_Driver/Src/stm32g4xx_hal_uart.c ****   huart->MspDeInitCallback(huart);
  658:Drivers/STM32G4xx_HAL_Driver/Src/stm32g4xx_hal_uart.c **** #else
-ARM GAS  /tmp/ccybtFir.s 			page 13
+ARM GAS  /tmp/ccxlBB2Q.s 			page 13
 
 
  659:Drivers/STM32G4xx_HAL_Driver/Src/stm32g4xx_hal_uart.c ****   /* DeInit the low level hardware */
@@ -778,7 +778,7 @@ ARM GAS  /tmp/ccybtFir.s 			page 1
  713:Drivers/STM32G4xx_HAL_Driver/Src/stm32g4xx_hal_uart.c ****   *         This parameter can be one of the following values:
  714:Drivers/STM32G4xx_HAL_Driver/Src/stm32g4xx_hal_uart.c ****   *           @arg @ref HAL_UART_TX_HALFCOMPLETE_CB_ID Tx Half Complete Callback ID
  715:Drivers/STM32G4xx_HAL_Driver/Src/stm32g4xx_hal_uart.c ****   *           @arg @ref HAL_UART_TX_COMPLETE_CB_ID Tx Complete Callback ID
-ARM GAS  /tmp/ccybtFir.s 			page 14
+ARM GAS  /tmp/ccxlBB2Q.s 			page 14
 
 
  716:Drivers/STM32G4xx_HAL_Driver/Src/stm32g4xx_hal_uart.c ****   *           @arg @ref HAL_UART_RX_HALFCOMPLETE_CB_ID Rx Half Complete Callback ID
@@ -838,7 +838,7 @@ ARM GAS  /tmp/ccybtFir.s 			page 1
  770:Drivers/STM32G4xx_HAL_Driver/Src/stm32g4xx_hal_uart.c ****       case HAL_UART_ABORT_TRANSMIT_COMPLETE_CB_ID :
  771:Drivers/STM32G4xx_HAL_Driver/Src/stm32g4xx_hal_uart.c ****         huart->AbortTransmitCpltCallback = pCallback;
  772:Drivers/STM32G4xx_HAL_Driver/Src/stm32g4xx_hal_uart.c ****         break;
-ARM GAS  /tmp/ccybtFir.s 			page 15
+ARM GAS  /tmp/ccxlBB2Q.s 			page 15
 
 
  773:Drivers/STM32G4xx_HAL_Driver/Src/stm32g4xx_hal_uart.c **** 
@@ -898,7 +898,7 @@ ARM GAS  /tmp/ccybtFir.s 			page 1
  827:Drivers/STM32G4xx_HAL_Driver/Src/stm32g4xx_hal_uart.c **** 
  828:Drivers/STM32G4xx_HAL_Driver/Src/stm32g4xx_hal_uart.c ****     status =  HAL_ERROR;
  829:Drivers/STM32G4xx_HAL_Driver/Src/stm32g4xx_hal_uart.c ****   }
-ARM GAS  /tmp/ccybtFir.s 			page 16
+ARM GAS  /tmp/ccxlBB2Q.s 			page 16
 
 
  830:Drivers/STM32G4xx_HAL_Driver/Src/stm32g4xx_hal_uart.c **** 
@@ -958,7 +958,7 @@ ARM GAS  /tmp/ccybtFir.s 			page 1
  884:Drivers/STM32G4xx_HAL_Driver/Src/stm32g4xx_hal_uart.c ****         break;
  885:Drivers/STM32G4xx_HAL_Driver/Src/stm32g4xx_hal_uart.c **** 
  886:Drivers/STM32G4xx_HAL_Driver/Src/stm32g4xx_hal_uart.c ****       case HAL_UART_ABORT_COMPLETE_CB_ID :
-ARM GAS  /tmp/ccybtFir.s 			page 17
+ARM GAS  /tmp/ccxlBB2Q.s 			page 17
 
 
  887:Drivers/STM32G4xx_HAL_Driver/Src/stm32g4xx_hal_uart.c ****         huart->AbortCpltCallback = HAL_UART_AbortCpltCallback;                 /* Legacy weak Abort
@@ -1018,7 +1018,7 @@ ARM GAS  /tmp/ccybtFir.s 			page 1
  941:Drivers/STM32G4xx_HAL_Driver/Src/stm32g4xx_hal_uart.c **** 
  942:Drivers/STM32G4xx_HAL_Driver/Src/stm32g4xx_hal_uart.c ****         status =  HAL_ERROR;
  943:Drivers/STM32G4xx_HAL_Driver/Src/stm32g4xx_hal_uart.c ****         break;
-ARM GAS  /tmp/ccybtFir.s 			page 18
+ARM GAS  /tmp/ccxlBB2Q.s 			page 18
 
 
  944:Drivers/STM32G4xx_HAL_Driver/Src/stm32g4xx_hal_uart.c ****     }
@@ -1078,7 +1078,7 @@ ARM GAS  /tmp/ccybtFir.s 			page 1
  998:Drivers/STM32G4xx_HAL_Driver/Src/stm32g4xx_hal_uart.c ****   if (huart->RxState == HAL_UART_STATE_READY)
  999:Drivers/STM32G4xx_HAL_Driver/Src/stm32g4xx_hal_uart.c ****   {
 1000:Drivers/STM32G4xx_HAL_Driver/Src/stm32g4xx_hal_uart.c ****     huart->RxEventCallback = HAL_UARTEx_RxEventCallback; /* Legacy weak UART Rx Event Callback  */
-ARM GAS  /tmp/ccybtFir.s 			page 19
+ARM GAS  /tmp/ccxlBB2Q.s 			page 19
 
 
 1001:Drivers/STM32G4xx_HAL_Driver/Src/stm32g4xx_hal_uart.c ****   }
@@ -1138,7 +1138,7 @@ ARM GAS  /tmp/ccybtFir.s 			page 1
 1055:Drivers/STM32G4xx_HAL_Driver/Src/stm32g4xx_hal_uart.c ****         (+) HAL_UART_DMAStop()
 1056:Drivers/STM32G4xx_HAL_Driver/Src/stm32g4xx_hal_uart.c **** 
 1057:Drivers/STM32G4xx_HAL_Driver/Src/stm32g4xx_hal_uart.c ****     (#) A set of Transfer Complete Callbacks are provided in Non_Blocking mode:
-ARM GAS  /tmp/ccybtFir.s 			page 20
+ARM GAS  /tmp/ccxlBB2Q.s 			page 20
 
 
 1058:Drivers/STM32G4xx_HAL_Driver/Src/stm32g4xx_hal_uart.c ****         (+) HAL_UART_TxHalfCpltCallback()
@@ -1198,7 +1198,7 @@ ARM GAS  /tmp/ccybtFir.s 			page 1
 1112:Drivers/STM32G4xx_HAL_Driver/Src/stm32g4xx_hal_uart.c ****   * @param pData   Pointer to data buffer (u8 or u16 data elements).
 1113:Drivers/STM32G4xx_HAL_Driver/Src/stm32g4xx_hal_uart.c ****   * @param Size    Amount of data elements (u8 or u16) to be sent.
 1114:Drivers/STM32G4xx_HAL_Driver/Src/stm32g4xx_hal_uart.c ****   * @param Timeout Timeout duration.
-ARM GAS  /tmp/ccybtFir.s 			page 21
+ARM GAS  /tmp/ccxlBB2Q.s 			page 21
 
 
 1115:Drivers/STM32G4xx_HAL_Driver/Src/stm32g4xx_hal_uart.c ****   * @retval HAL status
@@ -1258,7 +1258,7 @@ ARM GAS  /tmp/ccybtFir.s 			page 1
 1169:Drivers/STM32G4xx_HAL_Driver/Src/stm32g4xx_hal_uart.c ****         pdata8bits++;
 1170:Drivers/STM32G4xx_HAL_Driver/Src/stm32g4xx_hal_uart.c ****       }
 1171:Drivers/STM32G4xx_HAL_Driver/Src/stm32g4xx_hal_uart.c ****       huart->TxXferCount--;
-ARM GAS  /tmp/ccybtFir.s 			page 22
+ARM GAS  /tmp/ccxlBB2Q.s 			page 22
 
 
 1172:Drivers/STM32G4xx_HAL_Driver/Src/stm32g4xx_hal_uart.c ****     }
@@ -1318,7 +1318,7 @@ ARM GAS  /tmp/ccybtFir.s 			page 1
 1226:Drivers/STM32G4xx_HAL_Driver/Src/stm32g4xx_hal_uart.c ****     /* Init tickstart for timeout management */
 1227:Drivers/STM32G4xx_HAL_Driver/Src/stm32g4xx_hal_uart.c ****     tickstart = HAL_GetTick();
 1228:Drivers/STM32G4xx_HAL_Driver/Src/stm32g4xx_hal_uart.c **** 
-ARM GAS  /tmp/ccybtFir.s 			page 23
+ARM GAS  /tmp/ccxlBB2Q.s 			page 23
 
 
 1229:Drivers/STM32G4xx_HAL_Driver/Src/stm32g4xx_hal_uart.c ****     huart->RxXferSize  = Size;
@@ -1378,7 +1378,7 @@ ARM GAS  /tmp/ccybtFir.s 			page 1
 1283:Drivers/STM32G4xx_HAL_Driver/Src/stm32g4xx_hal_uart.c ****   * @note   When UART parity is not enabled (PCE = 0), and Word Length is configured to 9 bits (M1-
 1284:Drivers/STM32G4xx_HAL_Driver/Src/stm32g4xx_hal_uart.c ****   *         the sent data is handled as a set of u16. In this case, Size must indicate the number
 1285:Drivers/STM32G4xx_HAL_Driver/Src/stm32g4xx_hal_uart.c ****   *         of u16 provided through pData.
-ARM GAS  /tmp/ccybtFir.s 			page 24
+ARM GAS  /tmp/ccxlBB2Q.s 			page 24
 
 
 1286:Drivers/STM32G4xx_HAL_Driver/Src/stm32g4xx_hal_uart.c ****   * @param huart UART handle.
@@ -1438,7 +1438,7 @@ ARM GAS  /tmp/ccybtFir.s 			page 1
 1340:Drivers/STM32G4xx_HAL_Driver/Src/stm32g4xx_hal_uart.c **** 
 1341:Drivers/STM32G4xx_HAL_Driver/Src/stm32g4xx_hal_uart.c ****     return HAL_OK;
 1342:Drivers/STM32G4xx_HAL_Driver/Src/stm32g4xx_hal_uart.c ****   }
-ARM GAS  /tmp/ccybtFir.s 			page 25
+ARM GAS  /tmp/ccxlBB2Q.s 			page 25
 
 
 1343:Drivers/STM32G4xx_HAL_Driver/Src/stm32g4xx_hal_uart.c ****   else
@@ -1498,7 +1498,7 @@ ARM GAS  /tmp/ccybtFir.s 			page 1
 1397:Drivers/STM32G4xx_HAL_Driver/Src/stm32g4xx_hal_uart.c ****   * @param Size  Amount of data elements (u8 or u16) to be sent.
 1398:Drivers/STM32G4xx_HAL_Driver/Src/stm32g4xx_hal_uart.c ****   * @retval HAL status
 1399:Drivers/STM32G4xx_HAL_Driver/Src/stm32g4xx_hal_uart.c ****   */
-ARM GAS  /tmp/ccybtFir.s 			page 26
+ARM GAS  /tmp/ccxlBB2Q.s 			page 26
 
 
 1400:Drivers/STM32G4xx_HAL_Driver/Src/stm32g4xx_hal_uart.c **** HAL_StatusTypeDef HAL_UART_Transmit_DMA(UART_HandleTypeDef *huart, const uint8_t *pData, uint16_t S
@@ -1558,7 +1558,7 @@ ARM GAS  /tmp/ccybtFir.s 			page 1
 1454:Drivers/STM32G4xx_HAL_Driver/Src/stm32g4xx_hal_uart.c ****     return HAL_BUSY;
 1455:Drivers/STM32G4xx_HAL_Driver/Src/stm32g4xx_hal_uart.c ****   }
 1456:Drivers/STM32G4xx_HAL_Driver/Src/stm32g4xx_hal_uart.c **** }
-ARM GAS  /tmp/ccybtFir.s 			page 27
+ARM GAS  /tmp/ccxlBB2Q.s 			page 27
 
 
 1457:Drivers/STM32G4xx_HAL_Driver/Src/stm32g4xx_hal_uart.c **** 
@@ -1618,7 +1618,7 @@ ARM GAS  /tmp/ccybtFir.s 			page 1
 1511:Drivers/STM32G4xx_HAL_Driver/Src/stm32g4xx_hal_uart.c ****   if ((HAL_IS_BIT_SET(huart->Instance->CR3, USART_CR3_DMAT)) &&
 1512:Drivers/STM32G4xx_HAL_Driver/Src/stm32g4xx_hal_uart.c ****       (gstate == HAL_UART_STATE_BUSY_TX))
 1513:Drivers/STM32G4xx_HAL_Driver/Src/stm32g4xx_hal_uart.c ****   {
-ARM GAS  /tmp/ccybtFir.s 			page 28
+ARM GAS  /tmp/ccxlBB2Q.s 			page 28
 
 
 1514:Drivers/STM32G4xx_HAL_Driver/Src/stm32g4xx_hal_uart.c ****     /* Disable the UART DMA Tx request */
@@ -1678,7 +1678,7 @@ ARM GAS  /tmp/ccybtFir.s 			page 1
 1568:Drivers/STM32G4xx_HAL_Driver/Src/stm32g4xx_hal_uart.c **** {
 1569:Drivers/STM32G4xx_HAL_Driver/Src/stm32g4xx_hal_uart.c ****   /* The Lock is not implemented on this API to allow the user application
 1570:Drivers/STM32G4xx_HAL_Driver/Src/stm32g4xx_hal_uart.c ****      to call the HAL UART API under callbacks HAL_UART_TxCpltCallback() / HAL_UART_RxCpltCallback()
-ARM GAS  /tmp/ccybtFir.s 			page 29
+ARM GAS  /tmp/ccxlBB2Q.s 			page 29
 
 
 1571:Drivers/STM32G4xx_HAL_Driver/Src/stm32g4xx_hal_uart.c ****      HAL_UART_TxHalfCpltCallback / HAL_UART_RxHalfCpltCallback:
@@ -1738,7 +1738,7 @@ ARM GAS  /tmp/ccybtFir.s 			page 1
 1625:Drivers/STM32G4xx_HAL_Driver/Src/stm32g4xx_hal_uart.c ****   }
 1626:Drivers/STM32G4xx_HAL_Driver/Src/stm32g4xx_hal_uart.c **** 
 1627:Drivers/STM32G4xx_HAL_Driver/Src/stm32g4xx_hal_uart.c ****   return HAL_OK;
-ARM GAS  /tmp/ccybtFir.s 			page 30
+ARM GAS  /tmp/ccxlBB2Q.s 			page 30
 
 
 1628:Drivers/STM32G4xx_HAL_Driver/Src/stm32g4xx_hal_uart.c **** }
@@ -1798,7 +1798,7 @@ ARM GAS  /tmp/ccybtFir.s 			page 1
 1682:Drivers/STM32G4xx_HAL_Driver/Src/stm32g4xx_hal_uart.c ****   if (HAL_IS_BIT_SET(huart->Instance->CR3, USART_CR3_DMAR))
 1683:Drivers/STM32G4xx_HAL_Driver/Src/stm32g4xx_hal_uart.c ****   {
 1684:Drivers/STM32G4xx_HAL_Driver/Src/stm32g4xx_hal_uart.c ****     /* Disable the UART DMA Rx request if enabled */
-ARM GAS  /tmp/ccybtFir.s 			page 31
+ARM GAS  /tmp/ccxlBB2Q.s 			page 31
 
 
 1685:Drivers/STM32G4xx_HAL_Driver/Src/stm32g4xx_hal_uart.c ****     ATOMIC_CLEAR_BIT(huart->Instance->CR3, USART_CR3_DMAR);
@@ -1858,7 +1858,7 @@ ARM GAS  /tmp/ccybtFir.s 			page 1
 1739:Drivers/STM32G4xx_HAL_Driver/Src/stm32g4xx_hal_uart.c ****   *           - Disable the DMA transfer in the peripheral register (if enabled)
 1740:Drivers/STM32G4xx_HAL_Driver/Src/stm32g4xx_hal_uart.c ****   *           - Abort DMA transfer by calling HAL_DMA_Abort (in case of transfer in DMA mode)
 1741:Drivers/STM32G4xx_HAL_Driver/Src/stm32g4xx_hal_uart.c ****   *           - Set handle State to READY
-ARM GAS  /tmp/ccybtFir.s 			page 32
+ARM GAS  /tmp/ccxlBB2Q.s 			page 32
 
 
 1742:Drivers/STM32G4xx_HAL_Driver/Src/stm32g4xx_hal_uart.c ****   * @note   This procedure is executed in blocking mode : when exiting function, Abort is considere
@@ -1918,7 +1918,7 @@ ARM GAS  /tmp/ccybtFir.s 			page 1
 1796:Drivers/STM32G4xx_HAL_Driver/Src/stm32g4xx_hal_uart.c ****   *         This procedure performs following operations :
 1797:Drivers/STM32G4xx_HAL_Driver/Src/stm32g4xx_hal_uart.c ****   *           - Disable UART Interrupts (Rx)
 1798:Drivers/STM32G4xx_HAL_Driver/Src/stm32g4xx_hal_uart.c ****   *           - Disable the DMA transfer in the peripheral register (if enabled)
-ARM GAS  /tmp/ccybtFir.s 			page 33
+ARM GAS  /tmp/ccxlBB2Q.s 			page 33
 
 
 1799:Drivers/STM32G4xx_HAL_Driver/Src/stm32g4xx_hal_uart.c ****   *           - Abort DMA transfer by calling HAL_DMA_Abort (in case of transfer in DMA mode)
@@ -1978,7 +1978,7 @@ ARM GAS  /tmp/ccybtFir.s 			page 1
 1853:Drivers/STM32G4xx_HAL_Driver/Src/stm32g4xx_hal_uart.c ****   huart->ReceptionType = HAL_UART_RECEPTION_STANDARD;
 1854:Drivers/STM32G4xx_HAL_Driver/Src/stm32g4xx_hal_uart.c **** 
 1855:Drivers/STM32G4xx_HAL_Driver/Src/stm32g4xx_hal_uart.c ****   return HAL_OK;
-ARM GAS  /tmp/ccybtFir.s 			page 34
+ARM GAS  /tmp/ccxlBB2Q.s 			page 34
 
 
 1856:Drivers/STM32G4xx_HAL_Driver/Src/stm32g4xx_hal_uart.c **** }
@@ -2038,7 +2038,7 @@ ARM GAS  /tmp/ccybtFir.s 			page 1
 1910:Drivers/STM32G4xx_HAL_Driver/Src/stm32g4xx_hal_uart.c ****       huart->hdmarx->XferAbortCallback = UART_DMARxAbortCallback;
 1911:Drivers/STM32G4xx_HAL_Driver/Src/stm32g4xx_hal_uart.c ****     }
 1912:Drivers/STM32G4xx_HAL_Driver/Src/stm32g4xx_hal_uart.c ****     else
-ARM GAS  /tmp/ccybtFir.s 			page 35
+ARM GAS  /tmp/ccxlBB2Q.s 			page 35
 
 
 1913:Drivers/STM32G4xx_HAL_Driver/Src/stm32g4xx_hal_uart.c ****     {
@@ -2098,7 +2098,7 @@ ARM GAS  /tmp/ccybtFir.s 			page 1
 1967:Drivers/STM32G4xx_HAL_Driver/Src/stm32g4xx_hal_uart.c ****   /* if no DMA abort complete callback execution is required => call user Abort Complete callback *
 1968:Drivers/STM32G4xx_HAL_Driver/Src/stm32g4xx_hal_uart.c ****   if (abortcplt == 1U)
 1969:Drivers/STM32G4xx_HAL_Driver/Src/stm32g4xx_hal_uart.c ****   {
-ARM GAS  /tmp/ccybtFir.s 			page 36
+ARM GAS  /tmp/ccxlBB2Q.s 			page 36
 
 
 1970:Drivers/STM32G4xx_HAL_Driver/Src/stm32g4xx_hal_uart.c ****     /* Reset Tx and Rx transfer counters */
@@ -2158,7 +2158,7 @@ ARM GAS  /tmp/ccybtFir.s 			page 1
 2024:Drivers/STM32G4xx_HAL_Driver/Src/stm32g4xx_hal_uart.c ****   */
 2025:Drivers/STM32G4xx_HAL_Driver/Src/stm32g4xx_hal_uart.c **** HAL_StatusTypeDef HAL_UART_AbortTransmit_IT(UART_HandleTypeDef *huart)
 2026:Drivers/STM32G4xx_HAL_Driver/Src/stm32g4xx_hal_uart.c **** {
-ARM GAS  /tmp/ccybtFir.s 			page 37
+ARM GAS  /tmp/ccxlBB2Q.s 			page 37
 
 
 2027:Drivers/STM32G4xx_HAL_Driver/Src/stm32g4xx_hal_uart.c ****   /* Disable interrupts */
@@ -2218,7 +2218,7 @@ ARM GAS  /tmp/ccybtFir.s 			page 1
 2081:Drivers/STM32G4xx_HAL_Driver/Src/stm32g4xx_hal_uart.c ****     if (huart->FifoMode == UART_FIFOMODE_ENABLE)
 2082:Drivers/STM32G4xx_HAL_Driver/Src/stm32g4xx_hal_uart.c ****     {
 2083:Drivers/STM32G4xx_HAL_Driver/Src/stm32g4xx_hal_uart.c ****       __HAL_UART_SEND_REQ(huart, UART_TXDATA_FLUSH_REQUEST);
-ARM GAS  /tmp/ccybtFir.s 			page 38
+ARM GAS  /tmp/ccxlBB2Q.s 			page 38
 
 
 2084:Drivers/STM32G4xx_HAL_Driver/Src/stm32g4xx_hal_uart.c ****     }
@@ -2278,7 +2278,7 @@ ARM GAS  /tmp/ccybtFir.s 			page 1
 2138:Drivers/STM32G4xx_HAL_Driver/Src/stm32g4xx_hal_uart.c ****          will lead to call HAL_UART_AbortCpltCallback() at end of DMA abort procedure */
 2139:Drivers/STM32G4xx_HAL_Driver/Src/stm32g4xx_hal_uart.c ****       huart->hdmarx->XferAbortCallback = UART_DMARxOnlyAbortCallback;
 2140:Drivers/STM32G4xx_HAL_Driver/Src/stm32g4xx_hal_uart.c **** 
-ARM GAS  /tmp/ccybtFir.s 			page 39
+ARM GAS  /tmp/ccxlBB2Q.s 			page 39
 
 
 2141:Drivers/STM32G4xx_HAL_Driver/Src/stm32g4xx_hal_uart.c ****       /* Abort DMA RX */
@@ -2338,7 +2338,7 @@ ARM GAS  /tmp/ccybtFir.s 			page 1
 2195:Drivers/STM32G4xx_HAL_Driver/Src/stm32g4xx_hal_uart.c **** #else
 2196:Drivers/STM32G4xx_HAL_Driver/Src/stm32g4xx_hal_uart.c ****     /* Call legacy weak Abort Receive Complete Callback */
 2197:Drivers/STM32G4xx_HAL_Driver/Src/stm32g4xx_hal_uart.c ****     HAL_UART_AbortReceiveCpltCallback(huart);
-ARM GAS  /tmp/ccybtFir.s 			page 40
+ARM GAS  /tmp/ccxlBB2Q.s 			page 40
 
 
 2198:Drivers/STM32G4xx_HAL_Driver/Src/stm32g4xx_hal_uart.c **** #endif /* USE_HAL_UART_REGISTER_CALLBACKS */
@@ -2398,7 +2398,7 @@ ARM GAS  /tmp/ccybtFir.s 			page 1
 2252:Drivers/STM32G4xx_HAL_Driver/Src/stm32g4xx_hal_uart.c **** 
 2253:Drivers/STM32G4xx_HAL_Driver/Src/stm32g4xx_hal_uart.c ****       huart->ErrorCode |= HAL_UART_ERROR_FE;
 2254:Drivers/STM32G4xx_HAL_Driver/Src/stm32g4xx_hal_uart.c ****     }
-ARM GAS  /tmp/ccybtFir.s 			page 41
+ARM GAS  /tmp/ccxlBB2Q.s 			page 41
 
 
 2255:Drivers/STM32G4xx_HAL_Driver/Src/stm32g4xx_hal_uart.c **** 
@@ -2458,7 +2458,7 @@ ARM GAS  /tmp/ccybtFir.s 			page 1
 2309:Drivers/STM32G4xx_HAL_Driver/Src/stm32g4xx_hal_uart.c **** 
 2310:Drivers/STM32G4xx_HAL_Driver/Src/stm32g4xx_hal_uart.c ****         /* Abort the UART DMA Rx channel if enabled */
 2311:Drivers/STM32G4xx_HAL_Driver/Src/stm32g4xx_hal_uart.c ****         if (HAL_IS_BIT_SET(huart->Instance->CR3, USART_CR3_DMAR))
-ARM GAS  /tmp/ccybtFir.s 			page 42
+ARM GAS  /tmp/ccxlBB2Q.s 			page 42
 
 
 2312:Drivers/STM32G4xx_HAL_Driver/Src/stm32g4xx_hal_uart.c ****         {
@@ -2518,7 +2518,7 @@ ARM GAS  /tmp/ccybtFir.s 			page 1
 2366:Drivers/STM32G4xx_HAL_Driver/Src/stm32g4xx_hal_uart.c ****         huart->ErrorCode = HAL_UART_ERROR_NONE;
 2367:Drivers/STM32G4xx_HAL_Driver/Src/stm32g4xx_hal_uart.c ****       }
 2368:Drivers/STM32G4xx_HAL_Driver/Src/stm32g4xx_hal_uart.c ****     }
-ARM GAS  /tmp/ccybtFir.s 			page 43
+ARM GAS  /tmp/ccxlBB2Q.s 			page 43
 
 
 2369:Drivers/STM32G4xx_HAL_Driver/Src/stm32g4xx_hal_uart.c ****     return;
@@ -2578,7 +2578,7 @@ ARM GAS  /tmp/ccybtFir.s 			page 1
 2423:Drivers/STM32G4xx_HAL_Driver/Src/stm32g4xx_hal_uart.c **** #else
 2424:Drivers/STM32G4xx_HAL_Driver/Src/stm32g4xx_hal_uart.c ****         /*Call legacy weak Rx Event callback*/
 2425:Drivers/STM32G4xx_HAL_Driver/Src/stm32g4xx_hal_uart.c ****         HAL_UARTEx_RxEventCallback(huart, (huart->RxXferSize - huart->RxXferCount));
-ARM GAS  /tmp/ccybtFir.s 			page 44
+ARM GAS  /tmp/ccxlBB2Q.s 			page 44
 
 
 2426:Drivers/STM32G4xx_HAL_Driver/Src/stm32g4xx_hal_uart.c **** #endif /* (USE_HAL_UART_REGISTER_CALLBACKS) */
@@ -2638,7 +2638,7 @@ ARM GAS  /tmp/ccybtFir.s 			page 1
 2480:Drivers/STM32G4xx_HAL_Driver/Src/stm32g4xx_hal_uart.c **** #if (USE_HAL_UART_REGISTER_CALLBACKS == 1)
 2481:Drivers/STM32G4xx_HAL_Driver/Src/stm32g4xx_hal_uart.c ****         /*Call registered Rx complete callback*/
 2482:Drivers/STM32G4xx_HAL_Driver/Src/stm32g4xx_hal_uart.c ****         huart->RxEventCallback(huart, nb_rx_data);
-ARM GAS  /tmp/ccybtFir.s 			page 45
+ARM GAS  /tmp/ccxlBB2Q.s 			page 45
 
 
 2483:Drivers/STM32G4xx_HAL_Driver/Src/stm32g4xx_hal_uart.c **** #else
@@ -2698,7 +2698,7 @@ ARM GAS  /tmp/ccybtFir.s 			page 1
 2537:Drivers/STM32G4xx_HAL_Driver/Src/stm32g4xx_hal_uart.c ****     HAL_UARTEx_TxFifoEmptyCallback(huart);
 2538:Drivers/STM32G4xx_HAL_Driver/Src/stm32g4xx_hal_uart.c **** #endif /* USE_HAL_UART_REGISTER_CALLBACKS */
 2539:Drivers/STM32G4xx_HAL_Driver/Src/stm32g4xx_hal_uart.c ****     return;
-ARM GAS  /tmp/ccybtFir.s 			page 46
+ARM GAS  /tmp/ccxlBB2Q.s 			page 46
 
 
 2540:Drivers/STM32G4xx_HAL_Driver/Src/stm32g4xx_hal_uart.c ****   }
@@ -2758,7 +2758,7 @@ ARM GAS  /tmp/ccybtFir.s 			page 1
 2594:Drivers/STM32G4xx_HAL_Driver/Src/stm32g4xx_hal_uart.c ****   UNUSED(huart);
 2595:Drivers/STM32G4xx_HAL_Driver/Src/stm32g4xx_hal_uart.c **** 
 2596:Drivers/STM32G4xx_HAL_Driver/Src/stm32g4xx_hal_uart.c ****   /* NOTE : This function should not be modified, when the callback is needed,
-ARM GAS  /tmp/ccybtFir.s 			page 47
+ARM GAS  /tmp/ccxlBB2Q.s 			page 47
 
 
 2597:Drivers/STM32G4xx_HAL_Driver/Src/stm32g4xx_hal_uart.c ****             the HAL_UART_RxCpltCallback can be implemented in the user file.
@@ -2818,7 +2818,7 @@ ARM GAS  /tmp/ccybtFir.s 			page 1
 2651:Drivers/STM32G4xx_HAL_Driver/Src/stm32g4xx_hal_uart.c **** __weak void HAL_UART_AbortTransmitCpltCallback(UART_HandleTypeDef *huart)
 2652:Drivers/STM32G4xx_HAL_Driver/Src/stm32g4xx_hal_uart.c **** {
 2653:Drivers/STM32G4xx_HAL_Driver/Src/stm32g4xx_hal_uart.c ****   /* Prevent unused argument(s) compilation warning */
-ARM GAS  /tmp/ccybtFir.s 			page 48
+ARM GAS  /tmp/ccxlBB2Q.s 			page 48
 
 
 2654:Drivers/STM32G4xx_HAL_Driver/Src/stm32g4xx_hal_uart.c ****   UNUSED(huart);
@@ -2878,7 +2878,7 @@ ARM GAS  /tmp/ccybtFir.s 			page 1
 2708:Drivers/STM32G4xx_HAL_Driver/Src/stm32g4xx_hal_uart.c ****      (+) HAL_UART_EnableReceiverTimeout() API enables the receiver timeout feature
 2709:Drivers/STM32G4xx_HAL_Driver/Src/stm32g4xx_hal_uart.c ****      (+) HAL_UART_DisableReceiverTimeout() API disables the receiver timeout feature
 2710:Drivers/STM32G4xx_HAL_Driver/Src/stm32g4xx_hal_uart.c ****      (+) HAL_MultiProcessor_EnableMuteMode() API enables mute mode
-ARM GAS  /tmp/ccybtFir.s 			page 49
+ARM GAS  /tmp/ccxlBB2Q.s 			page 49
 
 
 2711:Drivers/STM32G4xx_HAL_Driver/Src/stm32g4xx_hal_uart.c ****      (+) HAL_MultiProcessor_DisableMuteMode() API disables mute mode
@@ -2938,7 +2938,7 @@ ARM GAS  /tmp/ccybtFir.s 			page 1
 2765:Drivers/STM32G4xx_HAL_Driver/Src/stm32g4xx_hal_uart.c ****       return HAL_OK;
 2766:Drivers/STM32G4xx_HAL_Driver/Src/stm32g4xx_hal_uart.c ****     }
 2767:Drivers/STM32G4xx_HAL_Driver/Src/stm32g4xx_hal_uart.c ****     else
-ARM GAS  /tmp/ccybtFir.s 			page 50
+ARM GAS  /tmp/ccxlBB2Q.s 			page 50
 
 
 2768:Drivers/STM32G4xx_HAL_Driver/Src/stm32g4xx_hal_uart.c ****     {
@@ -2998,7 +2998,7 @@ ARM GAS  /tmp/ccybtFir.s 			page 1
 2822:Drivers/STM32G4xx_HAL_Driver/Src/stm32g4xx_hal_uart.c **** HAL_StatusTypeDef HAL_MultiProcessor_EnableMuteMode(UART_HandleTypeDef *huart)
 2823:Drivers/STM32G4xx_HAL_Driver/Src/stm32g4xx_hal_uart.c **** {
 2824:Drivers/STM32G4xx_HAL_Driver/Src/stm32g4xx_hal_uart.c ****   __HAL_LOCK(huart);
-ARM GAS  /tmp/ccybtFir.s 			page 51
+ARM GAS  /tmp/ccxlBB2Q.s 			page 51
 
 
 2825:Drivers/STM32G4xx_HAL_Driver/Src/stm32g4xx_hal_uart.c **** 
@@ -3058,7 +3058,7 @@ ARM GAS  /tmp/ccybtFir.s 			page 1
 2879:Drivers/STM32G4xx_HAL_Driver/Src/stm32g4xx_hal_uart.c **** 
 2880:Drivers/STM32G4xx_HAL_Driver/Src/stm32g4xx_hal_uart.c ****   /* Enable the USART's transmit interface by setting the TE bit in the USART CR1 register */
 2881:Drivers/STM32G4xx_HAL_Driver/Src/stm32g4xx_hal_uart.c ****   ATOMIC_SET_BIT(huart->Instance->CR1, USART_CR1_TE);
-ARM GAS  /tmp/ccybtFir.s 			page 52
+ARM GAS  /tmp/ccxlBB2Q.s 			page 52
 
 
 2882:Drivers/STM32G4xx_HAL_Driver/Src/stm32g4xx_hal_uart.c **** 
@@ -3118,7 +3118,7 @@ ARM GAS  /tmp/ccybtFir.s 			page 1
 2936:Drivers/STM32G4xx_HAL_Driver/Src/stm32g4xx_hal_uart.c **** }
 2937:Drivers/STM32G4xx_HAL_Driver/Src/stm32g4xx_hal_uart.c **** 
 2938:Drivers/STM32G4xx_HAL_Driver/Src/stm32g4xx_hal_uart.c **** /**
-ARM GAS  /tmp/ccybtFir.s 			page 53
+ARM GAS  /tmp/ccxlBB2Q.s 			page 53
 
 
 2939:Drivers/STM32G4xx_HAL_Driver/Src/stm32g4xx_hal_uart.c ****   * @}
@@ -3178,7 +3178,7 @@ ARM GAS  /tmp/ccybtFir.s 			page 1
 2993:Drivers/STM32G4xx_HAL_Driver/Src/stm32g4xx_hal_uart.c ****   * @{
 2994:Drivers/STM32G4xx_HAL_Driver/Src/stm32g4xx_hal_uart.c ****   */
 2995:Drivers/STM32G4xx_HAL_Driver/Src/stm32g4xx_hal_uart.c **** 
-ARM GAS  /tmp/ccybtFir.s 			page 54
+ARM GAS  /tmp/ccxlBB2Q.s 			page 54
 
 
 2996:Drivers/STM32G4xx_HAL_Driver/Src/stm32g4xx_hal_uart.c **** /**
@@ -3238,7 +3238,7 @@ ARM GAS  /tmp/ccybtFir.s 			page 1
 3050:Drivers/STM32G4xx_HAL_Driver/Src/stm32g4xx_hal_uart.c ****   assert_param(IS_UART_MODE(huart->Init.Mode));
 3051:Drivers/STM32G4xx_HAL_Driver/Src/stm32g4xx_hal_uart.c ****   assert_param(IS_UART_HARDWARE_FLOW_CONTROL(huart->Init.HwFlowCtl));
 3052:Drivers/STM32G4xx_HAL_Driver/Src/stm32g4xx_hal_uart.c ****   assert_param(IS_UART_OVERSAMPLING(huart->Init.OverSampling));
-ARM GAS  /tmp/ccybtFir.s 			page 55
+ARM GAS  /tmp/ccxlBB2Q.s 			page 55
 
 
 3053:Drivers/STM32G4xx_HAL_Driver/Src/stm32g4xx_hal_uart.c ****   assert_param(IS_UART_PRESCALER(huart->Init.ClockPrescaler));
@@ -3298,7 +3298,7 @@ ARM GAS  /tmp/ccybtFir.s 			page 1
 3107:Drivers/STM32G4xx_HAL_Driver/Src/stm32g4xx_hal_uart.c ****       case UART_CLOCKSOURCE_LSE:
 3108:Drivers/STM32G4xx_HAL_Driver/Src/stm32g4xx_hal_uart.c ****         pclk = (uint32_t) LSE_VALUE;
 3109:Drivers/STM32G4xx_HAL_Driver/Src/stm32g4xx_hal_uart.c ****         break;
-ARM GAS  /tmp/ccybtFir.s 			page 56
+ARM GAS  /tmp/ccxlBB2Q.s 			page 56
 
 
 3110:Drivers/STM32G4xx_HAL_Driver/Src/stm32g4xx_hal_uart.c ****       default:
@@ -3358,7 +3358,7 @@ ARM GAS  /tmp/ccybtFir.s 			page 1
 3164:Drivers/STM32G4xx_HAL_Driver/Src/stm32g4xx_hal_uart.c ****         break;
 3165:Drivers/STM32G4xx_HAL_Driver/Src/stm32g4xx_hal_uart.c ****       default:
 3166:Drivers/STM32G4xx_HAL_Driver/Src/stm32g4xx_hal_uart.c ****         pclk = 0U;
-ARM GAS  /tmp/ccybtFir.s 			page 57
+ARM GAS  /tmp/ccxlBB2Q.s 			page 57
 
 
 3167:Drivers/STM32G4xx_HAL_Driver/Src/stm32g4xx_hal_uart.c ****         ret = HAL_ERROR;
@@ -3418,7 +3418,7 @@ ARM GAS  /tmp/ccybtFir.s 			page 1
 3221:Drivers/STM32G4xx_HAL_Driver/Src/stm32g4xx_hal_uart.c ****       {
 3222:Drivers/STM32G4xx_HAL_Driver/Src/stm32g4xx_hal_uart.c ****         ret = HAL_ERROR;
 3223:Drivers/STM32G4xx_HAL_Driver/Src/stm32g4xx_hal_uart.c ****       }
-ARM GAS  /tmp/ccybtFir.s 			page 58
+ARM GAS  /tmp/ccxlBB2Q.s 			page 58
 
 
 3224:Drivers/STM32G4xx_HAL_Driver/Src/stm32g4xx_hal_uart.c ****     }
@@ -3478,7 +3478,7 @@ ARM GAS  /tmp/ccybtFir.s 			page 1
 3278:Drivers/STM32G4xx_HAL_Driver/Src/stm32g4xx_hal_uart.c ****   {
 3279:Drivers/STM32G4xx_HAL_Driver/Src/stm32g4xx_hal_uart.c ****     assert_param(IS_UART_OVERRUN(huart->AdvancedInit.OverrunDisable));
 3280:Drivers/STM32G4xx_HAL_Driver/Src/stm32g4xx_hal_uart.c ****     MODIFY_REG(huart->Instance->CR3, USART_CR3_OVRDIS, huart->AdvancedInit.OverrunDisable);
-ARM GAS  /tmp/ccybtFir.s 			page 59
+ARM GAS  /tmp/ccxlBB2Q.s 			page 59
 
 
 3281:Drivers/STM32G4xx_HAL_Driver/Src/stm32g4xx_hal_uart.c ****   }
@@ -3538,7 +3538,7 @@ ARM GAS  /tmp/ccybtFir.s 			page 1
 3335:Drivers/STM32G4xx_HAL_Driver/Src/stm32g4xx_hal_uart.c **** 
 3336:Drivers/STM32G4xx_HAL_Driver/Src/stm32g4xx_hal_uart.c ****       huart->gState = HAL_UART_STATE_READY;
 3337:Drivers/STM32G4xx_HAL_Driver/Src/stm32g4xx_hal_uart.c **** 
-ARM GAS  /tmp/ccybtFir.s 			page 60
+ARM GAS  /tmp/ccxlBB2Q.s 			page 60
 
 
 3338:Drivers/STM32G4xx_HAL_Driver/Src/stm32g4xx_hal_uart.c ****       __HAL_UNLOCK(huart);
@@ -3598,7 +3598,7 @@ ARM GAS  /tmp/ccybtFir.s 			page 1
 3392:Drivers/STM32G4xx_HAL_Driver/Src/stm32g4xx_hal_uart.c ****     /* Check for the Timeout */
 3393:Drivers/STM32G4xx_HAL_Driver/Src/stm32g4xx_hal_uart.c ****     if (Timeout != HAL_MAX_DELAY)
 3394:Drivers/STM32G4xx_HAL_Driver/Src/stm32g4xx_hal_uart.c ****     {
-ARM GAS  /tmp/ccybtFir.s 			page 61
+ARM GAS  /tmp/ccxlBB2Q.s 			page 61
 
 
 3395:Drivers/STM32G4xx_HAL_Driver/Src/stm32g4xx_hal_uart.c ****       if (((HAL_GetTick() - Tickstart) > Timeout) || (Timeout == 0U))
@@ -3658,7 +3658,7 @@ ARM GAS  /tmp/ccybtFir.s 			page 1
 3449:Drivers/STM32G4xx_HAL_Driver/Src/stm32g4xx_hal_uart.c ****   * @param  huart UART handle.
 3450:Drivers/STM32G4xx_HAL_Driver/Src/stm32g4xx_hal_uart.c ****   * @param  pData Pointer to data buffer (u8 or u16 data elements).
 3451:Drivers/STM32G4xx_HAL_Driver/Src/stm32g4xx_hal_uart.c ****   * @param  Size  Amount of data elements (u8 or u16) to be received.
-ARM GAS  /tmp/ccybtFir.s 			page 62
+ARM GAS  /tmp/ccxlBB2Q.s 			page 62
 
 
 3452:Drivers/STM32G4xx_HAL_Driver/Src/stm32g4xx_hal_uart.c ****   * @retval HAL status
@@ -3718,7 +3718,7 @@ ARM GAS  /tmp/ccybtFir.s 			page 1
 3506:Drivers/STM32G4xx_HAL_Driver/Src/stm32g4xx_hal_uart.c ****     }
 3507:Drivers/STM32G4xx_HAL_Driver/Src/stm32g4xx_hal_uart.c ****     else
 3508:Drivers/STM32G4xx_HAL_Driver/Src/stm32g4xx_hal_uart.c ****     {
-ARM GAS  /tmp/ccybtFir.s 			page 63
+ARM GAS  /tmp/ccxlBB2Q.s 			page 63
 
 
 3509:Drivers/STM32G4xx_HAL_Driver/Src/stm32g4xx_hal_uart.c ****       ATOMIC_SET_BIT(huart->Instance->CR1, USART_CR1_RXNEIE_RXFNEIE);
@@ -3778,7 +3778,7 @@ ARM GAS  /tmp/ccybtFir.s 			page 1
 3563:Drivers/STM32G4xx_HAL_Driver/Src/stm32g4xx_hal_uart.c ****   {
 3564:Drivers/STM32G4xx_HAL_Driver/Src/stm32g4xx_hal_uart.c ****     ATOMIC_SET_BIT(huart->Instance->CR1, USART_CR1_PEIE);
 3565:Drivers/STM32G4xx_HAL_Driver/Src/stm32g4xx_hal_uart.c ****   }
-ARM GAS  /tmp/ccybtFir.s 			page 64
+ARM GAS  /tmp/ccxlBB2Q.s 			page 64
 
 
 3566:Drivers/STM32G4xx_HAL_Driver/Src/stm32g4xx_hal_uart.c **** 
@@ -3838,7 +3838,7 @@ ARM GAS  /tmp/ccybtFir.s 			page 1
   17:Drivers/CMSIS/Include/cmsis_gcc.h ****  *
   18:Drivers/CMSIS/Include/cmsis_gcc.h ****  * Unless required by applicable law or agreed to in writing, software
   19:Drivers/CMSIS/Include/cmsis_gcc.h ****  * distributed under the License is distributed on an AS IS BASIS, WITHOUT
-ARM GAS  /tmp/ccybtFir.s 			page 65
+ARM GAS  /tmp/ccxlBB2Q.s 			page 65
 
 
   20:Drivers/CMSIS/Include/cmsis_gcc.h ****  * WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
@@ -3898,7 +3898,7 @@ ARM GAS  /tmp/ccybtFir.s 			page 1
   74:Drivers/CMSIS/Include/cmsis_gcc.h ****   struct __attribute__((packed)) T_UINT32 { uint32_t v; };
   75:Drivers/CMSIS/Include/cmsis_gcc.h ****   #pragma GCC diagnostic pop
   76:Drivers/CMSIS/Include/cmsis_gcc.h ****   #define __UNALIGNED_UINT32(x)                  (((struct T_UINT32 *)(x))->v)
-ARM GAS  /tmp/ccybtFir.s 			page 66
+ARM GAS  /tmp/ccxlBB2Q.s 			page 66
 
 
   77:Drivers/CMSIS/Include/cmsis_gcc.h **** #endif
@@ -3958,7 +3958,7 @@ ARM GAS  /tmp/ccybtFir.s 			page 1
  131:Drivers/CMSIS/Include/cmsis_gcc.h **** __STATIC_FORCEINLINE __NO_RETURN void __cmsis_start(void)
  132:Drivers/CMSIS/Include/cmsis_gcc.h **** {
  133:Drivers/CMSIS/Include/cmsis_gcc.h ****   extern void _start(void) __NO_RETURN;
-ARM GAS  /tmp/ccybtFir.s 			page 67
+ARM GAS  /tmp/ccxlBB2Q.s 			page 67
 
 
  134:Drivers/CMSIS/Include/cmsis_gcc.h ****   
@@ -4018,7 +4018,7 @@ ARM GAS  /tmp/ccybtFir.s 			page 1
  188:Drivers/CMSIS/Include/cmsis_gcc.h ****   @{
  189:Drivers/CMSIS/Include/cmsis_gcc.h ****  */
  190:Drivers/CMSIS/Include/cmsis_gcc.h **** 
-ARM GAS  /tmp/ccybtFir.s 			page 68
+ARM GAS  /tmp/ccxlBB2Q.s 			page 68
 
 
  191:Drivers/CMSIS/Include/cmsis_gcc.h **** /**
@@ -4078,7 +4078,7 @@ ARM GAS  /tmp/ccybtFir.s 			page 1
  245:Drivers/CMSIS/Include/cmsis_gcc.h ****   \details Writes the given value to the Control Register.
  246:Drivers/CMSIS/Include/cmsis_gcc.h ****   \param [in]    control  Control Register value to set
  247:Drivers/CMSIS/Include/cmsis_gcc.h ****  */
-ARM GAS  /tmp/ccybtFir.s 			page 69
+ARM GAS  /tmp/ccxlBB2Q.s 			page 69
 
 
  248:Drivers/CMSIS/Include/cmsis_gcc.h **** __STATIC_FORCEINLINE void __set_CONTROL(uint32_t control)
@@ -4138,7 +4138,7 @@ ARM GAS  /tmp/ccybtFir.s 			page 1
  302:Drivers/CMSIS/Include/cmsis_gcc.h ****   uint32_t result;
  303:Drivers/CMSIS/Include/cmsis_gcc.h **** 
  304:Drivers/CMSIS/Include/cmsis_gcc.h ****   __ASM volatile ("MRS %0, xpsr" : "=r" (result) );
-ARM GAS  /tmp/ccybtFir.s 			page 70
+ARM GAS  /tmp/ccxlBB2Q.s 			page 70
 
 
  305:Drivers/CMSIS/Include/cmsis_gcc.h ****   return(result);
@@ -4198,7 +4198,7 @@ ARM GAS  /tmp/ccybtFir.s 			page 1
  359:Drivers/CMSIS/Include/cmsis_gcc.h **** }
  360:Drivers/CMSIS/Include/cmsis_gcc.h **** #endif
  361:Drivers/CMSIS/Include/cmsis_gcc.h **** 
-ARM GAS  /tmp/ccybtFir.s 			page 71
+ARM GAS  /tmp/ccxlBB2Q.s 			page 71
 
 
  362:Drivers/CMSIS/Include/cmsis_gcc.h **** 
@@ -4258,7 +4258,7 @@ ARM GAS  /tmp/ccybtFir.s 			page 1
  416:Drivers/CMSIS/Include/cmsis_gcc.h **** 
  417:Drivers/CMSIS/Include/cmsis_gcc.h **** #if (defined (__ARM_FEATURE_CMSE ) && (__ARM_FEATURE_CMSE == 3))
  418:Drivers/CMSIS/Include/cmsis_gcc.h **** /**
-ARM GAS  /tmp/ccybtFir.s 			page 72
+ARM GAS  /tmp/ccxlBB2Q.s 			page 72
 
 
  419:Drivers/CMSIS/Include/cmsis_gcc.h ****   \brief   Get Stack Pointer (non-secure)
@@ -4318,7 +4318,7 @@ ARM GAS  /tmp/ccybtFir.s 			page 1
  473:Drivers/CMSIS/Include/cmsis_gcc.h **** 
  474:Drivers/CMSIS/Include/cmsis_gcc.h **** /**
  475:Drivers/CMSIS/Include/cmsis_gcc.h ****   \brief   Set Priority Mask
-ARM GAS  /tmp/ccybtFir.s 			page 73
+ARM GAS  /tmp/ccxlBB2Q.s 			page 73
 
 
  476:Drivers/CMSIS/Include/cmsis_gcc.h ****   \details Assigns the given value to the Priority Mask Register.
@@ -4378,7 +4378,7 @@ ARM GAS  /tmp/ccybtFir.s 			page 1
  530:Drivers/CMSIS/Include/cmsis_gcc.h ****   uint32_t result;
  531:Drivers/CMSIS/Include/cmsis_gcc.h **** 
  532:Drivers/CMSIS/Include/cmsis_gcc.h ****   __ASM volatile ("MRS %0, basepri" : "=r" (result) );
-ARM GAS  /tmp/ccybtFir.s 			page 74
+ARM GAS  /tmp/ccxlBB2Q.s 			page 74
 
 
  533:Drivers/CMSIS/Include/cmsis_gcc.h ****   return(result);
@@ -4438,7 +4438,7 @@ ARM GAS  /tmp/ccybtFir.s 			page 1
  587:Drivers/CMSIS/Include/cmsis_gcc.h **** 
  588:Drivers/CMSIS/Include/cmsis_gcc.h **** 
  589:Drivers/CMSIS/Include/cmsis_gcc.h **** /**
-ARM GAS  /tmp/ccybtFir.s 			page 75
+ARM GAS  /tmp/ccxlBB2Q.s 			page 75
 
 
  590:Drivers/CMSIS/Include/cmsis_gcc.h ****   \brief   Get Fault Mask
@@ -4498,7 +4498,7 @@ ARM GAS  /tmp/ccybtFir.s 			page 1
  644:Drivers/CMSIS/Include/cmsis_gcc.h ****            (defined (__ARM_ARCH_8M_MAIN__ ) && (__ARM_ARCH_8M_MAIN__ == 1))    ) */
  645:Drivers/CMSIS/Include/cmsis_gcc.h **** 
  646:Drivers/CMSIS/Include/cmsis_gcc.h **** 
-ARM GAS  /tmp/ccybtFir.s 			page 76
+ARM GAS  /tmp/ccxlBB2Q.s 			page 76
 
 
  647:Drivers/CMSIS/Include/cmsis_gcc.h **** #if ((defined (__ARM_ARCH_8M_MAIN__ ) && (__ARM_ARCH_8M_MAIN__ == 1)) || \
@@ -4558,7 +4558,7 @@ ARM GAS  /tmp/ccybtFir.s 			page 1
  701:Drivers/CMSIS/Include/cmsis_gcc.h ****   \details Assigns the given value to the Process Stack Pointer Limit (PSPLIM).
  702:Drivers/CMSIS/Include/cmsis_gcc.h ****   \param [in]    ProcStackPtrLimit  Process Stack Pointer Limit value to set
  703:Drivers/CMSIS/Include/cmsis_gcc.h ****  */
-ARM GAS  /tmp/ccybtFir.s 			page 77
+ARM GAS  /tmp/ccxlBB2Q.s 			page 77
 
 
  704:Drivers/CMSIS/Include/cmsis_gcc.h **** __STATIC_FORCEINLINE void __set_PSPLIM(uint32_t ProcStackPtrLimit)
@@ -4618,7 +4618,7 @@ ARM GAS  /tmp/ccybtFir.s 			page 1
  758:Drivers/CMSIS/Include/cmsis_gcc.h **** 
  759:Drivers/CMSIS/Include/cmsis_gcc.h **** 
  760:Drivers/CMSIS/Include/cmsis_gcc.h **** #if (defined (__ARM_FEATURE_CMSE  ) && (__ARM_FEATURE_CMSE   == 3))
-ARM GAS  /tmp/ccybtFir.s 			page 78
+ARM GAS  /tmp/ccxlBB2Q.s 			page 78
 
 
  761:Drivers/CMSIS/Include/cmsis_gcc.h **** /**
@@ -4678,7 +4678,7 @@ ARM GAS  /tmp/ccybtFir.s 			page 1
  815:Drivers/CMSIS/Include/cmsis_gcc.h **** #if (!(defined (__ARM_ARCH_8M_MAIN__ ) && (__ARM_ARCH_8M_MAIN__ == 1)))
  816:Drivers/CMSIS/Include/cmsis_gcc.h ****   // without main extensions, the non-secure MSPLIM is RAZ/WI
  817:Drivers/CMSIS/Include/cmsis_gcc.h ****   (void)MainStackPtrLimit;
-ARM GAS  /tmp/ccybtFir.s 			page 79
+ARM GAS  /tmp/ccxlBB2Q.s 			page 79
 
 
  818:Drivers/CMSIS/Include/cmsis_gcc.h **** #else
@@ -4738,7 +4738,7 @@ ARM GAS  /tmp/ccybtFir.s 			page 1
  872:Drivers/CMSIS/Include/cmsis_gcc.h ****   (void)fpscr;
  873:Drivers/CMSIS/Include/cmsis_gcc.h **** #endif
  874:Drivers/CMSIS/Include/cmsis_gcc.h **** }
-ARM GAS  /tmp/ccybtFir.s 			page 80
+ARM GAS  /tmp/ccxlBB2Q.s 			page 80
 
 
  875:Drivers/CMSIS/Include/cmsis_gcc.h **** 
@@ -4798,7 +4798,7 @@ ARM GAS  /tmp/ccybtFir.s 			page 1
  929:Drivers/CMSIS/Include/cmsis_gcc.h ****   \details Instruction Synchronization Barrier flushes the pipeline in the processor,
  930:Drivers/CMSIS/Include/cmsis_gcc.h ****            so that all instructions following the ISB are fetched from cache or memory,
  931:Drivers/CMSIS/Include/cmsis_gcc.h ****            after the instruction has been completed.
-ARM GAS  /tmp/ccybtFir.s 			page 81
+ARM GAS  /tmp/ccxlBB2Q.s 			page 81
 
 
  932:Drivers/CMSIS/Include/cmsis_gcc.h ****  */
@@ -4858,7 +4858,7 @@ ARM GAS  /tmp/ccybtFir.s 			page 1
  986:Drivers/CMSIS/Include/cmsis_gcc.h **** __STATIC_FORCEINLINE uint32_t __REV16(uint32_t value)
  987:Drivers/CMSIS/Include/cmsis_gcc.h **** {
  988:Drivers/CMSIS/Include/cmsis_gcc.h ****   uint32_t result;
-ARM GAS  /tmp/ccybtFir.s 			page 82
+ARM GAS  /tmp/ccxlBB2Q.s 			page 82
 
 
  989:Drivers/CMSIS/Include/cmsis_gcc.h **** 
@@ -4918,7 +4918,7 @@ ARM GAS  /tmp/ccybtFir.s 			page 1
 1043:Drivers/CMSIS/Include/cmsis_gcc.h ****   \brief   Reverse bit order of value
 1044:Drivers/CMSIS/Include/cmsis_gcc.h ****   \details Reverses the bit order of the given value.
 1045:Drivers/CMSIS/Include/cmsis_gcc.h ****   \param [in]    value  Value to reverse
-ARM GAS  /tmp/ccybtFir.s 			page 83
+ARM GAS  /tmp/ccxlBB2Q.s 			page 83
 
 
 1046:Drivers/CMSIS/Include/cmsis_gcc.h ****   \return               Reversed value
@@ -4978,7 +4978,7 @@ ARM GAS  /tmp/ccybtFir.s 			page 1
 1100:Drivers/CMSIS/Include/cmsis_gcc.h ****      (defined (__ARM_ARCH_8M_BASE__ ) && (__ARM_ARCH_8M_BASE__ == 1))    )
 1101:Drivers/CMSIS/Include/cmsis_gcc.h **** /**
 1102:Drivers/CMSIS/Include/cmsis_gcc.h ****   \brief   LDR Exclusive (8 bit)
-ARM GAS  /tmp/ccybtFir.s 			page 84
+ARM GAS  /tmp/ccxlBB2Q.s 			page 84
 
 
 1103:Drivers/CMSIS/Include/cmsis_gcc.h ****   \details Executes a exclusive LDR instruction for 8 bit value.
@@ -5038,7 +5038,7 @@ ARM GAS  /tmp/ccybtFir.s 			page 1
 1154:Drivers/CMSIS/Include/cmsis_gcc.h **** 
 1155:Drivers/CMSIS/Include/cmsis_gcc.h ****    __ASM volatile ("ldrex %0, %1" : "=r" (result) : "Q" (*addr) );
   48              		.loc 2 1155 4 view .LVU7
-ARM GAS  /tmp/ccybtFir.s 			page 85
+ARM GAS  /tmp/ccxlBB2Q.s 			page 85
 
 
   49              		.syntax unified
@@ -5098,7 +5098,7 @@ ARM GAS  /tmp/ccybtFir.s 			page 1
 1193:Drivers/CMSIS/Include/cmsis_gcc.h **** 
 1194:Drivers/CMSIS/Include/cmsis_gcc.h **** /**
 1195:Drivers/CMSIS/Include/cmsis_gcc.h ****   \brief   STR Exclusive (32 bit)
-ARM GAS  /tmp/ccybtFir.s 			page 86
+ARM GAS  /tmp/ccxlBB2Q.s 			page 86
 
 
 1196:Drivers/CMSIS/Include/cmsis_gcc.h ****   \details Executes a exclusive STR instruction for 32 bit values.
@@ -5158,7 +5158,7 @@ ARM GAS  /tmp/ccybtFir.s 			page 1
 1155:Drivers/CMSIS/Include/cmsis_gcc.h ****    return(result);
  104              		.loc 2 1155 4 is_stmt 0 view .LVU27
  105              		.syntax unified
-ARM GAS  /tmp/ccybtFir.s 			page 87
+ARM GAS  /tmp/ccxlBB2Q.s 			page 87
 
 
  106              	@ 1155 "Drivers/CMSIS/Include/cmsis_gcc.h" 1
@@ -5218,7 +5218,7 @@ ARM GAS  /tmp/ccybtFir.s 			page 1
 3591:Drivers/STM32G4xx_HAL_Driver/Src/stm32g4xx_hal_uart.c **** }
  151              		.loc 1 3591 1 view .LVU43
  152 0030 7047     		bx	lr
-ARM GAS  /tmp/ccybtFir.s 			page 88
+ARM GAS  /tmp/ccxlBB2Q.s 			page 88
 
 
  153              		.cfi_endproc
@@ -5278,7 +5278,7 @@ ARM GAS  /tmp/ccybtFir.s 			page 1
  193              	.LBE536:
  194              	.LBE535:
  195              		.loc 1 3602 3 discriminator 1 view .LVU54
-ARM GAS  /tmp/ccybtFir.s 			page 89
+ARM GAS  /tmp/ccxlBB2Q.s 			page 89
 
 
  196 0006 23F49073 		bic	r3, r3, #288
@@ -5338,7 +5338,7 @@ ARM GAS  /tmp/ccybtFir.s 			page 1
  242 0018 53E8003F 		ldrex r3, [r3]
  243              	@ 0 "" 2
  244              	.LVL21:
-ARM GAS  /tmp/ccybtFir.s 			page 90
+ARM GAS  /tmp/ccxlBB2Q.s 			page 90
 
 
 1156:Drivers/CMSIS/Include/cmsis_gcc.h **** }
@@ -5398,7 +5398,7 @@ ARM GAS  /tmp/ccybtFir.s 			page 1
 3608:Drivers/STM32G4xx_HAL_Driver/Src/stm32g4xx_hal_uart.c ****     ATOMIC_CLEAR_BIT(huart->Instance->CR1, USART_CR1_IDLEIE);
  289              		.loc 1 3608 5 is_stmt 1 discriminator 2 view .LVU87
 3609:Drivers/STM32G4xx_HAL_Driver/Src/stm32g4xx_hal_uart.c ****   }
-ARM GAS  /tmp/ccybtFir.s 			page 91
+ARM GAS  /tmp/ccxlBB2Q.s 			page 91
 
 
 3610:Drivers/STM32G4xx_HAL_Driver/Src/stm32g4xx_hal_uart.c **** 
@@ -5458,7 +5458,7 @@ ARM GAS  /tmp/ccybtFir.s 			page 1
  327              	.LBE545:
 3608:Drivers/STM32G4xx_HAL_Driver/Src/stm32g4xx_hal_uart.c ****   }
  328              		.loc 1 3608 5 discriminator 1 view .LVU104
-ARM GAS  /tmp/ccybtFir.s 			page 92
+ARM GAS  /tmp/ccxlBB2Q.s 			page 92
 
 
  329 0048 23F01003 		bic	r3, r3, #16
@@ -5518,7 +5518,7 @@ ARM GAS  /tmp/ccybtFir.s 			page 1
 3632:Drivers/STM32G4xx_HAL_Driver/Src/stm32g4xx_hal_uart.c ****     huart->TxXferCount = 0U;
 3633:Drivers/STM32G4xx_HAL_Driver/Src/stm32g4xx_hal_uart.c **** 
 3634:Drivers/STM32G4xx_HAL_Driver/Src/stm32g4xx_hal_uart.c ****     /* Disable the DMA transfer for transmit request by resetting the DMAT bit
-ARM GAS  /tmp/ccybtFir.s 			page 93
+ARM GAS  /tmp/ccxlBB2Q.s 			page 93
 
 
 3635:Drivers/STM32G4xx_HAL_Driver/Src/stm32g4xx_hal_uart.c ****        in the UART CR3 register */
@@ -5578,7 +5578,7 @@ ARM GAS  /tmp/ccybtFir.s 			page 1
 3689:Drivers/STM32G4xx_HAL_Driver/Src/stm32g4xx_hal_uart.c **** 
 3690:Drivers/STM32G4xx_HAL_Driver/Src/stm32g4xx_hal_uart.c ****     /* Disable the DMA transfer for the receiver request by resetting the DMAR bit
 3691:Drivers/STM32G4xx_HAL_Driver/Src/stm32g4xx_hal_uart.c ****        in the UART CR3 register */
-ARM GAS  /tmp/ccybtFir.s 			page 94
+ARM GAS  /tmp/ccxlBB2Q.s 			page 94
 
 
 3692:Drivers/STM32G4xx_HAL_Driver/Src/stm32g4xx_hal_uart.c ****     ATOMIC_CLEAR_BIT(huart->Instance->CR3, USART_CR3_DMAR);
@@ -5638,7 +5638,7 @@ ARM GAS  /tmp/ccybtFir.s 			page 1
 3746:Drivers/STM32G4xx_HAL_Driver/Src/stm32g4xx_hal_uart.c ****   /* Check current reception Mode :
 3747:Drivers/STM32G4xx_HAL_Driver/Src/stm32g4xx_hal_uart.c ****      If Reception till IDLE event has been selected : use Rx Event callback */
 3748:Drivers/STM32G4xx_HAL_Driver/Src/stm32g4xx_hal_uart.c ****   if (huart->ReceptionType == HAL_UART_RECEPTION_TOIDLE)
-ARM GAS  /tmp/ccybtFir.s 			page 95
+ARM GAS  /tmp/ccxlBB2Q.s 			page 95
 
 
 3749:Drivers/STM32G4xx_HAL_Driver/Src/stm32g4xx_hal_uart.c ****   {
@@ -5698,7 +5698,7 @@ ARM GAS  /tmp/ccybtFir.s 			page 1
 3803:Drivers/STM32G4xx_HAL_Driver/Src/stm32g4xx_hal_uart.c ****   huart->ErrorCallback(huart);
 3804:Drivers/STM32G4xx_HAL_Driver/Src/stm32g4xx_hal_uart.c **** #else
 3805:Drivers/STM32G4xx_HAL_Driver/Src/stm32g4xx_hal_uart.c ****   /*Call legacy weak error callback*/
-ARM GAS  /tmp/ccybtFir.s 			page 96
+ARM GAS  /tmp/ccxlBB2Q.s 			page 96
 
 
 3806:Drivers/STM32G4xx_HAL_Driver/Src/stm32g4xx_hal_uart.c ****   HAL_UART_ErrorCallback(huart);
@@ -5758,7 +5758,7 @@ ARM GAS  /tmp/ccybtFir.s 			page 1
 3860:Drivers/STM32G4xx_HAL_Driver/Src/stm32g4xx_hal_uart.c ****   /* Clear the Error flags in the ICR register */
 3861:Drivers/STM32G4xx_HAL_Driver/Src/stm32g4xx_hal_uart.c ****   __HAL_UART_CLEAR_FLAG(huart, UART_CLEAR_OREF | UART_CLEAR_NEF | UART_CLEAR_PEF | UART_CLEAR_FEF);
 3862:Drivers/STM32G4xx_HAL_Driver/Src/stm32g4xx_hal_uart.c **** 
-ARM GAS  /tmp/ccybtFir.s 			page 97
+ARM GAS  /tmp/ccxlBB2Q.s 			page 97
 
 
 3863:Drivers/STM32G4xx_HAL_Driver/Src/stm32g4xx_hal_uart.c ****   /* Flush the whole TX FIFO (if needed) */
@@ -5818,7 +5818,7 @@ ARM GAS  /tmp/ccybtFir.s 			page 1
 3917:Drivers/STM32G4xx_HAL_Driver/Src/stm32g4xx_hal_uart.c **** 
 3918:Drivers/STM32G4xx_HAL_Driver/Src/stm32g4xx_hal_uart.c ****   /* Discard the received data */
 3919:Drivers/STM32G4xx_HAL_Driver/Src/stm32g4xx_hal_uart.c ****   __HAL_UART_SEND_REQ(huart, UART_RXDATA_FLUSH_REQUEST);
-ARM GAS  /tmp/ccybtFir.s 			page 98
+ARM GAS  /tmp/ccxlBB2Q.s 			page 98
 
 
 3920:Drivers/STM32G4xx_HAL_Driver/Src/stm32g4xx_hal_uart.c **** 
@@ -5878,7 +5878,7 @@ ARM GAS  /tmp/ccybtFir.s 			page 1
 3974:Drivers/STM32G4xx_HAL_Driver/Src/stm32g4xx_hal_uart.c ****   *         and leads to user Rx Abort Complete callback execution).
 3975:Drivers/STM32G4xx_HAL_Driver/Src/stm32g4xx_hal_uart.c ****   * @param  hdma DMA handle.
 3976:Drivers/STM32G4xx_HAL_Driver/Src/stm32g4xx_hal_uart.c ****   * @retval None
-ARM GAS  /tmp/ccybtFir.s 			page 99
+ARM GAS  /tmp/ccxlBB2Q.s 			page 99
 
 
 3977:Drivers/STM32G4xx_HAL_Driver/Src/stm32g4xx_hal_uart.c ****   */
@@ -5938,7 +5938,7 @@ ARM GAS  /tmp/ccybtFir.s 			page 1
 4019:Drivers/STM32G4xx_HAL_Driver/Src/stm32g4xx_hal_uart.c ****       ATOMIC_CLEAR_BIT(huart->Instance->CR1, USART_CR1_TXEIE_TXFNFIE);
 4020:Drivers/STM32G4xx_HAL_Driver/Src/stm32g4xx_hal_uart.c **** 
 4021:Drivers/STM32G4xx_HAL_Driver/Src/stm32g4xx_hal_uart.c ****       /* Enable the UART Transmit Complete Interrupt */
-ARM GAS  /tmp/ccybtFir.s 			page 100
+ARM GAS  /tmp/ccxlBB2Q.s 			page 100
 
 
 4022:Drivers/STM32G4xx_HAL_Driver/Src/stm32g4xx_hal_uart.c ****       ATOMIC_SET_BIT(huart->Instance->CR1, USART_CR1_TCIE);
@@ -5998,7 +5998,7 @@ ARM GAS  /tmp/ccybtFir.s 			page 1
  410              	.LBE551:
  411              	.LBE550:
 4019:Drivers/STM32G4xx_HAL_Driver/Src/stm32g4xx_hal_uart.c **** 
-ARM GAS  /tmp/ccybtFir.s 			page 101
+ARM GAS  /tmp/ccxlBB2Q.s 			page 101
 
 
  412              		.loc 1 4019 7 discriminator 1 view .LVU129
@@ -6058,7 +6058,7 @@ ARM GAS  /tmp/ccybtFir.s 			page 1
 1155:Drivers/CMSIS/Include/cmsis_gcc.h ****    return(result);
  453              		.loc 2 1155 4 view .LVU145
  454              		.syntax unified
-ARM GAS  /tmp/ccybtFir.s 			page 102
+ARM GAS  /tmp/ccxlBB2Q.s 			page 102
 
 
  455              	@ 1155 "Drivers/CMSIS/Include/cmsis_gcc.h" 1
@@ -6118,7 +6118,7 @@ ARM GAS  /tmp/ccybtFir.s 			page 1
  497              		.loc 1 4026 40 view .LVU159
  498 003a 1A78     		ldrb	r2, [r3]	@ zero_extendqisi2
 4026:Drivers/STM32G4xx_HAL_Driver/Src/stm32g4xx_hal_uart.c ****       huart->pTxBuffPtr++;
-ARM GAS  /tmp/ccybtFir.s 			page 103
+ARM GAS  /tmp/ccxlBB2Q.s 			page 103
 
 
  499              		.loc 1 4026 12 view .LVU160
@@ -6178,7 +6178,7 @@ ARM GAS  /tmp/ccybtFir.s 			page 1
 4043:Drivers/STM32G4xx_HAL_Driver/Src/stm32g4xx_hal_uart.c **** 
 4044:Drivers/STM32G4xx_HAL_Driver/Src/stm32g4xx_hal_uart.c ****   /* Check that a Tx process is ongoing */
 4045:Drivers/STM32G4xx_HAL_Driver/Src/stm32g4xx_hal_uart.c ****   if (huart->gState == HAL_UART_STATE_BUSY_TX)
-ARM GAS  /tmp/ccybtFir.s 			page 104
+ARM GAS  /tmp/ccxlBB2Q.s 			page 104
 
 
  537              		.loc 1 4045 3 view .LVU171
@@ -6238,7 +6238,7 @@ ARM GAS  /tmp/ccybtFir.s 			page 1
 1153:Drivers/CMSIS/Include/cmsis_gcc.h **** 
  565              		.loc 2 1153 5 view .LVU183
 1155:Drivers/CMSIS/Include/cmsis_gcc.h ****    return(result);
-ARM GAS  /tmp/ccybtFir.s 			page 105
+ARM GAS  /tmp/ccxlBB2Q.s 			page 105
 
 
  566              		.loc 2 1155 4 view .LVU184
@@ -6298,7 +6298,7 @@ ARM GAS  /tmp/ccybtFir.s 			page 1
 4053:Drivers/STM32G4xx_HAL_Driver/Src/stm32g4xx_hal_uart.c ****     }
  609              		.loc 1 4053 7 discriminator 1 view .LVU198
 4053:Drivers/STM32G4xx_HAL_Driver/Src/stm32g4xx_hal_uart.c ****     }
-ARM GAS  /tmp/ccybtFir.s 			page 106
+ARM GAS  /tmp/ccxlBB2Q.s 			page 106
 
 
  610              		.loc 1 4053 7 discriminator 1 view .LVU199
@@ -6358,7 +6358,7 @@ ARM GAS  /tmp/ccybtFir.s 			page 1
  652              		.loc 1 4053 7 discriminator 1 view .LVU213
  653 0032 0029     		cmp	r1, #0
  654 0034 F6D1     		bne	.L19
-ARM GAS  /tmp/ccybtFir.s 			page 107
+ARM GAS  /tmp/ccxlBB2Q.s 			page 107
 
 
  655 0036 7047     		bx	lr
@@ -6418,7 +6418,7 @@ ARM GAS  /tmp/ccybtFir.s 			page 1
  696              		.syntax unified
  697              		.thumb
  698              		.thumb_func
-ARM GAS  /tmp/ccybtFir.s 			page 108
+ARM GAS  /tmp/ccxlBB2Q.s 			page 108
 
 
  700              	UART_TxISR_8BIT_FIFOEN:
@@ -6478,7 +6478,7 @@ ARM GAS  /tmp/ccybtFir.s 			page 1
 4102:Drivers/STM32G4xx_HAL_Driver/Src/stm32g4xx_hal_uart.c ****   }
 4103:Drivers/STM32G4xx_HAL_Driver/Src/stm32g4xx_hal_uart.c **** }
  716              		.loc 1 4103 1 view .LVU234
-ARM GAS  /tmp/ccybtFir.s 			page 109
+ARM GAS  /tmp/ccxlBB2Q.s 			page 109
 
 
  717 0008 7047     		bx	lr
@@ -6538,7 +6538,7 @@ ARM GAS  /tmp/ccybtFir.s 			page 1
 4084:Drivers/STM32G4xx_HAL_Driver/Src/stm32g4xx_hal_uart.c **** 
  757              		.loc 1 4084 9 is_stmt 1 discriminator 1 view .LVU249
  758              	.LBB572:
-ARM GAS  /tmp/ccybtFir.s 			page 110
+ARM GAS  /tmp/ccxlBB2Q.s 			page 110
 
 
  759              	.LBI572:
@@ -6598,7 +6598,7 @@ ARM GAS  /tmp/ccybtFir.s 			page 1
  799              		.syntax unified
  800              	@ 1155 "Drivers/CMSIS/Include/cmsis_gcc.h" 1
  801 002a 52E8003F 		ldrex r3, [r2]
-ARM GAS  /tmp/ccybtFir.s 			page 111
+ARM GAS  /tmp/ccxlBB2Q.s 			page 111
 
 
  802              	@ 0 "" 2
@@ -6658,7 +6658,7 @@ ARM GAS  /tmp/ccybtFir.s 			page 1
  844 003e 9BB2     		uxth	r3, r3
  845              	.LVL71:
  846              	.L23:
-ARM GAS  /tmp/ccybtFir.s 			page 112
+ARM GAS  /tmp/ccxlBB2Q.s 			page 112
 
 
 4079:Drivers/STM32G4xx_HAL_Driver/Src/stm32g4xx_hal_uart.c ****     {
@@ -6718,7 +6718,7 @@ ARM GAS  /tmp/ccybtFir.s 			page 1
  884 006e A0F85620 		strh	r2, [r0, #86]	@ movhi
  885 0072 E3E7     		b	.L27
  886              		.cfi_endproc
-ARM GAS  /tmp/ccybtFir.s 			page 113
+ARM GAS  /tmp/ccxlBB2Q.s 			page 113
 
 
  887              	.LFE195:
@@ -6778,7 +6778,7 @@ ARM GAS  /tmp/ccybtFir.s 			page 1
 4135:Drivers/STM32G4xx_HAL_Driver/Src/stm32g4xx_hal_uart.c ****         huart->Instance->TDR = (((uint32_t)(*tmp)) & 0x01FFUL);
 4136:Drivers/STM32G4xx_HAL_Driver/Src/stm32g4xx_hal_uart.c ****         huart->pTxBuffPtr += 2U;
 4137:Drivers/STM32G4xx_HAL_Driver/Src/stm32g4xx_hal_uart.c ****         huart->TxXferCount--;
-ARM GAS  /tmp/ccybtFir.s 			page 114
+ARM GAS  /tmp/ccxlBB2Q.s 			page 114
 
 
 4138:Drivers/STM32G4xx_HAL_Driver/Src/stm32g4xx_hal_uart.c ****       }
@@ -6838,7 +6838,7 @@ ARM GAS  /tmp/ccybtFir.s 			page 1
  945              		.loc 2 1156 4 is_stmt 0 view .LVU316
  946              		.thumb
  947              		.syntax unified
-ARM GAS  /tmp/ccybtFir.s 			page 115
+ARM GAS  /tmp/ccxlBB2Q.s 			page 115
 
 
  948              	.LBE581:
@@ -6898,7 +6898,7 @@ ARM GAS  /tmp/ccybtFir.s 			page 1
  989              	.LBB585:
  990              	.LBI585:
 1151:Drivers/CMSIS/Include/cmsis_gcc.h **** {
-ARM GAS  /tmp/ccybtFir.s 			page 116
+ARM GAS  /tmp/ccxlBB2Q.s 			page 116
 
 
  991              		.loc 2 1151 31 view .LVU332
@@ -6958,7 +6958,7 @@ ARM GAS  /tmp/ccybtFir.s 			page 1
  1034              	.LBE584:
 4142:Drivers/STM32G4xx_HAL_Driver/Src/stm32g4xx_hal_uart.c ****     }
  1035              		.loc 1 4142 7 is_stmt 1 view .LVU346
-ARM GAS  /tmp/ccybtFir.s 			page 117
+ARM GAS  /tmp/ccxlBB2Q.s 			page 117
 
 
 4120:Drivers/STM32G4xx_HAL_Driver/Src/stm32g4xx_hal_uart.c ****     {
@@ -7018,7 +7018,7 @@ ARM GAS  /tmp/ccybtFir.s 			page 1
 4136:Drivers/STM32G4xx_HAL_Driver/Src/stm32g4xx_hal_uart.c ****         huart->TxXferCount--;
  1074              		.loc 1 4136 14 is_stmt 0 view .LVU363
  1075 0062 026D     		ldr	r2, [r0, #80]
-ARM GAS  /tmp/ccybtFir.s 			page 118
+ARM GAS  /tmp/ccxlBB2Q.s 			page 118
 
 
 4136:Drivers/STM32G4xx_HAL_Driver/Src/stm32g4xx_hal_uart.c ****         huart->TxXferCount--;
@@ -7078,7 +7078,7 @@ ARM GAS  /tmp/ccybtFir.s 			page 1
  1126              		@ link register save eliminated.
  697:Drivers/STM32G4xx_HAL_Driver/Src/stm32g4xx_hal_uart.c **** 
  1127              		.loc 1 697 3 view .LVU372
-ARM GAS  /tmp/ccybtFir.s 			page 119
+ARM GAS  /tmp/ccxlBB2Q.s 			page 119
 
 
  702:Drivers/STM32G4xx_HAL_Driver/Src/stm32g4xx_hal_uart.c **** 
@@ -7138,7 +7138,7 @@ ARM GAS  /tmp/ccybtFir.s 			page 1
  1172              		.loc 1 647 24 view .LVU384
  1173 0018 0024     		movs	r4, #0
  1174 001a 1C60     		str	r4, [r3]
-ARM GAS  /tmp/ccybtFir.s 			page 120
+ARM GAS  /tmp/ccxlBB2Q.s 			page 120
 
 
  648:Drivers/STM32G4xx_HAL_Driver/Src/stm32g4xx_hal_uart.c ****   huart->Instance->CR3 = 0x0U;
@@ -7198,7 +7198,7 @@ ARM GAS  /tmp/ccybtFir.s 			page 1
  671:Drivers/STM32G4xx_HAL_Driver/Src/stm32g4xx_hal_uart.c **** }
  1208              		.loc 1 671 10 is_stmt 0 view .LVU406
  1209 003c 2046     		mov	r0, r4
-ARM GAS  /tmp/ccybtFir.s 			page 121
+ARM GAS  /tmp/ccxlBB2Q.s 			page 121
 
 
  672:Drivers/STM32G4xx_HAL_Driver/Src/stm32g4xx_hal_uart.c **** 
@@ -7258,7 +7258,7 @@ ARM GAS  /tmp/ccybtFir.s 			page 1
 1301:Drivers/STM32G4xx_HAL_Driver/Src/stm32g4xx_hal_uart.c ****     huart->TxXferSize  = Size;
  1256              		.loc 1 1301 5 is_stmt 1 view .LVU417
 1301:Drivers/STM32G4xx_HAL_Driver/Src/stm32g4xx_hal_uart.c ****     huart->TxXferSize  = Size;
-ARM GAS  /tmp/ccybtFir.s 			page 122
+ARM GAS  /tmp/ccxlBB2Q.s 			page 122
 
 
  1257              		.loc 1 1301 24 is_stmt 0 view .LVU418
@@ -7318,7 +7318,7 @@ ARM GAS  /tmp/ccybtFir.s 			page 1
  1293              	.LVL99:
  1294              	.L57:
 1338:Drivers/STM32G4xx_HAL_Driver/Src/stm32g4xx_hal_uart.c ****     }
-ARM GAS  /tmp/ccybtFir.s 			page 123
+ARM GAS  /tmp/ccxlBB2Q.s 			page 123
 
 
  1295              		.loc 1 1338 7 is_stmt 1 discriminator 1 view .LVU437
@@ -7378,7 +7378,7 @@ ARM GAS  /tmp/ccybtFir.s 			page 1
  1336              		.thumb
  1337              		.syntax unified
  1338              	.LBE593:
-ARM GAS  /tmp/ccybtFir.s 			page 124
+ARM GAS  /tmp/ccxlBB2Q.s 			page 124
 
 
  1339              	.LBE592:
@@ -7438,7 +7438,7 @@ ARM GAS  /tmp/ccybtFir.s 			page 1
 1151:Drivers/CMSIS/Include/cmsis_gcc.h **** {
  1378              		.loc 2 1151 31 view .LVU468
  1379              	.LBB596:
-ARM GAS  /tmp/ccybtFir.s 			page 125
+ARM GAS  /tmp/ccxlBB2Q.s 			page 125
 
 
 1153:Drivers/CMSIS/Include/cmsis_gcc.h **** 
@@ -7498,7 +7498,7 @@ ARM GAS  /tmp/ccybtFir.s 			page 1
  1422 0074 F3D1     		bne	.L53
  1423 0076 EAE7     		b	.L54
  1424              	.LVL114:
-ARM GAS  /tmp/ccybtFir.s 			page 126
+ARM GAS  /tmp/ccxlBB2Q.s 			page 126
 
 
  1425              	.L63:
@@ -7558,7 +7558,7 @@ ARM GAS  /tmp/ccybtFir.s 			page 1
  1465 0098 0120     		movs	r0, #1
  1466              	.LVL119:
 1347:Drivers/STM32G4xx_HAL_Driver/Src/stm32g4xx_hal_uart.c **** 
-ARM GAS  /tmp/ccybtFir.s 			page 127
+ARM GAS  /tmp/ccxlBB2Q.s 			page 127
 
 
  1467              		.loc 1 1347 1 view .LVU497
@@ -7618,7 +7618,7 @@ ARM GAS  /tmp/ccybtFir.s 			page 1
  1514 0012 002B     		cmp	r3, #0
  1515 0014 3BD0     		beq	.L72
 1410:Drivers/STM32G4xx_HAL_Driver/Src/stm32g4xx_hal_uart.c ****     huart->TxXferSize  = Size;
-ARM GAS  /tmp/ccybtFir.s 			page 128
+ARM GAS  /tmp/ccxlBB2Q.s 			page 128
 
 
  1516              		.loc 1 1410 5 is_stmt 1 view .LVU507
@@ -7678,7 +7678,7 @@ ARM GAS  /tmp/ccybtFir.s 			page 1
  1551              		.loc 1 1426 7 is_stmt 1 view .LVU526
 1426:Drivers/STM32G4xx_HAL_Driver/Src/stm32g4xx_hal_uart.c **** 
  1552              		.loc 1 1426 12 is_stmt 0 view .LVU527
-ARM GAS  /tmp/ccybtFir.s 			page 129
+ARM GAS  /tmp/ccxlBB2Q.s 			page 129
 
 
  1553 003a C26F     		ldr	r2, [r0, #124]
@@ -7738,7 +7738,7 @@ ARM GAS  /tmp/ccybtFir.s 			page 1
  1591 0066 4022     		movs	r2, #64
  1592 0068 1A62     		str	r2, [r3, #32]
  1593              	.L69:
-ARM GAS  /tmp/ccybtFir.s 			page 130
+ARM GAS  /tmp/ccxlBB2Q.s 			page 130
 
 
 1448:Drivers/STM32G4xx_HAL_Driver/Src/stm32g4xx_hal_uart.c **** 
@@ -7798,7 +7798,7 @@ ARM GAS  /tmp/ccybtFir.s 			page 1
 1206:Drivers/CMSIS/Include/cmsis_gcc.h ****    return(result);
  1633              		.loc 2 1206 4 is_stmt 0 view .LVU559
  1634              		.syntax unified
-ARM GAS  /tmp/ccybtFir.s 			page 131
+ARM GAS  /tmp/ccxlBB2Q.s 			page 131
 
 
  1635              	@ 1206 "Drivers/CMSIS/Include/cmsis_gcc.h" 1
@@ -7858,7 +7858,7 @@ ARM GAS  /tmp/ccybtFir.s 			page 1
  1681              	.LVL138:
 1407:Drivers/STM32G4xx_HAL_Driver/Src/stm32g4xx_hal_uart.c ****     }
  1682              		.loc 1 1407 14 view .LVU570
-ARM GAS  /tmp/ccybtFir.s 			page 132
+ARM GAS  /tmp/ccxlBB2Q.s 			page 132
 
 
  1683 0090 F8E7     		b	.L67
@@ -7918,7 +7918,7 @@ ARM GAS  /tmp/ccybtFir.s 			page 1
  1729 0014 212A     		cmp	r2, #33
  1730 0016 0AD0     		beq	.L81
  1731              	.LVL142:
-ARM GAS  /tmp/ccybtFir.s 			page 133
+ARM GAS  /tmp/ccxlBB2Q.s 			page 133
 
 
  1732              	.L80:
@@ -7978,7 +7978,7 @@ ARM GAS  /tmp/ccybtFir.s 			page 1
 1151:Drivers/CMSIS/Include/cmsis_gcc.h **** {
  1772              		.loc 2 1151 31 view .LVU595
  1773              	.LBB606:
-ARM GAS  /tmp/ccybtFir.s 			page 134
+ARM GAS  /tmp/ccxlBB2Q.s 			page 134
 
 
 1153:Drivers/CMSIS/Include/cmsis_gcc.h **** 
@@ -8038,7 +8038,7 @@ ARM GAS  /tmp/ccybtFir.s 			page 1
  1816 0044 F3D1     		bne	.L81
  1817 0046 E7E7     		b	.L80
  1818              	.LVL152:
-ARM GAS  /tmp/ccybtFir.s 			page 135
+ARM GAS  /tmp/ccxlBB2Q.s 			page 135
 
 
  1819              	.L83:
@@ -8098,7 +8098,7 @@ ARM GAS  /tmp/ccybtFir.s 			page 1
  1858 0052 42E80031 		strex r1, r3, [r2]
  1859              	@ 0 "" 2
  1860              	.LVL156:
-ARM GAS  /tmp/ccybtFir.s 			page 136
+ARM GAS  /tmp/ccxlBB2Q.s 			page 136
 
 
  1861              		.loc 2 1207 4 view .LVU625
@@ -8158,7 +8158,7 @@ ARM GAS  /tmp/ccybtFir.s 			page 1
 1522:Drivers/STM32G4xx_HAL_Driver/Src/stm32g4xx_hal_uart.c **** 
  1902              		.loc 1 1522 5 discriminator 1 view .LVU640
  1903 0064 23F00103 		bic	r3, r3, #1
-ARM GAS  /tmp/ccybtFir.s 			page 137
+ARM GAS  /tmp/ccxlBB2Q.s 			page 137
 
 
  1904              	.LVL161:
@@ -8218,7 +8218,7 @@ ARM GAS  /tmp/ccybtFir.s 			page 1
 1153:Drivers/CMSIS/Include/cmsis_gcc.h **** 
  1945              		.loc 2 1153 5 view .LVU656
 1155:Drivers/CMSIS/Include/cmsis_gcc.h ****    return(result);
-ARM GAS  /tmp/ccybtFir.s 			page 138
+ARM GAS  /tmp/ccxlBB2Q.s 			page 138
 
 
  1946              		.loc 2 1155 4 view .LVU657
@@ -8278,7 +8278,7 @@ ARM GAS  /tmp/ccybtFir.s 			page 1
  1990              		.cfi_endproc
  1991              	.LFE145:
  1993              		.section	.text.HAL_UART_DMAResume,"ax",%progbits
-ARM GAS  /tmp/ccybtFir.s 			page 139
+ARM GAS  /tmp/ccxlBB2Q.s 			page 139
 
 
  1994              		.align	1
@@ -8338,7 +8338,7 @@ ARM GAS  /tmp/ccybtFir.s 			page 1
 1541:Drivers/STM32G4xx_HAL_Driver/Src/stm32g4xx_hal_uart.c ****   }
  2035              		.loc 1 1541 5 discriminator 1 view .LVU684
 1541:Drivers/STM32G4xx_HAL_Driver/Src/stm32g4xx_hal_uart.c ****   }
-ARM GAS  /tmp/ccybtFir.s 			page 140
+ARM GAS  /tmp/ccxlBB2Q.s 			page 140
 
 
  2036              		.loc 1 1541 5 discriminator 1 view .LVU685
@@ -8398,7 +8398,7 @@ ARM GAS  /tmp/ccybtFir.s 			page 1
  2078              		.loc 2 1207 4 is_stmt 0 view .LVU699
  2079              		.thumb
  2080              		.syntax unified
-ARM GAS  /tmp/ccybtFir.s 			page 141
+ARM GAS  /tmp/ccxlBB2Q.s 			page 141
 
 
  2081              	.LBE628:
@@ -8458,7 +8458,7 @@ ARM GAS  /tmp/ccybtFir.s 			page 1
  2120              		.loc 2 1156 4 is_stmt 0 view .LVU714
  2121              		.thumb
  2122              		.syntax unified
-ARM GAS  /tmp/ccybtFir.s 			page 142
+ARM GAS  /tmp/ccxlBB2Q.s 			page 142
 
 
  2123              	.LBE631:
@@ -8518,7 +8518,7 @@ ARM GAS  /tmp/ccybtFir.s 			page 1
  2164              	.LBB636:
 1153:Drivers/CMSIS/Include/cmsis_gcc.h **** 
  2165              		.loc 2 1153 5 view .LVU730
-ARM GAS  /tmp/ccybtFir.s 			page 143
+ARM GAS  /tmp/ccxlBB2Q.s 			page 143
 
 
 1155:Drivers/CMSIS/Include/cmsis_gcc.h ****    return(result);
@@ -8578,7 +8578,7 @@ ARM GAS  /tmp/ccybtFir.s 			page 1
  2209              	.L94:
 1553:Drivers/STM32G4xx_HAL_Driver/Src/stm32g4xx_hal_uart.c **** 
  2210              		.loc 1 1553 5 discriminator 1 view .LVU744
-ARM GAS  /tmp/ccybtFir.s 			page 144
+ARM GAS  /tmp/ccxlBB2Q.s 			page 144
 
 
  2211              	.LBE634:
@@ -8638,7 +8638,7 @@ ARM GAS  /tmp/ccybtFir.s 			page 1
  2249              		.loc 2 1206 4 view .LVU760
  2250 0070 0832     		adds	r2, r2, #8
  2251              	.LVL197:
-ARM GAS  /tmp/ccybtFir.s 			page 145
+ARM GAS  /tmp/ccxlBB2Q.s 			page 145
 
 
 1206:Drivers/CMSIS/Include/cmsis_gcc.h ****    return(result);
@@ -8698,7 +8698,7 @@ ARM GAS  /tmp/ccybtFir.s 			page 1
  2300              		.loc 1 1577 31 is_stmt 0 view .LVU770
  2301 0008 D0F88C50 		ldr	r5, [r0, #140]
  2302              	.LVL201:
-ARM GAS  /tmp/ccybtFir.s 			page 146
+ARM GAS  /tmp/ccxlBB2Q.s 			page 146
 
 
 1580:Drivers/STM32G4xx_HAL_Driver/Src/stm32g4xx_hal_uart.c ****       (gstate == HAL_UART_STATE_BUSY_TX))
@@ -8758,7 +8758,7 @@ ARM GAS  /tmp/ccybtFir.s 			page 1
 1155:Drivers/CMSIS/Include/cmsis_gcc.h ****    return(result);
  2342              		.loc 2 1155 4 view .LVU786
  2343 002e 02F10803 		add	r3, r2, #8
-ARM GAS  /tmp/ccybtFir.s 			page 147
+ARM GAS  /tmp/ccxlBB2Q.s 			page 147
 
 
  2344              	.LVL205:
@@ -8818,7 +8818,7 @@ ARM GAS  /tmp/ccybtFir.s 			page 1
  2386              		.loc 1 1586 5 view .LVU800
 1586:Drivers/STM32G4xx_HAL_Driver/Src/stm32g4xx_hal_uart.c ****     {
  2387              		.loc 1 1586 14 is_stmt 0 view .LVU801
-ARM GAS  /tmp/ccybtFir.s 			page 148
+ARM GAS  /tmp/ccxlBB2Q.s 			page 148
 
 
  2388 0044 E06F     		ldr	r0, [r4, #124]
@@ -8878,7 +8878,7 @@ ARM GAS  /tmp/ccybtFir.s 			page 1
 1607:Drivers/STM32G4xx_HAL_Driver/Src/stm32g4xx_hal_uart.c **** 
  2427              		.loc 1 1607 5 discriminator 1 view .LVU817
  2428 006a 2268     		ldr	r2, [r4]
-ARM GAS  /tmp/ccybtFir.s 			page 149
+ARM GAS  /tmp/ccxlBB2Q.s 			page 149
 
 
  2429              	.LVL215:
@@ -8938,7 +8938,7 @@ ARM GAS  /tmp/ccybtFir.s 			page 1
  2471              		.syntax unified
  2472              	.LBE653:
  2473              	.LBE652:
-ARM GAS  /tmp/ccybtFir.s 			page 150
+ARM GAS  /tmp/ccxlBB2Q.s 			page 150
 
 
 1607:Drivers/STM32G4xx_HAL_Driver/Src/stm32g4xx_hal_uart.c **** 
@@ -8998,7 +8998,7 @@ ARM GAS  /tmp/ccybtFir.s 			page 1
 1619:Drivers/STM32G4xx_HAL_Driver/Src/stm32g4xx_hal_uart.c ****         }
  2512              		.loc 1 1619 18 is_stmt 0 view .LVU848
  2513 00aa 0320     		movs	r0, #3
-ARM GAS  /tmp/ccybtFir.s 			page 151
+ARM GAS  /tmp/ccxlBB2Q.s 			page 151
 
 
  2514 00ac 00E0     		b	.L100
@@ -9058,7 +9058,7 @@ ARM GAS  /tmp/ccybtFir.s 			page 1
  2559              		.loc 2 1153 5 view .LVU859
 1155:Drivers/CMSIS/Include/cmsis_gcc.h ****    return(result);
  2560              		.loc 2 1155 4 view .LVU860
-ARM GAS  /tmp/ccybtFir.s 			page 152
+ARM GAS  /tmp/ccxlBB2Q.s 			page 152
 
 
  2561              		.syntax unified
@@ -9118,7 +9118,7 @@ ARM GAS  /tmp/ccybtFir.s 			page 1
  2603              		.loc 1 1647 3 discriminator 1 view .LVU874
 1647:Drivers/STM32G4xx_HAL_Driver/Src/stm32g4xx_hal_uart.c **** 
  2604              		.loc 1 1647 3 discriminator 1 view .LVU875
-ARM GAS  /tmp/ccybtFir.s 			page 153
+ARM GAS  /tmp/ccxlBB2Q.s 			page 153
 
 
 1647:Drivers/STM32G4xx_HAL_Driver/Src/stm32g4xx_hal_uart.c **** 
@@ -9178,7 +9178,7 @@ ARM GAS  /tmp/ccybtFir.s 			page 1
  2646              	.LVL236:
  2647              		.loc 2 1207 4 is_stmt 1 view .LVU889
  2648              		.loc 2 1207 4 is_stmt 0 view .LVU890
-ARM GAS  /tmp/ccybtFir.s 			page 154
+ARM GAS  /tmp/ccxlBB2Q.s 			page 154
 
 
  2649              		.thumb
@@ -9238,7 +9238,7 @@ ARM GAS  /tmp/ccybtFir.s 			page 1
  2687              		.loc 2 1155 4 view .LVU906
  2688 0044 02F10803 		add	r3, r2, #8
  2689              	.LVL239:
-ARM GAS  /tmp/ccybtFir.s 			page 155
+ARM GAS  /tmp/ccxlBB2Q.s 			page 155
 
 
 1155:Drivers/CMSIS/Include/cmsis_gcc.h ****    return(result);
@@ -9298,7 +9298,7 @@ ARM GAS  /tmp/ccybtFir.s 			page 1
 1662:Drivers/STM32G4xx_HAL_Driver/Src/stm32g4xx_hal_uart.c ****     {
  2732              		.loc 1 1662 14 is_stmt 0 view .LVU921
  2733 005a E36F     		ldr	r3, [r4, #124]
-ARM GAS  /tmp/ccybtFir.s 			page 156
+ARM GAS  /tmp/ccxlBB2Q.s 			page 156
 
 
  2734              	.LVL244:
@@ -9358,7 +9358,7 @@ ARM GAS  /tmp/ccybtFir.s 			page 1
  2772              		.loc 2 1153 5 view .LVU937
 1155:Drivers/CMSIS/Include/cmsis_gcc.h ****    return(result);
  2773              		.loc 2 1155 4 view .LVU938
-ARM GAS  /tmp/ccybtFir.s 			page 157
+ARM GAS  /tmp/ccxlBB2Q.s 			page 157
 
 
  2774 0078 02F10803 		add	r3, r2, #8
@@ -9418,7 +9418,7 @@ ARM GAS  /tmp/ccybtFir.s 			page 1
 1688:Drivers/STM32G4xx_HAL_Driver/Src/stm32g4xx_hal_uart.c ****     {
  2817              		.loc 1 1688 5 view .LVU952
 1688:Drivers/STM32G4xx_HAL_Driver/Src/stm32g4xx_hal_uart.c ****     {
-ARM GAS  /tmp/ccybtFir.s 			page 158
+ARM GAS  /tmp/ccxlBB2Q.s 			page 158
 
 
  2818              		.loc 1 1688 14 is_stmt 0 view .LVU953
@@ -9478,7 +9478,7 @@ ARM GAS  /tmp/ccybtFir.s 			page 1
  2857 00be 43F00803 		orr	r3, r3, #8
  2858 00c2 9361     		str	r3, [r2, #24]
 1724:Drivers/STM32G4xx_HAL_Driver/Src/stm32g4xx_hal_uart.c ****   huart->RxState = HAL_UART_STATE_READY;
-ARM GAS  /tmp/ccybtFir.s 			page 159
+ARM GAS  /tmp/ccxlBB2Q.s 			page 159
 
 
  2859              		.loc 1 1724 3 view .LVU969
@@ -9538,7 +9538,7 @@ ARM GAS  /tmp/ccybtFir.s 			page 1
 1156:Drivers/CMSIS/Include/cmsis_gcc.h **** }
  2897              		.loc 2 1156 4 view .LVU986
 1156:Drivers/CMSIS/Include/cmsis_gcc.h **** }
-ARM GAS  /tmp/ccybtFir.s 			page 160
+ARM GAS  /tmp/ccxlBB2Q.s 			page 160
 
 
  2898              		.loc 2 1156 4 is_stmt 0 view .LVU987
@@ -9598,7 +9598,7 @@ ARM GAS  /tmp/ccybtFir.s 			page 1
 1673:Drivers/STM32G4xx_HAL_Driver/Src/stm32g4xx_hal_uart.c **** 
  2941              		.loc 1 1673 28 is_stmt 0 view .LVU1001
  2942 00f6 1023     		movs	r3, #16
-ARM GAS  /tmp/ccybtFir.s 			page 161
+ARM GAS  /tmp/ccxlBB2Q.s 			page 161
 
 
  2943 00f8 C4F89030 		str	r3, [r4, #144]
@@ -9658,7 +9658,7 @@ ARM GAS  /tmp/ccybtFir.s 			page 1
  2988              		.cfi_startproc
  2989              		@ args = 0, pretend = 0, frame = 0
  2990              		@ frame_needed = 0, uses_anonymous_args = 0
-ARM GAS  /tmp/ccybtFir.s 			page 162
+ARM GAS  /tmp/ccxlBB2Q.s 			page 162
 
 
 1746:Drivers/STM32G4xx_HAL_Driver/Src/stm32g4xx_hal_uart.c ****   /* Disable TCIE, TXEIE and TXFTIE interrupts */
@@ -9718,7 +9718,7 @@ ARM GAS  /tmp/ccybtFir.s 			page 1
  3031              		.loc 2 1204 4 view .LVU1026
 1206:Drivers/CMSIS/Include/cmsis_gcc.h ****    return(result);
  3032              		.loc 2 1206 4 view .LVU1027
-ARM GAS  /tmp/ccybtFir.s 			page 163
+ARM GAS  /tmp/ccxlBB2Q.s 			page 163
 
 
  3033              		.syntax unified
@@ -9778,7 +9778,7 @@ ARM GAS  /tmp/ccybtFir.s 			page 1
  3074              		.loc 2 1156 4 is_stmt 0 view .LVU1042
  3075              		.thumb
  3076              		.syntax unified
-ARM GAS  /tmp/ccybtFir.s 			page 164
+ARM GAS  /tmp/ccxlBB2Q.s 			page 164
 
 
  3077              	.LBE686:
@@ -9838,7 +9838,7 @@ ARM GAS  /tmp/ccybtFir.s 			page 1
  3118              		.loc 1 1755 5 is_stmt 1 discriminator 1 view .LVU1057
  3119              	.LBB689:
 1755:Drivers/STM32G4xx_HAL_Driver/Src/stm32g4xx_hal_uart.c **** 
-ARM GAS  /tmp/ccybtFir.s 			page 165
+ARM GAS  /tmp/ccxlBB2Q.s 			page 165
 
 
  3120              		.loc 1 1755 5 discriminator 1 view .LVU1058
@@ -9898,7 +9898,7 @@ ARM GAS  /tmp/ccybtFir.s 			page 1
  3160 0048 42E80031 		strex r1, r3, [r2]
  3161              	@ 0 "" 2
  3162              	.LVL285:
-ARM GAS  /tmp/ccybtFir.s 			page 166
+ARM GAS  /tmp/ccxlBB2Q.s 			page 166
 
 
  3163              		.loc 2 1207 4 is_stmt 1 view .LVU1073
@@ -9958,7 +9958,7 @@ ARM GAS  /tmp/ccybtFir.s 			page 1
 1781:Drivers/STM32G4xx_HAL_Driver/Src/stm32g4xx_hal_uart.c ****   {
  3202              		.loc 1 1781 6 view .LVU1090
  3203 0068 B3F1005F 		cmp	r3, #536870912
-ARM GAS  /tmp/ccybtFir.s 			page 167
+ARM GAS  /tmp/ccxlBB2Q.s 			page 167
 
 
  3204 006c 0ED0     		beq	.L132
@@ -10018,7 +10018,7 @@ ARM GAS  /tmp/ccybtFir.s 			page 1
  3246              		.align	1
  3247              		.global	HAL_UART_AbortReceive
  3248              		.syntax unified
-ARM GAS  /tmp/ccybtFir.s 			page 168
+ARM GAS  /tmp/ccxlBB2Q.s 			page 168
 
 
  3249              		.thumb
@@ -10078,7 +10078,7 @@ ARM GAS  /tmp/ccybtFir.s 			page 1
  3292 000a 23F49073 		bic	r3, r3, #288
  3293              	.LVL296:
 1807:Drivers/STM32G4xx_HAL_Driver/Src/stm32g4xx_hal_uart.c ****   ATOMIC_CLEAR_BIT(huart->Instance->CR3, USART_CR3_EIE | USART_CR3_RXFTIE);
-ARM GAS  /tmp/ccybtFir.s 			page 169
+ARM GAS  /tmp/ccxlBB2Q.s 			page 169
 
 
  3294              		.loc 1 1807 3 is_stmt 1 discriminator 1 view .LVU1116
@@ -10138,7 +10138,7 @@ ARM GAS  /tmp/ccybtFir.s 			page 1
 1155:Drivers/CMSIS/Include/cmsis_gcc.h ****    return(result);
  3335              		.loc 2 1155 4 is_stmt 0 view .LVU1132
  3336              		.syntax unified
-ARM GAS  /tmp/ccybtFir.s 			page 170
+ARM GAS  /tmp/ccxlBB2Q.s 			page 170
 
 
  3337              	@ 1155 "Drivers/CMSIS/Include/cmsis_gcc.h" 1
@@ -10198,7 +10198,7 @@ ARM GAS  /tmp/ccybtFir.s 			page 1
  3379 0032 E36E     		ldr	r3, [r4, #108]
  3380              	.LVL305:
 1811:Drivers/STM32G4xx_HAL_Driver/Src/stm32g4xx_hal_uart.c ****   {
-ARM GAS  /tmp/ccybtFir.s 			page 171
+ARM GAS  /tmp/ccxlBB2Q.s 			page 171
 
 
  3381              		.loc 1 1811 6 view .LVU1147
@@ -10258,7 +10258,7 @@ ARM GAS  /tmp/ccybtFir.s 			page 1
 1820:Drivers/STM32G4xx_HAL_Driver/Src/stm32g4xx_hal_uart.c **** 
  3421              		.loc 1 1820 5 discriminator 1 view .LVU1162
  3422 004c 23F04003 		bic	r3, r3, #64
-ARM GAS  /tmp/ccybtFir.s 			page 172
+ARM GAS  /tmp/ccxlBB2Q.s 			page 172
 
 
  3423              	.LVL309:
@@ -10318,7 +10318,7 @@ ARM GAS  /tmp/ccybtFir.s 			page 1
  3463              	.LVL313:
 1829:Drivers/STM32G4xx_HAL_Driver/Src/stm32g4xx_hal_uart.c ****       {
  3464              		.loc 1 1829 11 view .LVU1179
-ARM GAS  /tmp/ccybtFir.s 			page 173
+ARM GAS  /tmp/ccxlBB2Q.s 			page 173
 
 
  3465 0068 FFF7FEFF 		bl	HAL_DMA_Abort
@@ -10378,7 +10378,7 @@ ARM GAS  /tmp/ccybtFir.s 			page 1
  3504              	.LBB710:
  3505              	.LBI710:
 1151:Drivers/CMSIS/Include/cmsis_gcc.h **** {
-ARM GAS  /tmp/ccybtFir.s 			page 174
+ARM GAS  /tmp/ccxlBB2Q.s 			page 174
 
 
  3506              		.loc 2 1151 31 view .LVU1195
@@ -10438,7 +10438,7 @@ ARM GAS  /tmp/ccybtFir.s 			page 1
  3549              	.LBE709:
 1831:Drivers/STM32G4xx_HAL_Driver/Src/stm32g4xx_hal_uart.c ****         {
  3550              		.loc 1 1831 9 is_stmt 1 view .LVU1209
-ARM GAS  /tmp/ccybtFir.s 			page 175
+ARM GAS  /tmp/ccxlBB2Q.s 			page 175
 
 
 1831:Drivers/STM32G4xx_HAL_Driver/Src/stm32g4xx_hal_uart.c ****         {
@@ -10498,7 +10498,7 @@ ARM GAS  /tmp/ccybtFir.s 			page 1
  3599              		.loc 1 3626 1 is_stmt 1 view -0
  3600              		.cfi_startproc
  3601              		@ args = 0, pretend = 0, frame = 0
-ARM GAS  /tmp/ccybtFir.s 			page 176
+ARM GAS  /tmp/ccxlBB2Q.s 			page 176
 
 
  3602              		@ frame_needed = 0, uses_anonymous_args = 0
@@ -10558,7 +10558,7 @@ ARM GAS  /tmp/ccybtFir.s 			page 1
  3640              		.loc 2 1155 4 view .LVU1235
  3641 0018 02F10803 		add	r3, r2, #8
  3642              	.LVL328:
-ARM GAS  /tmp/ccybtFir.s 			page 177
+ARM GAS  /tmp/ccxlBB2Q.s 			page 177
 
 
 1155:Drivers/CMSIS/Include/cmsis_gcc.h ****    return(result);
@@ -10618,7 +10618,7 @@ ARM GAS  /tmp/ccybtFir.s 			page 1
 3636:Drivers/STM32G4xx_HAL_Driver/Src/stm32g4xx_hal_uart.c **** 
  3686              		.loc 1 3636 5 is_stmt 1 discriminator 2 view .LVU1249
 3639:Drivers/STM32G4xx_HAL_Driver/Src/stm32g4xx_hal_uart.c ****   }
-ARM GAS  /tmp/ccybtFir.s 			page 178
+ARM GAS  /tmp/ccxlBB2Q.s 			page 178
 
 
  3687              		.loc 1 3639 5 discriminator 1 view .LVU1250
@@ -10678,7 +10678,7 @@ ARM GAS  /tmp/ccybtFir.s 			page 1
  3728              		.thumb
  3729              		.syntax unified
  3730              	.LBE723:
-ARM GAS  /tmp/ccybtFir.s 			page 179
+ARM GAS  /tmp/ccxlBB2Q.s 			page 179
 
 
  3731              	.LBE722:
@@ -10738,7 +10738,7 @@ ARM GAS  /tmp/ccybtFir.s 			page 1
  3771              		.loc 1 4156 3 is_stmt 1 discriminator 1 view .LVU1273
  3772              	.LBB724:
  3773              		.loc 1 4156 3 discriminator 1 view .LVU1274
-ARM GAS  /tmp/ccybtFir.s 			page 180
+ARM GAS  /tmp/ccxlBB2Q.s 			page 180
 
 
  3774              		.loc 1 4156 3 discriminator 1 view .LVU1275
@@ -10798,7 +10798,7 @@ ARM GAS  /tmp/ccybtFir.s 			page 1
  3820              		.loc 1 4156 3 is_stmt 1 discriminator 2 view .LVU1290
 4157:Drivers/STM32G4xx_HAL_Driver/Src/stm32g4xx_hal_uart.c **** 
 4158:Drivers/STM32G4xx_HAL_Driver/Src/stm32g4xx_hal_uart.c ****   /* Tx process is ended, restore huart->gState to Ready */
-ARM GAS  /tmp/ccybtFir.s 			page 181
+ARM GAS  /tmp/ccxlBB2Q.s 			page 181
 
 
 4159:Drivers/STM32G4xx_HAL_Driver/Src/stm32g4xx_hal_uart.c ****   huart->gState = HAL_UART_STATE_READY;
@@ -10858,7 +10858,7 @@ ARM GAS  /tmp/ccybtFir.s 			page 1
  3862              		.syntax unified
  3863              		.thumb
  3864              		.thumb_func
-ARM GAS  /tmp/ccybtFir.s 			page 182
+ARM GAS  /tmp/ccxlBB2Q.s 			page 182
 
 
  3866              	UART_DMATxHalfCplt:
@@ -10918,7 +10918,7 @@ ARM GAS  /tmp/ccybtFir.s 			page 1
  3914              		.align	1
  3915              		.weak	HAL_UART_RxHalfCpltCallback
  3916              		.syntax unified
-ARM GAS  /tmp/ccybtFir.s 			page 183
+ARM GAS  /tmp/ccxlBB2Q.s 			page 183
 
 
  3917              		.thumb
@@ -10978,7 +10978,7 @@ ARM GAS  /tmp/ccybtFir.s 			page 1
  3968              		.loc 1 3777 1 is_stmt 0 view .LVU1317
  3969 0000 38B5     		push	{r3, r4, r5, lr}
  3970              	.LCFI15:
-ARM GAS  /tmp/ccybtFir.s 			page 184
+ARM GAS  /tmp/ccxlBB2Q.s 			page 184
 
 
  3971              		.cfi_def_cfa_offset 16
@@ -11038,7 +11038,7 @@ ARM GAS  /tmp/ccybtFir.s 			page 1
 3799:Drivers/STM32G4xx_HAL_Driver/Src/stm32g4xx_hal_uart.c **** 
  4011              		.loc 1 3799 3 is_stmt 1 view .LVU1332
 3799:Drivers/STM32G4xx_HAL_Driver/Src/stm32g4xx_hal_uart.c **** 
-ARM GAS  /tmp/ccybtFir.s 			page 185
+ARM GAS  /tmp/ccxlBB2Q.s 			page 185
 
 
  4012              		.loc 1 3799 8 is_stmt 0 view .LVU1333
@@ -11098,7 +11098,7 @@ ARM GAS  /tmp/ccybtFir.s 			page 1
  4057              	.LVL366:
  4058              	.LFB188:
 3817:Drivers/STM32G4xx_HAL_Driver/Src/stm32g4xx_hal_uart.c ****   UART_HandleTypeDef *huart = (UART_HandleTypeDef *)(hdma->Parent);
-ARM GAS  /tmp/ccybtFir.s 			page 186
+ARM GAS  /tmp/ccxlBB2Q.s 			page 186
 
 
  4059              		.loc 1 3817 1 view -0
@@ -11158,7 +11158,7 @@ ARM GAS  /tmp/ccybtFir.s 			page 1
  4106              		.section	.text.HAL_UART_Abort_IT,"ax",%progbits
  4107              		.align	1
  4108              		.global	HAL_UART_Abort_IT
-ARM GAS  /tmp/ccybtFir.s 			page 187
+ARM GAS  /tmp/ccxlBB2Q.s 			page 187
 
 
  4109              		.syntax unified
@@ -11218,7 +11218,7 @@ ARM GAS  /tmp/ccybtFir.s 			page 1
  4152              		.thumb
  4153              		.syntax unified
  4154              	.LBE731:
-ARM GAS  /tmp/ccybtFir.s 			page 188
+ARM GAS  /tmp/ccxlBB2Q.s 			page 188
 
 
  4155              	.LBE730:
@@ -11278,7 +11278,7 @@ ARM GAS  /tmp/ccybtFir.s 			page 1
 1153:Drivers/CMSIS/Include/cmsis_gcc.h **** 
  4196              		.loc 2 1153 5 view .LVU1383
 1155:Drivers/CMSIS/Include/cmsis_gcc.h ****    return(result);
-ARM GAS  /tmp/ccybtFir.s 			page 189
+ARM GAS  /tmp/ccxlBB2Q.s 			page 189
 
 
  4197              		.loc 2 1155 4 view .LVU1384
@@ -11338,7 +11338,7 @@ ARM GAS  /tmp/ccybtFir.s 			page 1
 1879:Drivers/STM32G4xx_HAL_Driver/Src/stm32g4xx_hal_uart.c **** 
  4241              		.loc 1 1879 3 is_stmt 1 discriminator 2 view .LVU1397
 1882:Drivers/STM32G4xx_HAL_Driver/Src/stm32g4xx_hal_uart.c ****   {
-ARM GAS  /tmp/ccybtFir.s 			page 190
+ARM GAS  /tmp/ccxlBB2Q.s 			page 190
 
 
  4242              		.loc 1 1882 3 view .LVU1398
@@ -11398,7 +11398,7 @@ ARM GAS  /tmp/ccybtFir.s 			page 1
  4279 0058 2BD0     		beq	.L176
 1910:Drivers/STM32G4xx_HAL_Driver/Src/stm32g4xx_hal_uart.c ****     }
  4280              		.loc 1 1910 7 is_stmt 1 view .LVU1416
-ARM GAS  /tmp/ccybtFir.s 			page 191
+ARM GAS  /tmp/ccxlBB2Q.s 			page 191
 
 
 1910:Drivers/STM32G4xx_HAL_Driver/Src/stm32g4xx_hal_uart.c ****     }
@@ -11458,7 +11458,7 @@ ARM GAS  /tmp/ccybtFir.s 			page 1
  4320              		.loc 1 1922 5 discriminator 1 view .LVU1431
  4321 0072 23F08003 		bic	r3, r3, #128
  4322              	.LVL387:
-ARM GAS  /tmp/ccybtFir.s 			page 192
+ARM GAS  /tmp/ccxlBB2Q.s 			page 192
 
 
 1922:Drivers/STM32G4xx_HAL_Driver/Src/stm32g4xx_hal_uart.c **** 
@@ -11518,7 +11518,7 @@ ARM GAS  /tmp/ccybtFir.s 			page 1
  4363              		.loc 1 1933 9 is_stmt 1 view .LVU1447
 1933:Drivers/STM32G4xx_HAL_Driver/Src/stm32g4xx_hal_uart.c ****       }
  4364              		.loc 1 1933 14 is_stmt 0 view .LVU1448
-ARM GAS  /tmp/ccybtFir.s 			page 193
+ARM GAS  /tmp/ccxlBB2Q.s 			page 193
 
 
  4365 008e E36F     		ldr	r3, [r4, #124]
@@ -11578,7 +11578,7 @@ ARM GAS  /tmp/ccybtFir.s 			page 1
  4405              	.LBB748:
 1204:Drivers/CMSIS/Include/cmsis_gcc.h **** 
  4406              		.loc 2 1204 4 view .LVU1463
-ARM GAS  /tmp/ccybtFir.s 			page 194
+ARM GAS  /tmp/ccxlBB2Q.s 			page 194
 
 
 1206:Drivers/CMSIS/Include/cmsis_gcc.h ****    return(result);
@@ -11638,7 +11638,7 @@ ARM GAS  /tmp/ccybtFir.s 			page 1
  4450              	.L180:
 1946:Drivers/STM32G4xx_HAL_Driver/Src/stm32g4xx_hal_uart.c **** 
  4451              		.loc 1 1946 5 is_stmt 1 discriminator 1 view .LVU1477
-ARM GAS  /tmp/ccybtFir.s 			page 195
+ARM GAS  /tmp/ccxlBB2Q.s 			page 195
 
 
  4452              	.LBB749:
@@ -11698,7 +11698,7 @@ ARM GAS  /tmp/ccybtFir.s 			page 1
  4491              		.syntax unified
  4492              	@ 1206 "Drivers/CMSIS/Include/cmsis_gcc.h" 1
  4493 00d4 42E80031 		strex r1, r3, [r2]
-ARM GAS  /tmp/ccybtFir.s 			page 196
+ARM GAS  /tmp/ccxlBB2Q.s 			page 196
 
 
  4494              	@ 0 "" 2
@@ -11758,7 +11758,7 @@ ARM GAS  /tmp/ccybtFir.s 			page 1
  4532              		.loc 1 1972 5 is_stmt 1 view .LVU1510
 1972:Drivers/STM32G4xx_HAL_Driver/Src/stm32g4xx_hal_uart.c **** 
  4533              		.loc 1 1972 24 is_stmt 0 view .LVU1511
-ARM GAS  /tmp/ccybtFir.s 			page 197
+ARM GAS  /tmp/ccxlBB2Q.s 			page 197
 
 
  4534 00f6 A4F85E30 		strh	r3, [r4, #94]	@ movhi
@@ -11818,7 +11818,7 @@ ARM GAS  /tmp/ccybtFir.s 			page 1
 2004:Drivers/STM32G4xx_HAL_Driver/Src/stm32g4xx_hal_uart.c **** #endif /* USE_HAL_UART_REGISTER_CALLBACKS */
  4571              		.loc 1 2004 5 is_stmt 1 view .LVU1529
  4572 0128 2046     		mov	r0, r4
-ARM GAS  /tmp/ccybtFir.s 			page 198
+ARM GAS  /tmp/ccxlBB2Q.s 			page 198
 
 
  4573 012a FFF7FEFF 		bl	HAL_UART_AbortCpltCallback
@@ -11878,7 +11878,7 @@ ARM GAS  /tmp/ccybtFir.s 			page 1
 3894:Drivers/STM32G4xx_HAL_Driver/Src/stm32g4xx_hal_uart.c ****   UART_HandleTypeDef *huart = (UART_HandleTypeDef *)(hdma->Parent);
  4622              		.loc 1 3894 1 is_stmt 0 view .LVU1537
  4623 0000 08B5     		push	{r3, lr}
-ARM GAS  /tmp/ccybtFir.s 			page 199
+ARM GAS  /tmp/ccxlBB2Q.s 			page 199
 
 
  4624              	.LCFI18:
@@ -11938,7 +11938,7 @@ ARM GAS  /tmp/ccybtFir.s 			page 1
  4660 0022 0268     		ldr	r2, [r0]
  4661 0024 0F21     		movs	r1, #15
  4662 0026 1162     		str	r1, [r2, #32]
-ARM GAS  /tmp/ccybtFir.s 			page 200
+ARM GAS  /tmp/ccxlBB2Q.s 			page 200
 
 
 3919:Drivers/STM32G4xx_HAL_Driver/Src/stm32g4xx_hal_uart.c **** 
@@ -11998,7 +11998,7 @@ ARM GAS  /tmp/ccybtFir.s 			page 1
 3840:Drivers/STM32G4xx_HAL_Driver/Src/stm32g4xx_hal_uart.c **** 
  4707              		.loc 1 3840 23 is_stmt 0 view .LVU1568
  4708 0002 806A     		ldr	r0, [r0, #40]
-ARM GAS  /tmp/ccybtFir.s 			page 201
+ARM GAS  /tmp/ccxlBB2Q.s 			page 201
 
 
  4709              	.LVL416:
@@ -12058,7 +12058,7 @@ ARM GAS  /tmp/ccybtFir.s 			page 1
  4744              		.loc 1 3864 6 view .LVU1587
  4745 002a B3F1005F 		cmp	r3, #536870912
  4746 002e 09D0     		beq	.L199
-ARM GAS  /tmp/ccybtFir.s 			page 202
+ARM GAS  /tmp/ccxlBB2Q.s 			page 202
 
 
  4747              	.L197:
@@ -12118,7 +12118,7 @@ ARM GAS  /tmp/ccybtFir.s 			page 1
 2659:Drivers/STM32G4xx_HAL_Driver/Src/stm32g4xx_hal_uart.c **** 
  4792              		.loc 1 2659 1 is_stmt 0 view .LVU1599
  4793 0000 7047     		bx	lr
-ARM GAS  /tmp/ccybtFir.s 			page 203
+ARM GAS  /tmp/ccxlBB2Q.s 			page 203
 
 
  4794              		.cfi_endproc
@@ -12178,7 +12178,7 @@ ARM GAS  /tmp/ccybtFir.s 			page 1
  4839              		.thumb
  4840              		.syntax unified
  4841              	.LBE756:
-ARM GAS  /tmp/ccybtFir.s 			page 204
+ARM GAS  /tmp/ccxlBB2Q.s 			page 204
 
 
  4842              	.LBE755:
@@ -12238,7 +12238,7 @@ ARM GAS  /tmp/ccybtFir.s 			page 1
 1153:Drivers/CMSIS/Include/cmsis_gcc.h **** 
  4883              		.loc 2 1153 5 view .LVU1626
 1155:Drivers/CMSIS/Include/cmsis_gcc.h ****    return(result);
-ARM GAS  /tmp/ccybtFir.s 			page 205
+ARM GAS  /tmp/ccxlBB2Q.s 			page 205
 
 
  4884              		.loc 2 1155 4 view .LVU1627
@@ -12298,7 +12298,7 @@ ARM GAS  /tmp/ccybtFir.s 			page 1
  4927              		.loc 1 2029 3 is_stmt 1 discriminator 2 view .LVU1640
 2032:Drivers/STM32G4xx_HAL_Driver/Src/stm32g4xx_hal_uart.c ****   {
  4928              		.loc 1 2032 3 view .LVU1641
-ARM GAS  /tmp/ccybtFir.s 			page 206
+ARM GAS  /tmp/ccxlBB2Q.s 			page 206
 
 
 2032:Drivers/STM32G4xx_HAL_Driver/Src/stm32g4xx_hal_uart.c ****   {
@@ -12358,7 +12358,7 @@ ARM GAS  /tmp/ccybtFir.s 			page 1
  4968              		.loc 1 2035 5 is_stmt 1 discriminator 1 view .LVU1656
  4969              	.LBB767:
  4970              	.LBI767:
-ARM GAS  /tmp/ccybtFir.s 			page 207
+ARM GAS  /tmp/ccxlBB2Q.s 			page 207
 
 
 1202:Drivers/CMSIS/Include/cmsis_gcc.h **** {
@@ -12418,7 +12418,7 @@ ARM GAS  /tmp/ccybtFir.s 			page 1
 2045:Drivers/STM32G4xx_HAL_Driver/Src/stm32g4xx_hal_uart.c ****       {
  5011              		.loc 1 2045 10 discriminator 1 view .LVU1673
  5012 005e E0B1     		cbz	r0, .L207
-ARM GAS  /tmp/ccybtFir.s 			page 208
+ARM GAS  /tmp/ccxlBB2Q.s 			page 208
 
 
 2048:Drivers/STM32G4xx_HAL_Driver/Src/stm32g4xx_hal_uart.c ****       }
@@ -12478,7 +12478,7 @@ ARM GAS  /tmp/ccybtFir.s 			page 1
 2081:Drivers/STM32G4xx_HAL_Driver/Src/stm32g4xx_hal_uart.c ****     {
  5051              		.loc 1 2081 5 is_stmt 1 view .LVU1690
 2081:Drivers/STM32G4xx_HAL_Driver/Src/stm32g4xx_hal_uart.c ****     {
-ARM GAS  /tmp/ccybtFir.s 			page 209
+ARM GAS  /tmp/ccxlBB2Q.s 			page 209
 
 
  5052              		.loc 1 2081 14 is_stmt 0 view .LVU1691
@@ -12538,7 +12538,7 @@ ARM GAS  /tmp/ccybtFir.s 			page 1
  5099              		@ frame_needed = 0, uses_anonymous_args = 0
 3946:Drivers/STM32G4xx_HAL_Driver/Src/stm32g4xx_hal_uart.c ****   UART_HandleTypeDef *huart = (UART_HandleTypeDef *)(hdma->Parent);
  5100              		.loc 1 3946 1 is_stmt 0 view .LVU1701
-ARM GAS  /tmp/ccybtFir.s 			page 210
+ARM GAS  /tmp/ccxlBB2Q.s 			page 210
 
 
  5101 0000 08B5     		push	{r3, lr}
@@ -12598,7 +12598,7 @@ ARM GAS  /tmp/ccybtFir.s 			page 1
  5144              		.syntax unified
  5145              		.thumb
  5146              		.thumb_func
-ARM GAS  /tmp/ccybtFir.s 			page 211
+ARM GAS  /tmp/ccxlBB2Q.s 			page 211
 
 
  5148              	HAL_UART_AbortReceiveCpltCallback:
@@ -12658,7 +12658,7 @@ ARM GAS  /tmp/ccybtFir.s 			page 1
  5194              	.LBB771:
 1153:Drivers/CMSIS/Include/cmsis_gcc.h **** 
  5195              		.loc 2 1153 5 view .LVU1724
-ARM GAS  /tmp/ccybtFir.s 			page 212
+ARM GAS  /tmp/ccxlBB2Q.s 			page 212
 
 
 1155:Drivers/CMSIS/Include/cmsis_gcc.h ****    return(result);
@@ -12718,7 +12718,7 @@ ARM GAS  /tmp/ccybtFir.s 			page 1
  5238              	.LBB774:
 2120:Drivers/STM32G4xx_HAL_Driver/Src/stm32g4xx_hal_uart.c **** 
  5239              		.loc 1 2120 3 discriminator 1 view .LVU1739
-ARM GAS  /tmp/ccybtFir.s 			page 213
+ARM GAS  /tmp/ccxlBB2Q.s 			page 213
 
 
 2120:Drivers/STM32G4xx_HAL_Driver/Src/stm32g4xx_hal_uart.c **** 
@@ -12778,7 +12778,7 @@ ARM GAS  /tmp/ccybtFir.s 			page 1
  5280 002a 42E80031 		strex r1, r3, [r2]
  5281              	@ 0 "" 2
  5282              	.LVL466:
-ARM GAS  /tmp/ccybtFir.s 			page 214
+ARM GAS  /tmp/ccxlBB2Q.s 			page 214
 
 
  5283              		.loc 2 1207 4 is_stmt 1 view .LVU1754
@@ -12838,7 +12838,7 @@ ARM GAS  /tmp/ccybtFir.s 			page 1
  5322              		.loc 2 1153 5 view .LVU1770
 1155:Drivers/CMSIS/Include/cmsis_gcc.h ****    return(result);
  5323              		.loc 2 1155 4 view .LVU1771
-ARM GAS  /tmp/ccybtFir.s 			page 215
+ARM GAS  /tmp/ccxlBB2Q.s 			page 215
 
 
  5324 0044 02F10803 		add	r3, r2, #8
@@ -12898,7 +12898,7 @@ ARM GAS  /tmp/ccybtFir.s 			page 1
 2135:Drivers/STM32G4xx_HAL_Driver/Src/stm32g4xx_hal_uart.c ****     {
  5367              		.loc 1 2135 5 view .LVU1785
 2135:Drivers/STM32G4xx_HAL_Driver/Src/stm32g4xx_hal_uart.c ****     {
-ARM GAS  /tmp/ccybtFir.s 			page 216
+ARM GAS  /tmp/ccxlBB2Q.s 			page 216
 
 
  5368              		.loc 1 2135 14 is_stmt 0 view .LVU1786
@@ -12958,7 +12958,7 @@ ARM GAS  /tmp/ccybtFir.s 			page 1
  5406              		.loc 2 1151 31 view .LVU1802
  5407              	.LBB786:
 1153:Drivers/CMSIS/Include/cmsis_gcc.h **** 
-ARM GAS  /tmp/ccybtFir.s 			page 217
+ARM GAS  /tmp/ccxlBB2Q.s 			page 217
 
 
  5408              		.loc 2 1153 5 view .LVU1803
@@ -13018,7 +13018,7 @@ ARM GAS  /tmp/ccybtFir.s 			page 1
 2151:Drivers/STM32G4xx_HAL_Driver/Src/stm32g4xx_hal_uart.c **** 
  5451              		.loc 1 2151 26 is_stmt 0 view .LVU1817
  5452 008c 0023     		movs	r3, #0
-ARM GAS  /tmp/ccybtFir.s 			page 218
+ARM GAS  /tmp/ccxlBB2Q.s 			page 218
 
 
  5453 008e A4F85E30 		strh	r3, [r4, #94]	@ movhi
@@ -13078,7 +13078,7 @@ ARM GAS  /tmp/ccybtFir.s 			page 1
 2188:Drivers/STM32G4xx_HAL_Driver/Src/stm32g4xx_hal_uart.c ****     huart->ReceptionType = HAL_UART_RECEPTION_STANDARD;
  5492              		.loc 1 2188 5 view .LVU1833
 2188:Drivers/STM32G4xx_HAL_Driver/Src/stm32g4xx_hal_uart.c ****     huart->ReceptionType = HAL_UART_RECEPTION_STANDARD;
-ARM GAS  /tmp/ccybtFir.s 			page 219
+ARM GAS  /tmp/ccxlBB2Q.s 			page 219
 
 
  5493              		.loc 1 2188 20 is_stmt 0 view .LVU1834
@@ -13138,7 +13138,7 @@ ARM GAS  /tmp/ccybtFir.s 			page 1
 3980:Drivers/STM32G4xx_HAL_Driver/Src/stm32g4xx_hal_uart.c **** 
  5539              		.loc 1 3980 23 is_stmt 0 view .LVU1845
  5540 0002 806A     		ldr	r0, [r0, #40]
-ARM GAS  /tmp/ccybtFir.s 			page 220
+ARM GAS  /tmp/ccxlBB2Q.s 			page 220
 
 
  5541              	.LVL491:
@@ -13198,7 +13198,7 @@ ARM GAS  /tmp/ccybtFir.s 			page 1
  5585              		.loc 1 2686 3 view .LVU1857
 2687:Drivers/STM32G4xx_HAL_Driver/Src/stm32g4xx_hal_uart.c **** 
  5586              		.loc 1 2687 3 view .LVU1858
-ARM GAS  /tmp/ccybtFir.s 			page 221
+ARM GAS  /tmp/ccxlBB2Q.s 			page 221
 
 
 2692:Drivers/STM32G4xx_HAL_Driver/Src/stm32g4xx_hal_uart.c **** 
@@ -13258,7 +13258,7 @@ ARM GAS  /tmp/ccybtFir.s 			page 1
 2219:Drivers/STM32G4xx_HAL_Driver/Src/stm32g4xx_hal_uart.c ****   if (errorflags == 0U)
  5631              		.loc 1 2219 3 view .LVU1871
 2220:Drivers/STM32G4xx_HAL_Driver/Src/stm32g4xx_hal_uart.c ****   {
-ARM GAS  /tmp/ccybtFir.s 			page 222
+ARM GAS  /tmp/ccxlBB2Q.s 			page 222
 
 
  5632              		.loc 1 2220 3 view .LVU1872
@@ -13318,7 +13318,7 @@ ARM GAS  /tmp/ccybtFir.s 			page 1
  5672 003c 2AD1     		bne	.L239
  5673              	.L235:
 2375:Drivers/STM32G4xx_HAL_Driver/Src/stm32g4xx_hal_uart.c ****       && ((isrflags & USART_ISR_IDLE) != 0U)
-ARM GAS  /tmp/ccybtFir.s 			page 223
+ARM GAS  /tmp/ccxlBB2Q.s 			page 223
 
 
  5674              		.loc 1 2375 3 is_stmt 1 view .LVU1887
@@ -13378,7 +13378,7 @@ ARM GAS  /tmp/ccybtFir.s 			page 1
  5713 007e 10F0804F 		tst	r0, #1073741824
  5714 0082 40F06581 		bne	.L277
  5715              	.L272:
-ARM GAS  /tmp/ccybtFir.s 			page 224
+ARM GAS  /tmp/ccxlBB2Q.s 			page 224
 
 
 2543:Drivers/STM32G4xx_HAL_Driver/Src/stm32g4xx_hal_uart.c ****   {
@@ -13438,7 +13438,7 @@ ARM GAS  /tmp/ccybtFir.s 			page 1
  5755 00bc 0226     		movs	r6, #2
  5756 00be 1662     		str	r6, [r2, #32]
 2253:Drivers/STM32G4xx_HAL_Driver/Src/stm32g4xx_hal_uart.c ****     }
-ARM GAS  /tmp/ccybtFir.s 			page 225
+ARM GAS  /tmp/ccxlBB2Q.s 			page 225
 
 
  5757              		.loc 1 2253 7 view .LVU1918
@@ -13498,7 +13498,7 @@ ARM GAS  /tmp/ccybtFir.s 			page 1
  5796              		.loc 1 2271 7 view .LVU1933
 2271:Drivers/STM32G4xx_HAL_Driver/Src/stm32g4xx_hal_uart.c ****     }
  5797              		.loc 1 2271 12 is_stmt 0 view .LVU1934
-ARM GAS  /tmp/ccybtFir.s 			page 226
+ARM GAS  /tmp/ccxlBB2Q.s 			page 226
 
 
  5798 00fe D4F89020 		ldr	r2, [r4, #144]
@@ -13558,7 +13558,7 @@ ARM GAS  /tmp/ccybtFir.s 			page 1
  5837              	.L248:
 2290:Drivers/STM32G4xx_HAL_Driver/Src/stm32g4xx_hal_uart.c ****         {
  5838              		.loc 1 2290 9 is_stmt 1 view .LVU1950
-ARM GAS  /tmp/ccybtFir.s 			page 227
+ARM GAS  /tmp/ccxlBB2Q.s 			page 227
 
 
 2290:Drivers/STM32G4xx_HAL_Driver/Src/stm32g4xx_hal_uart.c ****         {
@@ -13618,7 +13618,7 @@ ARM GAS  /tmp/ccybtFir.s 			page 1
  5878              		.loc 1 2314 11 is_stmt 1 discriminator 1 view .LVU1965
  5879              	.LBB789:
 2314:Drivers/STM32G4xx_HAL_Driver/Src/stm32g4xx_hal_uart.c **** 
-ARM GAS  /tmp/ccybtFir.s 			page 228
+ARM GAS  /tmp/ccxlBB2Q.s 			page 228
 
 
  5880              		.loc 1 2314 11 discriminator 1 view .LVU1966
@@ -13678,7 +13678,7 @@ ARM GAS  /tmp/ccybtFir.s 			page 1
  5920 017e 42E80031 		strex r1, r3, [r2]
  5921              	@ 0 "" 2
  5922              	.LVL514:
-ARM GAS  /tmp/ccybtFir.s 			page 229
+ARM GAS  /tmp/ccxlBB2Q.s 			page 229
 
 
  5923              		.loc 2 1207 4 is_stmt 1 view .LVU1981
@@ -13738,7 +13738,7 @@ ARM GAS  /tmp/ccybtFir.s 			page 1
  5962              		.loc 1 2338 13 is_stmt 1 view .LVU1997
  5963 01a8 2046     		mov	r0, r4
  5964 01aa FFF7FEFF 		bl	HAL_UART_ErrorCallback
-ARM GAS  /tmp/ccybtFir.s 			page 230
+ARM GAS  /tmp/ccxlBB2Q.s 			page 230
 
 
  5965              	.LVL518:
@@ -13798,7 +13798,7 @@ ARM GAS  /tmp/ccybtFir.s 			page 1
 2388:Drivers/STM32G4xx_HAL_Driver/Src/stm32g4xx_hal_uart.c ****       if ((nb_remaining_rx_data > 0U)
  6007              		.loc 1 2388 7 is_stmt 1 view .LVU2010
 2388:Drivers/STM32G4xx_HAL_Driver/Src/stm32g4xx_hal_uart.c ****       if ((nb_remaining_rx_data > 0U)
-ARM GAS  /tmp/ccybtFir.s 			page 231
+ARM GAS  /tmp/ccxlBB2Q.s 			page 231
 
 
  6008              		.loc 1 2388 50 is_stmt 0 view .LVU2011
@@ -13858,7 +13858,7 @@ ARM GAS  /tmp/ccybtFir.s 			page 1
  6046              	.LVL529:
  6047              	.LBB796:
  6048              	.LBI796:
-ARM GAS  /tmp/ccybtFir.s 			page 232
+ARM GAS  /tmp/ccxlBB2Q.s 			page 232
 
 
 1151:Drivers/CMSIS/Include/cmsis_gcc.h **** {
@@ -13918,7 +13918,7 @@ ARM GAS  /tmp/ccybtFir.s 			page 1
  6091              	.LBE795:
 2399:Drivers/STM32G4xx_HAL_Driver/Src/stm32g4xx_hal_uart.c ****           ATOMIC_CLEAR_BIT(huart->Instance->CR3, USART_CR3_EIE);
  6092              		.loc 1 2399 11 is_stmt 1 discriminator 2 view .LVU2042
-ARM GAS  /tmp/ccybtFir.s 			page 233
+ARM GAS  /tmp/ccxlBB2Q.s 			page 233
 
 
 2400:Drivers/STM32G4xx_HAL_Driver/Src/stm32g4xx_hal_uart.c **** 
@@ -13978,7 +13978,7 @@ ARM GAS  /tmp/ccybtFir.s 			page 1
 1206:Drivers/CMSIS/Include/cmsis_gcc.h ****    return(result);
  6132              		.loc 2 1206 4 is_stmt 0 view .LVU2058
  6133              		.syntax unified
-ARM GAS  /tmp/ccybtFir.s 			page 234
+ARM GAS  /tmp/ccxlBB2Q.s 			page 234
 
 
  6134              	@ 1206 "Drivers/CMSIS/Include/cmsis_gcc.h" 1
@@ -14038,7 +14038,7 @@ ARM GAS  /tmp/ccybtFir.s 			page 1
  6175              		.thumb
  6176              		.syntax unified
  6177              	.LBE807:
-ARM GAS  /tmp/ccybtFir.s 			page 235
+ARM GAS  /tmp/ccxlBB2Q.s 			page 235
 
 
  6178              	.LBE806:
@@ -14098,7 +14098,7 @@ ARM GAS  /tmp/ccybtFir.s 			page 1
  6219              	.L261:
 2410:Drivers/STM32G4xx_HAL_Driver/Src/stm32g4xx_hal_uart.c **** 
  6220              		.loc 1 2410 11 is_stmt 1 discriminator 1 view .LVU2089
-ARM GAS  /tmp/ccybtFir.s 			page 236
+ARM GAS  /tmp/ccxlBB2Q.s 			page 236
 
 
  6221              	.LBB810:
@@ -14158,7 +14158,7 @@ ARM GAS  /tmp/ccybtFir.s 			page 1
  6262              		.syntax unified
  6263              	.LBE814:
  6264              	.LBE813:
-ARM GAS  /tmp/ccybtFir.s 			page 237
+ARM GAS  /tmp/ccxlBB2Q.s 			page 237
 
 
 2410:Drivers/STM32G4xx_HAL_Driver/Src/stm32g4xx_hal_uart.c **** 
@@ -14218,7 +14218,7 @@ ARM GAS  /tmp/ccybtFir.s 			page 1
  6304              	.LVL556:
 2434:Drivers/STM32G4xx_HAL_Driver/Src/stm32g4xx_hal_uart.c ****           {
  6305              		.loc 1 2434 14 view .LVU2120
-ARM GAS  /tmp/ccybtFir.s 			page 238
+ARM GAS  /tmp/ccxlBB2Q.s 			page 238
 
 
  6306 0294 13F0200F 		tst	r3, #32
@@ -14278,7 +14278,7 @@ ARM GAS  /tmp/ccybtFir.s 			page 1
  6347              		.loc 1 2459 11 view .LVU2133
  6348 02ce 0029     		cmp	r1, #0
  6349 02d0 3FF4DFAE 		beq	.L233
-ARM GAS  /tmp/ccybtFir.s 			page 239
+ARM GAS  /tmp/ccxlBB2Q.s 			page 239
 
 
  6350              	.LVL561:
@@ -14338,7 +14338,7 @@ ARM GAS  /tmp/ccybtFir.s 			page 1
  6390              	.LVL565:
  6391              		.loc 2 1207 4 view .LVU2148
  6392              		.loc 2 1207 4 is_stmt 0 view .LVU2149
-ARM GAS  /tmp/ccybtFir.s 			page 240
+ARM GAS  /tmp/ccxlBB2Q.s 			page 240
 
 
  6393              		.thumb
@@ -14398,7 +14398,7 @@ ARM GAS  /tmp/ccybtFir.s 			page 1
  6433 02f0 23F08053 		bic	r3, r3, #268435456
  6434 02f4 23F00103 		bic	r3, r3, #1
  6435              	.LVL570:
-ARM GAS  /tmp/ccybtFir.s 			page 241
+ARM GAS  /tmp/ccxlBB2Q.s 			page 241
 
 
 2465:Drivers/STM32G4xx_HAL_Driver/Src/stm32g4xx_hal_uart.c **** 
@@ -14458,7 +14458,7 @@ ARM GAS  /tmp/ccybtFir.s 			page 1
 2474:Drivers/STM32G4xx_HAL_Driver/Src/stm32g4xx_hal_uart.c **** 
  6476              		.loc 1 2474 9 is_stmt 1 discriminator 1 view .LVU2180
  6477              	.LBB826:
-ARM GAS  /tmp/ccybtFir.s 			page 242
+ARM GAS  /tmp/ccxlBB2Q.s 			page 242
 
 
 2474:Drivers/STM32G4xx_HAL_Driver/Src/stm32g4xx_hal_uart.c **** 
@@ -14518,7 +14518,7 @@ ARM GAS  /tmp/ccybtFir.s 			page 1
  6519              	.LBE830:
  6520              	.LBE829:
 2474:Drivers/STM32G4xx_HAL_Driver/Src/stm32g4xx_hal_uart.c **** 
-ARM GAS  /tmp/ccybtFir.s 			page 243
+ARM GAS  /tmp/ccxlBB2Q.s 			page 243
 
 
  6521              		.loc 1 2474 9 discriminator 1 view .LVU2196
@@ -14578,7 +14578,7 @@ ARM GAS  /tmp/ccybtFir.s 			page 1
 2515:Drivers/STM32G4xx_HAL_Driver/Src/stm32g4xx_hal_uart.c ****     {
  6561              		.loc 1 2515 8 view .LVU2211
  6562 033c 002B     		cmp	r3, #0
-ARM GAS  /tmp/ccybtFir.s 			page 244
+ARM GAS  /tmp/ccxlBB2Q.s 			page 244
 
 
  6563 033e 3FF4A8AE 		beq	.L233
@@ -14638,7 +14638,7 @@ ARM GAS  /tmp/ccybtFir.s 			page 1
  6606              		.align	1
  6607              		.syntax unified
  6608              		.thumb
-ARM GAS  /tmp/ccybtFir.s 			page 245
+ARM GAS  /tmp/ccxlBB2Q.s 			page 245
 
 
  6609              		.thumb_func
@@ -14698,7 +14698,7 @@ ARM GAS  /tmp/ccybtFir.s 			page 1
 4201:Drivers/STM32G4xx_HAL_Driver/Src/stm32g4xx_hal_uart.c **** 
 4202:Drivers/STM32G4xx_HAL_Driver/Src/stm32g4xx_hal_uart.c ****       /* Clear RxISR function pointer */
 4203:Drivers/STM32G4xx_HAL_Driver/Src/stm32g4xx_hal_uart.c ****       huart->RxISR = NULL;
-ARM GAS  /tmp/ccybtFir.s 			page 246
+ARM GAS  /tmp/ccxlBB2Q.s 			page 246
 
 
 4204:Drivers/STM32G4xx_HAL_Driver/Src/stm32g4xx_hal_uart.c **** 
@@ -14758,7 +14758,7 @@ ARM GAS  /tmp/ccybtFir.s 			page 1
 4258:Drivers/STM32G4xx_HAL_Driver/Src/stm32g4xx_hal_uart.c ****     __HAL_UART_SEND_REQ(huart, UART_RXDATA_FLUSH_REQUEST);
  6635              		.loc 1 4258 5 is_stmt 1 view .LVU2232
  6636 000e 0268     		ldr	r2, [r0]
-ARM GAS  /tmp/ccybtFir.s 			page 247
+ARM GAS  /tmp/ccxlBB2Q.s 			page 247
 
 
  6637 0010 9369     		ldr	r3, [r2, #24]
@@ -14818,7 +14818,7 @@ ARM GAS  /tmp/ccybtFir.s 			page 1
  6676 0034 9BB2     		uxth	r3, r3
  6677 0036 A0F85E30 		strh	r3, [r0, #94]	@ movhi
 4191:Drivers/STM32G4xx_HAL_Driver/Src/stm32g4xx_hal_uart.c ****     {
-ARM GAS  /tmp/ccybtFir.s 			page 248
+ARM GAS  /tmp/ccxlBB2Q.s 			page 248
 
 
  6678              		.loc 1 4191 5 is_stmt 1 view .LVU2248
@@ -14878,7 +14878,7 @@ ARM GAS  /tmp/ccybtFir.s 			page 1
  6718              	.LBB835:
 1204:Drivers/CMSIS/Include/cmsis_gcc.h **** 
  6719              		.loc 2 1204 4 view .LVU2263
-ARM GAS  /tmp/ccybtFir.s 			page 249
+ARM GAS  /tmp/ccxlBB2Q.s 			page 249
 
 
 1206:Drivers/CMSIS/Include/cmsis_gcc.h ****    return(result);
@@ -14938,7 +14938,7 @@ ARM GAS  /tmp/ccybtFir.s 			page 1
  6761              		.loc 2 1156 4 is_stmt 1 view .LVU2278
 1156:Drivers/CMSIS/Include/cmsis_gcc.h **** }
  6762              		.loc 2 1156 4 is_stmt 0 view .LVU2279
-ARM GAS  /tmp/ccybtFir.s 			page 250
+ARM GAS  /tmp/ccxlBB2Q.s 			page 250
 
 
  6763              		.thumb
@@ -14998,7 +14998,7 @@ ARM GAS  /tmp/ccybtFir.s 			page 1
  6804 0074 0023     		movs	r3, #0
  6805 0076 4367     		str	r3, [r0, #116]
 4206:Drivers/STM32G4xx_HAL_Driver/Src/stm32g4xx_hal_uart.c **** 
-ARM GAS  /tmp/ccybtFir.s 			page 251
+ARM GAS  /tmp/ccxlBB2Q.s 			page 251
 
 
  6806              		.loc 1 4206 7 is_stmt 1 view .LVU2295
@@ -15058,7 +15058,7 @@ ARM GAS  /tmp/ccybtFir.s 			page 1
  6844              		.syntax unified
  6845              	.LBE843:
  6846              	.LBE842:
-ARM GAS  /tmp/ccybtFir.s 			page 252
+ARM GAS  /tmp/ccxlBB2Q.s 			page 252
 
 
 4214:Drivers/STM32G4xx_HAL_Driver/Src/stm32g4xx_hal_uart.c ****         }
@@ -15118,7 +15118,7 @@ ARM GAS  /tmp/ccybtFir.s 			page 1
  6887              		.loc 1 4226 9 is_stmt 1 discriminator 1 view .LVU2327
  6888              	.LBB846:
 4226:Drivers/STM32G4xx_HAL_Driver/Src/stm32g4xx_hal_uart.c **** 
-ARM GAS  /tmp/ccybtFir.s 			page 253
+ARM GAS  /tmp/ccxlBB2Q.s 			page 253
 
 
  6889              		.loc 1 4226 9 discriminator 1 view .LVU2328
@@ -15178,7 +15178,7 @@ ARM GAS  /tmp/ccybtFir.s 			page 1
  6931              	.LBE849:
 4226:Drivers/STM32G4xx_HAL_Driver/Src/stm32g4xx_hal_uart.c **** 
  6932              		.loc 1 4226 9 discriminator 1 view .LVU2343
-ARM GAS  /tmp/ccybtFir.s 			page 254
+ARM GAS  /tmp/ccxlBB2Q.s 			page 254
 
 
  6933 00b4 0029     		cmp	r1, #0
@@ -15238,7 +15238,7 @@ ARM GAS  /tmp/ccybtFir.s 			page 1
 4261:Drivers/STM32G4xx_HAL_Driver/Src/stm32g4xx_hal_uart.c **** 
 4262:Drivers/STM32G4xx_HAL_Driver/Src/stm32g4xx_hal_uart.c **** /**
 4263:Drivers/STM32G4xx_HAL_Driver/Src/stm32g4xx_hal_uart.c ****   * @brief RX interrupt handler for 9 bits data word length .
-ARM GAS  /tmp/ccybtFir.s 			page 255
+ARM GAS  /tmp/ccxlBB2Q.s 			page 255
 
 
 4264:Drivers/STM32G4xx_HAL_Driver/Src/stm32g4xx_hal_uart.c ****   * @note   Function is called under interruption only, once
@@ -15298,7 +15298,7 @@ ARM GAS  /tmp/ccybtFir.s 			page 1
 4296:Drivers/STM32G4xx_HAL_Driver/Src/stm32g4xx_hal_uart.c ****       huart->RxISR = NULL;
 4297:Drivers/STM32G4xx_HAL_Driver/Src/stm32g4xx_hal_uart.c **** 
 4298:Drivers/STM32G4xx_HAL_Driver/Src/stm32g4xx_hal_uart.c ****       /* Initialize type of RxEvent to Transfer Complete */
-ARM GAS  /tmp/ccybtFir.s 			page 256
+ARM GAS  /tmp/ccxlBB2Q.s 			page 256
 
 
 4299:Drivers/STM32G4xx_HAL_Driver/Src/stm32g4xx_hal_uart.c ****       huart->RxEventType = HAL_UART_RXEVENT_TC;
@@ -15358,7 +15358,7 @@ ARM GAS  /tmp/ccybtFir.s 			page 1
  7002 000e 0268     		ldr	r2, [r0]
  7003              	.LVL633:
  7004              		.loc 1 4351 5 is_stmt 0 view .LVU2364
-ARM GAS  /tmp/ccybtFir.s 			page 257
+ARM GAS  /tmp/ccxlBB2Q.s 			page 257
 
 
  7005 0010 9369     		ldr	r3, [r2, #24]
@@ -15418,7 +15418,7 @@ ARM GAS  /tmp/ccybtFir.s 			page 1
  7043              		.loc 1 4284 5 is_stmt 1 view .LVU2379
 4284:Drivers/STM32G4xx_HAL_Driver/Src/stm32g4xx_hal_uart.c ****     {
  7044              		.loc 1 4284 14 is_stmt 0 view .LVU2380
-ARM GAS  /tmp/ccybtFir.s 			page 258
+ARM GAS  /tmp/ccxlBB2Q.s 			page 258
 
 
  7045 0038 B0F85E30 		ldrh	r3, [r0, #94]
@@ -15478,7 +15478,7 @@ ARM GAS  /tmp/ccybtFir.s 			page 1
 1206:Drivers/CMSIS/Include/cmsis_gcc.h ****    return(result);
  7085              		.loc 2 1206 4 view .LVU2395
  7086              		.syntax unified
-ARM GAS  /tmp/ccybtFir.s 			page 259
+ARM GAS  /tmp/ccxlBB2Q.s 			page 259
 
 
  7087              	@ 1206 "Drivers/CMSIS/Include/cmsis_gcc.h" 1
@@ -15538,7 +15538,7 @@ ARM GAS  /tmp/ccybtFir.s 			page 1
  7128              		.thumb
  7129              		.syntax unified
  7130              	.LBE858:
-ARM GAS  /tmp/ccybtFir.s 			page 260
+ARM GAS  /tmp/ccxlBB2Q.s 			page 260
 
 
  7131              	.LBE857:
@@ -15598,7 +15598,7 @@ ARM GAS  /tmp/ccybtFir.s 			page 1
  7171              		.loc 1 4299 7 is_stmt 1 view .LVU2426
 4299:Drivers/STM32G4xx_HAL_Driver/Src/stm32g4xx_hal_uart.c **** 
  7172              		.loc 1 4299 26 is_stmt 0 view .LVU2427
-ARM GAS  /tmp/ccybtFir.s 			page 261
+ARM GAS  /tmp/ccxlBB2Q.s 			page 261
 
 
  7173 0076 0367     		str	r3, [r0, #112]
@@ -15658,7 +15658,7 @@ ARM GAS  /tmp/ccybtFir.s 			page 1
 4307:Drivers/STM32G4xx_HAL_Driver/Src/stm32g4xx_hal_uart.c ****         }
  7212              		.loc 1 4307 11 discriminator 1 view .LVU2443
  7213 008e 23F08063 		bic	r3, r3, #67108864
-ARM GAS  /tmp/ccybtFir.s 			page 262
+ARM GAS  /tmp/ccxlBB2Q.s 			page 262
 
 
  7214              	.LVL654:
@@ -15718,7 +15718,7 @@ ARM GAS  /tmp/ccybtFir.s 			page 1
  7254              		.loc 1 4319 9 discriminator 1 view .LVU2459
 4319:Drivers/STM32G4xx_HAL_Driver/Src/stm32g4xx_hal_uart.c **** 
  7255              		.loc 1 4319 9 discriminator 1 view .LVU2460
-ARM GAS  /tmp/ccybtFir.s 			page 263
+ARM GAS  /tmp/ccxlBB2Q.s 			page 263
 
 
 4319:Drivers/STM32G4xx_HAL_Driver/Src/stm32g4xx_hal_uart.c **** 
@@ -15778,7 +15778,7 @@ ARM GAS  /tmp/ccybtFir.s 			page 1
  7298 00b2 0029     		cmp	r1, #0
  7299 00b4 F6D1     		bne	.L303
  7300              	.LBE866:
-ARM GAS  /tmp/ccybtFir.s 			page 264
+ARM GAS  /tmp/ccxlBB2Q.s 			page 264
 
 
 4319:Drivers/STM32G4xx_HAL_Driver/Src/stm32g4xx_hal_uart.c **** 
@@ -15838,7 +15838,7 @@ ARM GAS  /tmp/ccybtFir.s 			page 1
 4357:Drivers/STM32G4xx_HAL_Driver/Src/stm32g4xx_hal_uart.c ****   * @note   Function is called under interruption only, once
 4358:Drivers/STM32G4xx_HAL_Driver/Src/stm32g4xx_hal_uart.c ****   *         interruptions have been enabled by HAL_UART_Receive_IT()
 4359:Drivers/STM32G4xx_HAL_Driver/Src/stm32g4xx_hal_uart.c ****   * @param huart UART handle.
-ARM GAS  /tmp/ccybtFir.s 			page 265
+ARM GAS  /tmp/ccxlBB2Q.s 			page 265
 
 
 4360:Drivers/STM32G4xx_HAL_Driver/Src/stm32g4xx_hal_uart.c ****   * @retval None
@@ -15898,7 +15898,7 @@ ARM GAS  /tmp/ccybtFir.s 			page 1
  7384              		.loc 1 4373 6 view .LVU2501
  7385 0018 222A     		cmp	r2, #34
  7386 001a 05D0     		beq	.L329
-ARM GAS  /tmp/ccybtFir.s 			page 266
+ARM GAS  /tmp/ccxlBB2Q.s 			page 266
 
 
 4374:Drivers/STM32G4xx_HAL_Driver/Src/stm32g4xx_hal_uart.c ****   {
@@ -15958,7 +15958,7 @@ ARM GAS  /tmp/ccybtFir.s 			page 1
 4428:Drivers/STM32G4xx_HAL_Driver/Src/stm32g4xx_hal_uart.c ****       {
 4429:Drivers/STM32G4xx_HAL_Driver/Src/stm32g4xx_hal_uart.c ****         /* Disable the UART Parity Error Interrupt and RXFT interrupt*/
 4430:Drivers/STM32G4xx_HAL_Driver/Src/stm32g4xx_hal_uart.c ****         ATOMIC_CLEAR_BIT(huart->Instance->CR1, USART_CR1_PEIE);
-ARM GAS  /tmp/ccybtFir.s 			page 267
+ARM GAS  /tmp/ccxlBB2Q.s 			page 267
 
 
 4431:Drivers/STM32G4xx_HAL_Driver/Src/stm32g4xx_hal_uart.c **** 
@@ -16018,7 +16018,7 @@ ARM GAS  /tmp/ccybtFir.s 			page 1
 4485:Drivers/STM32G4xx_HAL_Driver/Src/stm32g4xx_hal_uart.c **** #else
 4486:Drivers/STM32G4xx_HAL_Driver/Src/stm32g4xx_hal_uart.c ****           /*Call legacy weak Rx complete callback*/
 4487:Drivers/STM32G4xx_HAL_Driver/Src/stm32g4xx_hal_uart.c ****           HAL_UART_RxCpltCallback(huart);
-ARM GAS  /tmp/ccybtFir.s 			page 268
+ARM GAS  /tmp/ccxlBB2Q.s 			page 268
 
 
 4488:Drivers/STM32G4xx_HAL_Driver/Src/stm32g4xx_hal_uart.c **** #endif /* USE_HAL_UART_REGISTER_CALLBACKS */
@@ -16078,7 +16078,7 @@ ARM GAS  /tmp/ccybtFir.s 			page 1
 4412:Drivers/STM32G4xx_HAL_Driver/Src/stm32g4xx_hal_uart.c ****         {
  7408              		.loc 1 4412 9 is_stmt 1 view .LVU2509
 4412:Drivers/STM32G4xx_HAL_Driver/Src/stm32g4xx_hal_uart.c ****         {
-ARM GAS  /tmp/ccybtFir.s 			page 269
+ARM GAS  /tmp/ccxlBB2Q.s 			page 269
 
 
  7409              		.loc 1 4412 18 is_stmt 0 view .LVU2510
@@ -16138,7 +16138,7 @@ ARM GAS  /tmp/ccybtFir.s 			page 1
 4380:Drivers/STM32G4xx_HAL_Driver/Src/stm32g4xx_hal_uart.c ****       huart->RxXferCount--;
  7448              		.loc 1 4380 24 view .LVU2526
  7449 005e 0133     		adds	r3, r3, #1
-ARM GAS  /tmp/ccybtFir.s 			page 270
+ARM GAS  /tmp/ccxlBB2Q.s 			page 270
 
 
  7450 0060 A365     		str	r3, [r4, #88]
@@ -16198,7 +16198,7 @@ ARM GAS  /tmp/ccybtFir.s 			page 1
  7487              		.loc 1 4396 12 is_stmt 0 view .LVU2543
  7488 0096 19F0020F 		tst	r9, #2
  7489 009a 0BD0     		beq	.L314
-ARM GAS  /tmp/ccybtFir.s 			page 271
+ARM GAS  /tmp/ccxlBB2Q.s 			page 271
 
 
 4396:Drivers/STM32G4xx_HAL_Driver/Src/stm32g4xx_hal_uart.c ****         {
@@ -16258,7 +16258,7 @@ ARM GAS  /tmp/ccybtFir.s 			page 1
  7529 00da 0023     		movs	r3, #0
  7530 00dc C4F89030 		str	r3, [r4, #144]
  7531 00e0 AAE7     		b	.L312
-ARM GAS  /tmp/ccybtFir.s 			page 272
+ARM GAS  /tmp/ccxlBB2Q.s 			page 272
 
 
  7532              	.L316:
@@ -16318,7 +16318,7 @@ ARM GAS  /tmp/ccybtFir.s 			page 1
  7572              		.loc 2 1207 4 view .LVU2573
  7573              		.loc 2 1207 4 is_stmt 0 view .LVU2574
  7574              		.thumb
-ARM GAS  /tmp/ccybtFir.s 			page 273
+ARM GAS  /tmp/ccxlBB2Q.s 			page 273
 
 
  7575              		.syntax unified
@@ -16378,7 +16378,7 @@ ARM GAS  /tmp/ccybtFir.s 			page 1
  7615 0102 23F00103 		bic	r3, r3, #1
  7616              	.LVL687:
 4434:Drivers/STM32G4xx_HAL_Driver/Src/stm32g4xx_hal_uart.c **** 
-ARM GAS  /tmp/ccybtFir.s 			page 274
+ARM GAS  /tmp/ccxlBB2Q.s 			page 274
 
 
  7617              		.loc 1 4434 9 is_stmt 1 discriminator 1 view .LVU2589
@@ -16438,7 +16438,7 @@ ARM GAS  /tmp/ccybtFir.s 			page 1
 4445:Drivers/STM32G4xx_HAL_Driver/Src/stm32g4xx_hal_uart.c ****         {
  7657              		.loc 1 4445 15 is_stmt 0 view .LVU2606
  7658 011c 2368     		ldr	r3, [r4]
-ARM GAS  /tmp/ccybtFir.s 			page 275
+ARM GAS  /tmp/ccxlBB2Q.s 			page 275
 
 
 4445:Drivers/STM32G4xx_HAL_Driver/Src/stm32g4xx_hal_uart.c ****         {
@@ -16498,7 +16498,7 @@ ARM GAS  /tmp/ccybtFir.s 			page 1
  7698              	.LBB884:
  7699              	.LBI884:
 1202:Drivers/CMSIS/Include/cmsis_gcc.h **** {
-ARM GAS  /tmp/ccybtFir.s 			page 276
+ARM GAS  /tmp/ccxlBB2Q.s 			page 276
 
 
  7700              		.loc 2 1202 31 view .LVU2622
@@ -16558,7 +16558,7 @@ ARM GAS  /tmp/ccybtFir.s 			page 1
  7740              	.LVL696:
  7741              	.LBB887:
  7742              	.LBI887:
-ARM GAS  /tmp/ccybtFir.s 			page 277
+ARM GAS  /tmp/ccxlBB2Q.s 			page 277
 
 
 1151:Drivers/CMSIS/Include/cmsis_gcc.h **** {
@@ -16618,7 +16618,7 @@ ARM GAS  /tmp/ccybtFir.s 			page 1
  7784              		.loc 1 4465 11 view .LVU2653
 4465:Drivers/STM32G4xx_HAL_Driver/Src/stm32g4xx_hal_uart.c ****           {
  7785              		.loc 1 4465 15 is_stmt 0 view .LVU2654
-ARM GAS  /tmp/ccybtFir.s 			page 278
+ARM GAS  /tmp/ccxlBB2Q.s 			page 278
 
 
  7786 015a 2368     		ldr	r3, [r4]
@@ -16678,7 +16678,7 @@ ARM GAS  /tmp/ccybtFir.s 			page 1
  7826              	.LBB892:
  7827              	.LBI892:
 1151:Drivers/CMSIS/Include/cmsis_gcc.h **** {
-ARM GAS  /tmp/ccybtFir.s 			page 279
+ARM GAS  /tmp/ccxlBB2Q.s 			page 279
 
 
  7828              		.loc 2 1151 31 view .LVU2669
@@ -16738,7 +16738,7 @@ ARM GAS  /tmp/ccybtFir.s 			page 1
  7870              		.loc 1 4502 7 discriminator 1 view .LVU2683
  7871 019c 0029     		cmp	r1, #0
  7872 019e F3D1     		bne	.L326
-ARM GAS  /tmp/ccybtFir.s 			page 280
+ARM GAS  /tmp/ccxlBB2Q.s 			page 280
 
 
  7873              	.LBE891:
@@ -16798,7 +16798,7 @@ ARM GAS  /tmp/ccybtFir.s 			page 1
 1202:Drivers/CMSIS/Include/cmsis_gcc.h **** {
  7912              		.loc 2 1202 31 view .LVU2699
  7913              	.LBB900:
-ARM GAS  /tmp/ccybtFir.s 			page 281
+ARM GAS  /tmp/ccxlBB2Q.s 			page 281
 
 
 1204:Drivers/CMSIS/Include/cmsis_gcc.h **** 
@@ -16858,7 +16858,7 @@ ARM GAS  /tmp/ccybtFir.s 			page 1
 4525:Drivers/STM32G4xx_HAL_Driver/Src/stm32g4xx_hal_uart.c **** static void UART_RxISR_16BIT_FIFOEN(UART_HandleTypeDef *huart)
 4526:Drivers/STM32G4xx_HAL_Driver/Src/stm32g4xx_hal_uart.c **** {
  7957              		.loc 1 4526 1 view -0
-ARM GAS  /tmp/ccybtFir.s 			page 282
+ARM GAS  /tmp/ccxlBB2Q.s 			page 282
 
 
  7958              		.cfi_startproc
@@ -16918,7 +16918,7 @@ ARM GAS  /tmp/ccybtFir.s 			page 1
 4538:Drivers/STM32G4xx_HAL_Driver/Src/stm32g4xx_hal_uart.c ****   {
 4539:Drivers/STM32G4xx_HAL_Driver/Src/stm32g4xx_hal_uart.c ****     nb_rx_data = huart->NbRxDataToProcess;
 4540:Drivers/STM32G4xx_HAL_Driver/Src/stm32g4xx_hal_uart.c ****     while ((nb_rx_data > 0U) && ((isrflags & USART_ISR_RXNE_RXFNE) != 0U))
-ARM GAS  /tmp/ccybtFir.s 			page 283
+ARM GAS  /tmp/ccxlBB2Q.s 			page 283
 
 
 4541:Drivers/STM32G4xx_HAL_Driver/Src/stm32g4xx_hal_uart.c ****     {
@@ -16978,7 +16978,7 @@ ARM GAS  /tmp/ccybtFir.s 			page 1
 4595:Drivers/STM32G4xx_HAL_Driver/Src/stm32g4xx_hal_uart.c ****         ATOMIC_CLEAR_BIT(huart->Instance->CR1, USART_CR1_PEIE);
 4596:Drivers/STM32G4xx_HAL_Driver/Src/stm32g4xx_hal_uart.c **** 
 4597:Drivers/STM32G4xx_HAL_Driver/Src/stm32g4xx_hal_uart.c ****         /* Disable the UART Error Interrupt: (Frame error, noise error, overrun error)
-ARM GAS  /tmp/ccybtFir.s 			page 284
+ARM GAS  /tmp/ccxlBB2Q.s 			page 284
 
 
 4598:Drivers/STM32G4xx_HAL_Driver/Src/stm32g4xx_hal_uart.c ****            and RX FIFO Threshold interrupt */
@@ -17038,7 +17038,7 @@ ARM GAS  /tmp/ccybtFir.s 			page 1
 4652:Drivers/STM32G4xx_HAL_Driver/Src/stm32g4xx_hal_uart.c ****           HAL_UART_RxCpltCallback(huart);
 4653:Drivers/STM32G4xx_HAL_Driver/Src/stm32g4xx_hal_uart.c **** #endif /* USE_HAL_UART_REGISTER_CALLBACKS */
 4654:Drivers/STM32G4xx_HAL_Driver/Src/stm32g4xx_hal_uart.c ****         }
-ARM GAS  /tmp/ccybtFir.s 			page 285
+ARM GAS  /tmp/ccxlBB2Q.s 			page 285
 
 
 4655:Drivers/STM32G4xx_HAL_Driver/Src/stm32g4xx_hal_uart.c ****         break;
@@ -17098,7 +17098,7 @@ ARM GAS  /tmp/ccybtFir.s 			page 1
 4577:Drivers/STM32G4xx_HAL_Driver/Src/stm32g4xx_hal_uart.c ****         {
  8023              		.loc 1 4577 18 is_stmt 0 view .LVU2733
  8024 0030 D4F89030 		ldr	r3, [r4, #144]
-ARM GAS  /tmp/ccybtFir.s 			page 286
+ARM GAS  /tmp/ccxlBB2Q.s 			page 286
 
 
 4577:Drivers/STM32G4xx_HAL_Driver/Src/stm32g4xx_hal_uart.c ****         {
@@ -17158,7 +17158,7 @@ ARM GAS  /tmp/ccybtFir.s 			page 1
  8063 005c 0233     		adds	r3, r3, #2
  8064 005e A365     		str	r3, [r4, #88]
 4546:Drivers/STM32G4xx_HAL_Driver/Src/stm32g4xx_hal_uart.c ****       isrflags = READ_REG(huart->Instance->ISR);
-ARM GAS  /tmp/ccybtFir.s 			page 287
+ARM GAS  /tmp/ccxlBB2Q.s 			page 287
 
 
  8065              		.loc 1 4546 7 is_stmt 1 view .LVU2750
@@ -17218,7 +17218,7 @@ ARM GAS  /tmp/ccybtFir.s 			page 1
 4561:Drivers/STM32G4xx_HAL_Driver/Src/stm32g4xx_hal_uart.c ****         {
  8103              		.loc 1 4561 12 is_stmt 0 view .LVU2767
  8104 0094 19F0020F 		tst	r9, #2
-ARM GAS  /tmp/ccybtFir.s 			page 288
+ARM GAS  /tmp/ccxlBB2Q.s 			page 288
 
 
  8105 0098 0BD0     		beq	.L338
@@ -17278,7 +17278,7 @@ ARM GAS  /tmp/ccybtFir.s 			page 1
  8144              		.loc 1 4588 28 is_stmt 0 view .LVU2782
  8145 00d8 0023     		movs	r3, #0
  8146 00da C4F89030 		str	r3, [r4, #144]
-ARM GAS  /tmp/ccybtFir.s 			page 289
+ARM GAS  /tmp/ccxlBB2Q.s 			page 289
 
 
  8147 00de ABE7     		b	.L336
@@ -17338,7 +17338,7 @@ ARM GAS  /tmp/ccybtFir.s 			page 1
  8187              	.LVL736:
  8188              		.loc 2 1207 4 view .LVU2797
  8189              		.loc 2 1207 4 is_stmt 0 view .LVU2798
-ARM GAS  /tmp/ccybtFir.s 			page 290
+ARM GAS  /tmp/ccxlBB2Q.s 			page 290
 
 
  8190              		.thumb
@@ -17398,7 +17398,7 @@ ARM GAS  /tmp/ccybtFir.s 			page 1
  8230 00fc 23F08053 		bic	r3, r3, #268435456
  8231 0100 23F00103 		bic	r3, r3, #1
  8232              	.LVL741:
-ARM GAS  /tmp/ccybtFir.s 			page 291
+ARM GAS  /tmp/ccxlBB2Q.s 			page 291
 
 
 4599:Drivers/STM32G4xx_HAL_Driver/Src/stm32g4xx_hal_uart.c **** 
@@ -17458,7 +17458,7 @@ ARM GAS  /tmp/ccybtFir.s 			page 1
  8272              		.loc 1 4610 9 is_stmt 1 view .LVU2829
 4610:Drivers/STM32G4xx_HAL_Driver/Src/stm32g4xx_hal_uart.c ****         {
  8273              		.loc 1 4610 15 is_stmt 0 view .LVU2830
-ARM GAS  /tmp/ccybtFir.s 			page 292
+ARM GAS  /tmp/ccxlBB2Q.s 			page 292
 
 
  8274 011a 2368     		ldr	r3, [r4]
@@ -17518,7 +17518,7 @@ ARM GAS  /tmp/ccybtFir.s 			page 1
  8313              		.loc 1 4616 13 is_stmt 1 discriminator 1 view .LVU2845
  8314              	.LBB914:
  8315              	.LBI914:
-ARM GAS  /tmp/ccybtFir.s 			page 293
+ARM GAS  /tmp/ccxlBB2Q.s 			page 293
 
 
 1202:Drivers/CMSIS/Include/cmsis_gcc.h **** {
@@ -17578,7 +17578,7 @@ ARM GAS  /tmp/ccybtFir.s 			page 1
  8355 0146 2268     		ldr	r2, [r4]
  8356              	.LVL750:
  8357              	.LBB917:
-ARM GAS  /tmp/ccybtFir.s 			page 294
+ARM GAS  /tmp/ccxlBB2Q.s 			page 294
 
 
  8358              	.LBI917:
@@ -17638,7 +17638,7 @@ ARM GAS  /tmp/ccybtFir.s 			page 1
 4630:Drivers/STM32G4xx_HAL_Driver/Src/stm32g4xx_hal_uart.c ****           {
  8400              		.loc 1 4630 11 view .LVU2877
 4630:Drivers/STM32G4xx_HAL_Driver/Src/stm32g4xx_hal_uart.c ****           {
-ARM GAS  /tmp/ccybtFir.s 			page 295
+ARM GAS  /tmp/ccxlBB2Q.s 			page 295
 
 
  8401              		.loc 1 4630 15 is_stmt 0 view .LVU2878
@@ -17698,7 +17698,7 @@ ARM GAS  /tmp/ccybtFir.s 			page 1
  8441              	.LVL758:
  8442              	.LBB922:
  8443              	.LBI922:
-ARM GAS  /tmp/ccybtFir.s 			page 296
+ARM GAS  /tmp/ccxlBB2Q.s 			page 296
 
 
 1151:Drivers/CMSIS/Include/cmsis_gcc.h **** {
@@ -17758,7 +17758,7 @@ ARM GAS  /tmp/ccybtFir.s 			page 1
 4667:Drivers/STM32G4xx_HAL_Driver/Src/stm32g4xx_hal_uart.c **** 
  8486              		.loc 1 4667 7 discriminator 1 view .LVU2907
  8487 019a 0029     		cmp	r1, #0
-ARM GAS  /tmp/ccybtFir.s 			page 297
+ARM GAS  /tmp/ccxlBB2Q.s 			page 297
 
 
  8488 019c F3D1     		bne	.L350
@@ -17818,7 +17818,7 @@ ARM GAS  /tmp/ccybtFir.s 			page 1
  8527              	.LBI929:
 1202:Drivers/CMSIS/Include/cmsis_gcc.h **** {
  8528              		.loc 2 1202 31 view .LVU2923
-ARM GAS  /tmp/ccybtFir.s 			page 298
+ARM GAS  /tmp/ccxlBB2Q.s 			page 298
 
 
  8529              	.LBB930:
@@ -17878,7 +17878,7 @@ ARM GAS  /tmp/ccybtFir.s 			page 1
  8578 0000 08B5     		push	{r3, lr}
  8579              	.LCFI29:
  8580              		.cfi_def_cfa_offset 8
-ARM GAS  /tmp/ccybtFir.s 			page 299
+ARM GAS  /tmp/ccxlBB2Q.s 			page 299
 
 
  8581              		.cfi_offset 3, -8
@@ -17938,7 +17938,7 @@ ARM GAS  /tmp/ccybtFir.s 			page 1
  8624              	.LVL776:
  8625              	.LFB185:
 3678:Drivers/STM32G4xx_HAL_Driver/Src/stm32g4xx_hal_uart.c ****   UART_HandleTypeDef *huart = (UART_HandleTypeDef *)(hdma->Parent);
-ARM GAS  /tmp/ccybtFir.s 			page 300
+ARM GAS  /tmp/ccxlBB2Q.s 			page 300
 
 
  8626              		.loc 1 3678 1 is_stmt 1 view -0
@@ -17998,7 +17998,7 @@ ARM GAS  /tmp/ccybtFir.s 			page 1
 1153:Drivers/CMSIS/Include/cmsis_gcc.h **** 
  8666              		.loc 2 1153 5 view .LVU2961
 1155:Drivers/CMSIS/Include/cmsis_gcc.h ****    return(result);
-ARM GAS  /tmp/ccybtFir.s 			page 301
+ARM GAS  /tmp/ccxlBB2Q.s 			page 301
 
 
  8667              		.loc 2 1155 4 view .LVU2962
@@ -18058,7 +18058,7 @@ ARM GAS  /tmp/ccybtFir.s 			page 1
 3688:Drivers/STM32G4xx_HAL_Driver/Src/stm32g4xx_hal_uart.c **** 
  8710              		.loc 1 3688 5 discriminator 1 view .LVU2976
 3688:Drivers/STM32G4xx_HAL_Driver/Src/stm32g4xx_hal_uart.c **** 
-ARM GAS  /tmp/ccybtFir.s 			page 302
+ARM GAS  /tmp/ccxlBB2Q.s 			page 302
 
 
  8711              		.loc 1 3688 5 discriminator 1 view .LVU2977
@@ -18118,7 +18118,7 @@ ARM GAS  /tmp/ccybtFir.s 			page 1
  8752              	.LVL789:
  8753              		.loc 2 1207 4 is_stmt 1 view .LVU2991
  8754              		.loc 2 1207 4 is_stmt 0 view .LVU2992
-ARM GAS  /tmp/ccybtFir.s 			page 303
+ARM GAS  /tmp/ccxlBB2Q.s 			page 303
 
 
  8755              		.thumb
@@ -18178,7 +18178,7 @@ ARM GAS  /tmp/ccybtFir.s 			page 1
  8795 004a 23F04003 		bic	r3, r3, #64
  8796              	.LVL794:
 3692:Drivers/STM32G4xx_HAL_Driver/Src/stm32g4xx_hal_uart.c **** 
-ARM GAS  /tmp/ccybtFir.s 			page 304
+ARM GAS  /tmp/ccxlBB2Q.s 			page 304
 
 
  8797              		.loc 1 3692 5 is_stmt 1 discriminator 1 view .LVU3007
@@ -18238,7 +18238,7 @@ ARM GAS  /tmp/ccybtFir.s 			page 1
 3706:Drivers/STM32G4xx_HAL_Driver/Src/stm32g4xx_hal_uart.c **** 
  8838              		.loc 1 3706 3 view .LVU3023
 3706:Drivers/STM32G4xx_HAL_Driver/Src/stm32g4xx_hal_uart.c **** 
-ARM GAS  /tmp/ccybtFir.s 			page 305
+ARM GAS  /tmp/ccxlBB2Q.s 			page 305
 
 
  8839              		.loc 1 3706 22 is_stmt 0 view .LVU3024
@@ -18298,7 +18298,7 @@ ARM GAS  /tmp/ccybtFir.s 			page 1
  8879              	.LBE947:
 3700:Drivers/STM32G4xx_HAL_Driver/Src/stm32g4xx_hal_uart.c ****     }
  8880              		.loc 1 3700 7 discriminator 1 view .LVU3039
-ARM GAS  /tmp/ccybtFir.s 			page 306
+ARM GAS  /tmp/ccxlBB2Q.s 			page 306
 
 
  8881 007a 23F01003 		bic	r3, r3, #16
@@ -18358,7 +18358,7 @@ ARM GAS  /tmp/ccybtFir.s 			page 1
  8928              		.loc 1 2732 1 is_stmt 1 view -0
  8929              		.cfi_startproc
  8930              		@ args = 0, pretend = 0, frame = 0
-ARM GAS  /tmp/ccybtFir.s 			page 307
+ARM GAS  /tmp/ccxlBB2Q.s 			page 307
 
 
  8931              		@ frame_needed = 0, uses_anonymous_args = 0
@@ -18418,7 +18418,7 @@ ARM GAS  /tmp/ccybtFir.s 			page 1
  8976              		.loc 1 2748 6 view .LVU3061
  8977 0002 114A     		ldr	r2, .L381
  8978 0004 9342     		cmp	r3, r2
-ARM GAS  /tmp/ccybtFir.s 			page 308
+ARM GAS  /tmp/ccxlBB2Q.s 			page 308
 
 
  8979 0006 19D0     		beq	.L378
@@ -18478,7 +18478,7 @@ ARM GAS  /tmp/ccybtFir.s 			page 1
 2765:Drivers/STM32G4xx_HAL_Driver/Src/stm32g4xx_hal_uart.c ****     }
  9016              		.loc 1 2765 14 view .LVU3079
  9017 003a 7047     		bx	lr
-ARM GAS  /tmp/ccybtFir.s 			page 309
+ARM GAS  /tmp/ccxlBB2Q.s 			page 309
 
 
  9018              	.LVL811:
@@ -18538,7 +18538,7 @@ ARM GAS  /tmp/ccybtFir.s 			page 1
  9064              		.loc 1 2786 6 view .LVU3089
  9065 0002 114A     		ldr	r2, .L388
  9066 0004 9342     		cmp	r3, r2
-ARM GAS  /tmp/ccybtFir.s 			page 310
+ARM GAS  /tmp/ccxlBB2Q.s 			page 310
 
 
  9067 0006 19D0     		beq	.L385
@@ -18598,7 +18598,7 @@ ARM GAS  /tmp/ccybtFir.s 			page 1
 2803:Drivers/STM32G4xx_HAL_Driver/Src/stm32g4xx_hal_uart.c ****     }
  9104              		.loc 1 2803 14 view .LVU3107
  9105 003a 7047     		bx	lr
-ARM GAS  /tmp/ccybtFir.s 			page 311
+ARM GAS  /tmp/ccxlBB2Q.s 			page 311
 
 
  9106              	.LVL819:
@@ -18658,7 +18658,7 @@ ARM GAS  /tmp/ccybtFir.s 			page 1
 2865:Drivers/STM32G4xx_HAL_Driver/Src/stm32g4xx_hal_uart.c **** 
  9154              		.loc 1 2865 1 is_stmt 0 view .LVU3116
  9155 000a 7047     		bx	lr
-ARM GAS  /tmp/ccybtFir.s 			page 312
+ARM GAS  /tmp/ccxlBB2Q.s 			page 312
 
 
  9156              		.cfi_endproc
@@ -18718,7 +18718,7 @@ ARM GAS  /tmp/ccybtFir.s 			page 1
  9199              		.loc 2 1153 5 view .LVU3129
 1155:Drivers/CMSIS/Include/cmsis_gcc.h ****    return(result);
  9200              		.loc 2 1155 4 view .LVU3130
-ARM GAS  /tmp/ccybtFir.s 			page 313
+ARM GAS  /tmp/ccxlBB2Q.s 			page 313
 
 
  9201              		.syntax unified
@@ -18778,7 +18778,7 @@ ARM GAS  /tmp/ccybtFir.s 			page 1
  9243              		.loc 1 2881 3 discriminator 1 view .LVU3144
 2881:Drivers/STM32G4xx_HAL_Driver/Src/stm32g4xx_hal_uart.c **** 
  9244              		.loc 1 2881 3 discriminator 1 view .LVU3145
-ARM GAS  /tmp/ccybtFir.s 			page 314
+ARM GAS  /tmp/ccxlBB2Q.s 			page 314
 
 
 2881:Drivers/STM32G4xx_HAL_Driver/Src/stm32g4xx_hal_uart.c **** 
@@ -18838,7 +18838,7 @@ ARM GAS  /tmp/ccybtFir.s 			page 1
  9287 0034 0029     		cmp	r1, #0
  9288 0036 F6D1     		bne	.L394
  9289              	.LBE956:
-ARM GAS  /tmp/ccybtFir.s 			page 315
+ARM GAS  /tmp/ccxlBB2Q.s 			page 315
 
 
 2881:Drivers/STM32G4xx_HAL_Driver/Src/stm32g4xx_hal_uart.c **** 
@@ -18898,7 +18898,7 @@ ARM GAS  /tmp/ccybtFir.s 			page 1
 2897:Drivers/STM32G4xx_HAL_Driver/Src/stm32g4xx_hal_uart.c ****   huart->gState = HAL_UART_STATE_BUSY;
  9333              		.loc 1 2897 3 view .LVU3173
 2897:Drivers/STM32G4xx_HAL_Driver/Src/stm32g4xx_hal_uart.c ****   huart->gState = HAL_UART_STATE_BUSY;
-ARM GAS  /tmp/ccybtFir.s 			page 316
+ARM GAS  /tmp/ccxlBB2Q.s 			page 316
 
 
  9334              		.loc 1 2897 3 view .LVU3174
@@ -18958,7 +18958,7 @@ ARM GAS  /tmp/ccybtFir.s 			page 1
 2901:Drivers/STM32G4xx_HAL_Driver/Src/stm32g4xx_hal_uart.c **** 
  9374              		.loc 1 2901 3 is_stmt 1 discriminator 1 view .LVU3189
  9375              	.LBB964:
-ARM GAS  /tmp/ccybtFir.s 			page 317
+ARM GAS  /tmp/ccxlBB2Q.s 			page 317
 
 
  9376              	.LBI964:
@@ -19018,7 +19018,7 @@ ARM GAS  /tmp/ccybtFir.s 			page 1
  9417              	.LVL847:
 1156:Drivers/CMSIS/Include/cmsis_gcc.h **** }
  9418              		.loc 2 1156 4 view .LVU3205
-ARM GAS  /tmp/ccybtFir.s 			page 318
+ARM GAS  /tmp/ccxlBB2Q.s 			page 318
 
 
 1156:Drivers/CMSIS/Include/cmsis_gcc.h **** }
@@ -19078,7 +19078,7 @@ ARM GAS  /tmp/ccybtFir.s 			page 1
 2908:Drivers/STM32G4xx_HAL_Driver/Src/stm32g4xx_hal_uart.c **** 
  9460              		.loc 1 2908 3 view .LVU3221
 2910:Drivers/STM32G4xx_HAL_Driver/Src/stm32g4xx_hal_uart.c **** }
-ARM GAS  /tmp/ccybtFir.s 			page 319
+ARM GAS  /tmp/ccxlBB2Q.s 			page 319
 
 
  9461              		.loc 1 2910 3 view .LVU3222
@@ -19138,7 +19138,7 @@ ARM GAS  /tmp/ccybtFir.s 			page 1
  9505 0010 C0F88830 		str	r3, [r0, #136]
 2929:Drivers/STM32G4xx_HAL_Driver/Src/stm32g4xx_hal_uart.c **** 
  9506              		.loc 1 2929 3 is_stmt 1 view .LVU3235
-ARM GAS  /tmp/ccybtFir.s 			page 320
+ARM GAS  /tmp/ccxlBB2Q.s 			page 320
 
 
  9507 0014 0268     		ldr	r2, [r0]
@@ -19198,7 +19198,7 @@ ARM GAS  /tmp/ccybtFir.s 			page 1
  9551              		.loc 1 2966 3 view .LVU3247
 2967:Drivers/STM32G4xx_HAL_Driver/Src/stm32g4xx_hal_uart.c ****   temp1 = huart->gState;
  9552              		.loc 1 2967 3 view .LVU3248
-ARM GAS  /tmp/ccybtFir.s 			page 321
+ARM GAS  /tmp/ccxlBB2Q.s 			page 321
 
 
 2968:Drivers/STM32G4xx_HAL_Driver/Src/stm32g4xx_hal_uart.c ****   temp2 = huart->RxState;
@@ -19258,7 +19258,7 @@ ARM GAS  /tmp/ccybtFir.s 			page 1
  9599              		.thumb
  9600              		.thumb_func
  9602              	UART_SetConfig:
-ARM GAS  /tmp/ccybtFir.s 			page 322
+ARM GAS  /tmp/ccxlBB2Q.s 			page 322
 
 
  9603              	.LVL864:
@@ -19318,7 +19318,7 @@ ARM GAS  /tmp/ccybtFir.s 			page 1
 3062:Drivers/STM32G4xx_HAL_Driver/Src/stm32g4xx_hal_uart.c ****   MODIFY_REG(huart->Instance->CR1, USART_CR1_FIELDS, tmpreg);
  9637              		.loc 1 3062 3 view .LVU3280
 3062:Drivers/STM32G4xx_HAL_Driver/Src/stm32g4xx_hal_uart.c ****   MODIFY_REG(huart->Instance->CR1, USART_CR1_FIELDS, tmpreg);
-ARM GAS  /tmp/ccybtFir.s 			page 323
+ARM GAS  /tmp/ccxlBB2Q.s 			page 323
 
 
  9638              		.loc 1 3062 33 is_stmt 0 view .LVU3281
@@ -19378,7 +19378,7 @@ ARM GAS  /tmp/ccybtFir.s 			page 1
 3078:Drivers/STM32G4xx_HAL_Driver/Src/stm32g4xx_hal_uart.c ****   {
  9678              		.loc 1 3078 6 view .LVU3296
  9679 0030 904B     		ldr	r3, .L493+4
-ARM GAS  /tmp/ccybtFir.s 			page 324
+ARM GAS  /tmp/ccxlBB2Q.s 			page 324
 
 
  9680 0032 9A42     		cmp	r2, r3
@@ -19438,7 +19438,7 @@ ARM GAS  /tmp/ccybtFir.s 			page 1
  9722              		.loc 1 3090 3 discriminator 23 view .LVU3308
  9723 0070 854A     		ldr	r2, .L493+24
  9724 0072 9342     		cmp	r3, r2
-ARM GAS  /tmp/ccybtFir.s 			page 325
+ARM GAS  /tmp/ccxlBB2Q.s 			page 325
 
 
  9725 0074 6CD0     		beq	.L489
@@ -19498,7 +19498,7 @@ ARM GAS  /tmp/ccybtFir.s 			page 1
  9769 00bc DFE802F0 		tbb	[pc, r2]
  9770              	.L411:
  9771 00c0 02       		.byte	(.L414-.L411)/2
-ARM GAS  /tmp/ccybtFir.s 			page 326
+ARM GAS  /tmp/ccxlBB2Q.s 			page 326
 
 
  9772 00c1 04       		.byte	(.L413-.L411)/2
@@ -19558,7 +19558,7 @@ ARM GAS  /tmp/ccybtFir.s 			page 1
  9816 00ee 0D       		.byte	(.L416-.L418)/2
  9817 00ef 0D       		.byte	(.L416-.L418)/2
  9818 00f0 60       		.byte	(.L452-.L418)/2
-ARM GAS  /tmp/ccybtFir.s 			page 327
+ARM GAS  /tmp/ccxlBB2Q.s 			page 327
 
 
  9819 00f1 0D       		.byte	(.L416-.L418)/2
@@ -19618,7 +19618,7 @@ ARM GAS  /tmp/ccybtFir.s 			page 1
  9862 0120 0422     		movs	r2, #4
  9863 0122 ACE7     		b	.L412
  9864              	.L422:
-ARM GAS  /tmp/ccybtFir.s 			page 328
+ARM GAS  /tmp/ccxlBB2Q.s 			page 328
 
 
 3090:Drivers/STM32G4xx_HAL_Driver/Src/stm32g4xx_hal_uart.c **** 
@@ -19678,7 +19678,7 @@ ARM GAS  /tmp/ccybtFir.s 			page 1
 3090:Drivers/STM32G4xx_HAL_Driver/Src/stm32g4xx_hal_uart.c **** 
  9910              		.loc 1 3090 3 discriminator 35 view .LVU3349
  9911 0176 0822     		movs	r2, #8
-ARM GAS  /tmp/ccybtFir.s 			page 329
+ARM GAS  /tmp/ccxlBB2Q.s 			page 329
 
 
  9912 0178 81E7     		b	.L412
@@ -19738,7 +19738,7 @@ ARM GAS  /tmp/ccybtFir.s 			page 1
  9957              	.L457:
 3090:Drivers/STM32G4xx_HAL_Driver/Src/stm32g4xx_hal_uart.c **** 
  9958              		.loc 1 3090 3 discriminator 27 view .LVU3359
-ARM GAS  /tmp/ccybtFir.s 			page 330
+ARM GAS  /tmp/ccxlBB2Q.s 			page 330
 
 
  9959 01bc 0222     		movs	r2, #2
@@ -19798,7 +19798,7 @@ ARM GAS  /tmp/ccybtFir.s 			page 1
  10004              		.loc 1 3096 5 is_stmt 1 view .LVU3368
  10005 01ec 082A     		cmp	r2, #8
  10006 01ee 00F2B180 		bhi	.L470
-ARM GAS  /tmp/ccybtFir.s 			page 331
+ARM GAS  /tmp/ccxlBB2Q.s 			page 331
 
 
  10007 01f2 DFE802F0 		tbb	[pc, r2]
@@ -19858,7 +19858,7 @@ ARM GAS  /tmp/ccybtFir.s 			page 1
 3123:Drivers/STM32G4xx_HAL_Driver/Src/stm32g4xx_hal_uart.c ****           (lpuart_ker_ck_pres > (4096U * huart->Init.BaudRate)))
  10049              		.loc 1 3123 10 view .LVU3381
  10050 0222 9942     		cmp	r1, r3
-ARM GAS  /tmp/ccybtFir.s 			page 332
+ARM GAS  /tmp/ccxlBB2Q.s 			page 332
 
 
  10051 0224 00F29A80 		bhi	.L473
@@ -19918,7 +19918,7 @@ ARM GAS  /tmp/ccybtFir.s 			page 1
 3105:Drivers/STM32G4xx_HAL_Driver/Src/stm32g4xx_hal_uart.c ****         break;
  10093              		.loc 1 3105 9 is_stmt 1 view .LVU3394
 3105:Drivers/STM32G4xx_HAL_Driver/Src/stm32g4xx_hal_uart.c ****         break;
-ARM GAS  /tmp/ccybtFir.s 			page 333
+ARM GAS  /tmp/ccxlBB2Q.s 			page 333
 
 
  10094              		.loc 1 3105 16 is_stmt 0 view .LVU3395
@@ -19978,7 +19978,7 @@ ARM GAS  /tmp/ccybtFir.s 			page 1
  10142              	.L443:
 3172:Drivers/STM32G4xx_HAL_Driver/Src/stm32g4xx_hal_uart.c ****     {
  10143              		.loc 1 3172 5 view .LVU3402
-ARM GAS  /tmp/ccybtFir.s 			page 334
+ARM GAS  /tmp/ccxlBB2Q.s 			page 334
 
 
 3172:Drivers/STM32G4xx_HAL_Driver/Src/stm32g4xx_hal_uart.c ****     {
@@ -20038,7 +20038,7 @@ ARM GAS  /tmp/ccybtFir.s 			page 1
  10183 02e6 2268     		ldr	r2, [r4]
 3179:Drivers/STM32G4xx_HAL_Driver/Src/stm32g4xx_hal_uart.c ****       }
  10184              		.loc 1 3179 30 view .LVU3418
-ARM GAS  /tmp/ccybtFir.s 			page 335
+ARM GAS  /tmp/ccxlBB2Q.s 			page 335
 
 
  10185 02e8 D360     		str	r3, [r2, #12]
@@ -20098,7 +20098,7 @@ ARM GAS  /tmp/ccybtFir.s 			page 1
  10225 0308 1E4B     		ldr	r3, .L495+4
  10226 030a 33F81230 		ldrh	r3, [r3, r2, lsl #1]
  10227 030e B0FBF3F0 		udiv	r0, r0, r3
-ARM GAS  /tmp/ccybtFir.s 			page 336
+ARM GAS  /tmp/ccxlBB2Q.s 			page 336
 
 
  10228 0312 6368     		ldr	r3, [r4, #4]
@@ -20158,7 +20158,7 @@ ARM GAS  /tmp/ccybtFir.s 			page 1
  10265              		.loc 1 3236 1 is_stmt 0 view .LVU3449
  10266 0340 70BD     		pop	{r4, r5, r6, pc}
  10267              	.LVL909:
-ARM GAS  /tmp/ccybtFir.s 			page 337
+ARM GAS  /tmp/ccxlBB2Q.s 			page 337
 
 
  10268              	.L448:
@@ -20218,7 +20218,7 @@ ARM GAS  /tmp/ccybtFir.s 			page 1
  10310 0364 0120     		movs	r0, #1
  10311              	.LVL918:
 3139:Drivers/STM32G4xx_HAL_Driver/Src/stm32g4xx_hal_uart.c ****         }
-ARM GAS  /tmp/ccybtFir.s 			page 338
+ARM GAS  /tmp/ccxlBB2Q.s 			page 338
 
 
  10312              		.loc 1 3139 15 view .LVU3462
@@ -20278,7 +20278,7 @@ ARM GAS  /tmp/ccybtFir.s 			page 1
  10358              		.section	.text.UART_AdvFeatureConfig,"ax",%progbits
  10359              		.align	1
  10360              		.global	UART_AdvFeatureConfig
-ARM GAS  /tmp/ccybtFir.s 			page 339
+ARM GAS  /tmp/ccxlBB2Q.s 			page 339
 
 
  10361              		.syntax unified
@@ -20338,7 +20338,7 @@ ARM GAS  /tmp/ccybtFir.s 			page 1
 3263:Drivers/STM32G4xx_HAL_Driver/Src/stm32g4xx_hal_uart.c ****   {
  10404              		.loc 1 3263 3 view .LVU3484
 3263:Drivers/STM32G4xx_HAL_Driver/Src/stm32g4xx_hal_uart.c ****   {
-ARM GAS  /tmp/ccybtFir.s 			page 340
+ARM GAS  /tmp/ccxlBB2Q.s 			page 340
 
 
  10405              		.loc 1 3263 7 is_stmt 0 view .LVU3485
@@ -20398,7 +20398,7 @@ ARM GAS  /tmp/ccybtFir.s 			page 1
  10446 006a 0B43     		orrs	r3, r3, r1
  10447 006c 9360     		str	r3, [r2, #8]
  10448              	.L502:
-ARM GAS  /tmp/ccybtFir.s 			page 341
+ARM GAS  /tmp/ccxlBB2Q.s 			page 341
 
 
 3284:Drivers/STM32G4xx_HAL_Driver/Src/stm32g4xx_hal_uart.c ****   {
@@ -20458,7 +20458,7 @@ ARM GAS  /tmp/ccybtFir.s 			page 1
  10487              		.loc 1 3305 7 is_stmt 0 view .LVU3514
  10488 00a2 836A     		ldr	r3, [r0, #40]
 3305:Drivers/STM32G4xx_HAL_Driver/Src/stm32g4xx_hal_uart.c ****   {
-ARM GAS  /tmp/ccybtFir.s 			page 342
+ARM GAS  /tmp/ccxlBB2Q.s 			page 342
 
 
  10489              		.loc 1 3305 6 view .LVU3515
@@ -20518,7 +20518,7 @@ ARM GAS  /tmp/ccybtFir.s 			page 1
  10538              		.cfi_offset 7, -16
  10539              		.cfi_offset 8, -12
  10540              		.cfi_offset 9, -8
-ARM GAS  /tmp/ccybtFir.s 			page 343
+ARM GAS  /tmp/ccxlBB2Q.s 			page 343
 
 
  10541              		.cfi_offset 14, -4
@@ -20578,7 +20578,7 @@ ARM GAS  /tmp/ccybtFir.s 			page 1
  10581 003c 1A68     		ldr	r2, [r3]
 3401:Drivers/STM32G4xx_HAL_Driver/Src/stm32g4xx_hal_uart.c ****       {
  10582              		.loc 1 3401 10 view .LVU3537
-ARM GAS  /tmp/ccybtFir.s 			page 344
+ARM GAS  /tmp/ccxlBB2Q.s 			page 344
 
 
  10583 003e 12F0040F 		tst	r2, #4
@@ -20638,7 +20638,7 @@ ARM GAS  /tmp/ccybtFir.s 			page 1
  10620              		.loc 1 3435 18 is_stmt 0 view .LVU3554
  10621 0074 0320     		movs	r0, #3
  10622 0076 0CE0     		b	.L510
-ARM GAS  /tmp/ccybtFir.s 			page 345
+ARM GAS  /tmp/ccxlBB2Q.s 			page 345
 
 
  10623              	.L517:
@@ -20698,7 +20698,7 @@ ARM GAS  /tmp/ccybtFir.s 			page 1
  10667              	HAL_UART_Transmit:
  10668              	.LVL935:
  10669              	.LFB139:
-ARM GAS  /tmp/ccybtFir.s 			page 346
+ARM GAS  /tmp/ccxlBB2Q.s 			page 346
 
 
 1118:Drivers/STM32G4xx_HAL_Driver/Src/stm32g4xx_hal_uart.c ****   const uint8_t  *pdata8bits;
@@ -20758,7 +20758,7 @@ ARM GAS  /tmp/ccybtFir.s 			page 1
  10711 001e 53E0     		b	.L519
  10712              	.LVL938:
  10713              	.L533:
-ARM GAS  /tmp/ccybtFir.s 			page 347
+ARM GAS  /tmp/ccxlBB2Q.s 			page 347
 
 
 1131:Drivers/STM32G4xx_HAL_Driver/Src/stm32g4xx_hal_uart.c ****     huart->gState = HAL_UART_STATE_BUSY_TX;
@@ -20818,7 +20818,7 @@ ARM GAS  /tmp/ccybtFir.s 			page 1
  10750 004a 43B3     		cbz	r3, .L531
 1149:Drivers/STM32G4xx_HAL_Driver/Src/stm32g4xx_hal_uart.c ****     }
  10751              		.loc 1 1149 19 view .LVU3598
-ARM GAS  /tmp/ccybtFir.s 			page 348
+ARM GAS  /tmp/ccxlBB2Q.s 			page 348
 
 
  10752 004c 4FF00008 		mov	r8, #0
@@ -20878,7 +20878,7 @@ ARM GAS  /tmp/ccybtFir.s 			page 1
  10791 007a 9BB2     		uxth	r3, r3
 1152:Drivers/STM32G4xx_HAL_Driver/Src/stm32g4xx_hal_uart.c ****     {
  10792              		.loc 1 1152 31 view .LVU3614
-ARM GAS  /tmp/ccybtFir.s 			page 349
+ARM GAS  /tmp/ccxlBB2Q.s 			page 349
 
 
  10793 007c 93B1     		cbz	r3, .L535
@@ -20938,7 +20938,7 @@ ARM GAS  /tmp/ccybtFir.s 			page 1
 1174:Drivers/STM32G4xx_HAL_Driver/Src/stm32g4xx_hal_uart.c ****     {
  10833              		.loc 1 1174 5 is_stmt 1 view .LVU3629
 1174:Drivers/STM32G4xx_HAL_Driver/Src/stm32g4xx_hal_uart.c ****     {
-ARM GAS  /tmp/ccybtFir.s 			page 350
+ARM GAS  /tmp/ccxlBB2Q.s 			page 350
 
 
  10834              		.loc 1 1174 9 is_stmt 0 view .LVU3630
@@ -20998,7 +20998,7 @@ ARM GAS  /tmp/ccybtFir.s 			page 1
 1128:Drivers/STM32G4xx_HAL_Driver/Src/stm32g4xx_hal_uart.c ****     }
  10877              		.loc 1 1128 15 view .LVU3642
  10878 00ce 0120     		movs	r0, #1
-ARM GAS  /tmp/ccybtFir.s 			page 351
+ARM GAS  /tmp/ccxlBB2Q.s 			page 351
 
 
  10879              	.LVL956:
@@ -21058,7 +21058,7 @@ ARM GAS  /tmp/ccybtFir.s 			page 1
  10925 0010 0446     		mov	r4, r0
  10926 0012 0D46     		mov	r5, r1
  10927 0014 9046     		mov	r8, r2
-ARM GAS  /tmp/ccybtFir.s 			page 352
+ARM GAS  /tmp/ccxlBB2Q.s 			page 352
 
 
 1217:Drivers/STM32G4xx_HAL_Driver/Src/stm32g4xx_hal_uart.c ****     {
@@ -21118,7 +21118,7 @@ ARM GAS  /tmp/ccybtFir.s 			page 1
  10964              		.loc 1 1230 5 is_stmt 1 view .LVU3670
 1230:Drivers/STM32G4xx_HAL_Driver/Src/stm32g4xx_hal_uart.c **** 
  10965              		.loc 1 1230 24 is_stmt 0 view .LVU3671
-ARM GAS  /tmp/ccybtFir.s 			page 353
+ARM GAS  /tmp/ccxlBB2Q.s 			page 353
 
 
  10966 0038 A4F85E80 		strh	r8, [r4, #94]	@ movhi
@@ -21178,7 +21178,7 @@ ARM GAS  /tmp/ccybtFir.s 			page 1
 1234:Drivers/STM32G4xx_HAL_Driver/Src/stm32g4xx_hal_uart.c **** 
  11008              		.loc 1 1234 5 view .LVU3684
 1234:Drivers/STM32G4xx_HAL_Driver/Src/stm32g4xx_hal_uart.c **** 
-ARM GAS  /tmp/ccybtFir.s 			page 354
+ARM GAS  /tmp/ccxlBB2Q.s 			page 354
 
 
  11009              		.loc 1 1234 12 is_stmt 0 view .LVU3685
@@ -21238,7 +21238,7 @@ ARM GAS  /tmp/ccybtFir.s 			page 1
  11051              	.L565:
 1253:Drivers/STM32G4xx_HAL_Driver/Src/stm32g4xx_hal_uart.c **** 
  11052              		.loc 1 1253 9 is_stmt 1 view .LVU3698
-ARM GAS  /tmp/ccybtFir.s 			page 355
+ARM GAS  /tmp/ccxlBB2Q.s 			page 355
 
 
 1253:Drivers/STM32G4xx_HAL_Driver/Src/stm32g4xx_hal_uart.c **** 
@@ -21298,7 +21298,7 @@ ARM GAS  /tmp/ccybtFir.s 			page 1
  11090              		.loc 1 1251 11 is_stmt 0 view .LVU3715
  11091 00dc 0096     		str	r6, [sp]
  11092 00de 3B46     		mov	r3, r7
-ARM GAS  /tmp/ccybtFir.s 			page 356
+ARM GAS  /tmp/ccxlBB2Q.s 			page 356
 
 
  11093 00e0 0022     		movs	r2, #0
@@ -21358,7 +21358,7 @@ ARM GAS  /tmp/ccybtFir.s 			page 1
  11131              		.loc 1 1277 12 view .LVU3731
  11132 010c 0220     		movs	r0, #2
  11133              	.LVL974:
-ARM GAS  /tmp/ccybtFir.s 			page 357
+ARM GAS  /tmp/ccxlBB2Q.s 			page 357
 
 
  11134              	.L540:
@@ -21418,7 +21418,7 @@ ARM GAS  /tmp/ccybtFir.s 			page 1
  11182 0006 0023     		movs	r3, #0
  11183 0008 C0F89030 		str	r3, [r0, #144]
 3325:Drivers/STM32G4xx_HAL_Driver/Src/stm32g4xx_hal_uart.c **** 
-ARM GAS  /tmp/ccybtFir.s 			page 358
+ARM GAS  /tmp/ccxlBB2Q.s 			page 358
 
 
  11184              		.loc 1 3325 3 is_stmt 1 view .LVU3740
@@ -21478,7 +21478,7 @@ ARM GAS  /tmp/ccybtFir.s 			page 1
  11221              		.loc 1 3369 3 is_stmt 1 view .LVU3757
 3369:Drivers/STM32G4xx_HAL_Driver/Src/stm32g4xx_hal_uart.c **** 
  11222              		.loc 1 3369 22 is_stmt 0 view .LVU3758
-ARM GAS  /tmp/ccybtFir.s 			page 359
+ARM GAS  /tmp/ccxlBB2Q.s 			page 359
 
 
  11223 0034 2067     		str	r0, [r4, #112]
@@ -21538,7 +21538,7 @@ ARM GAS  /tmp/ccybtFir.s 			page 1
  11264              	.LBB972:
  11265              	.LBI972:
 1151:Drivers/CMSIS/Include/cmsis_gcc.h **** {
-ARM GAS  /tmp/ccybtFir.s 			page 360
+ARM GAS  /tmp/ccxlBB2Q.s 			page 360
 
 
  11266              		.loc 2 1151 31 view .LVU3772
@@ -21598,7 +21598,7 @@ ARM GAS  /tmp/ccybtFir.s 			page 1
 3336:Drivers/STM32G4xx_HAL_Driver/Src/stm32g4xx_hal_uart.c **** 
  11308              		.loc 1 3336 21 is_stmt 0 view .LVU3787
  11309 0068 2023     		movs	r3, #32
-ARM GAS  /tmp/ccybtFir.s 			page 361
+ARM GAS  /tmp/ccxlBB2Q.s 			page 361
 
 
  11310              	.LVL988:
@@ -21658,7 +21658,7 @@ ARM GAS  /tmp/ccybtFir.s 			page 1
  11349              		.loc 2 1153 5 view .LVU3802
 1155:Drivers/CMSIS/Include/cmsis_gcc.h ****    return(result);
  11350              		.loc 2 1155 4 view .LVU3803
-ARM GAS  /tmp/ccybtFir.s 			page 362
+ARM GAS  /tmp/ccxlBB2Q.s 			page 362
 
 
  11351              		.syntax unified
@@ -21718,7 +21718,7 @@ ARM GAS  /tmp/ccybtFir.s 			page 1
  11393              		.loc 1 3354 7 discriminator 1 view .LVU3817
 3354:Drivers/STM32G4xx_HAL_Driver/Src/stm32g4xx_hal_uart.c **** 
  11394              		.loc 1 3354 7 discriminator 1 view .LVU3818
-ARM GAS  /tmp/ccybtFir.s 			page 363
+ARM GAS  /tmp/ccxlBB2Q.s 			page 363
 
 
 3354:Drivers/STM32G4xx_HAL_Driver/Src/stm32g4xx_hal_uart.c **** 
@@ -21778,7 +21778,7 @@ ARM GAS  /tmp/ccybtFir.s 			page 1
  11436              		.loc 2 1207 4 is_stmt 1 view .LVU3832
  11437              		.loc 2 1207 4 is_stmt 0 view .LVU3833
  11438              		.thumb
-ARM GAS  /tmp/ccybtFir.s 			page 364
+ARM GAS  /tmp/ccxlBB2Q.s 			page 364
 
 
  11439              		.syntax unified
@@ -21838,7 +21838,7 @@ ARM GAS  /tmp/ccybtFir.s 			page 1
  308:Drivers/STM32G4xx_HAL_Driver/Src/stm32g4xx_hal_uart.c ****   /* Check the UART handle allocation */
  11482              		.loc 1 308 1 view .LVU3847
  11483 0002 10B5     		push	{r4, lr}
-ARM GAS  /tmp/ccybtFir.s 			page 365
+ARM GAS  /tmp/ccxlBB2Q.s 			page 365
 
 
  11484              	.LCFI45:
@@ -21898,7 +21898,7 @@ ARM GAS  /tmp/ccybtFir.s 			page 1
  11522              		.loc 1 367 3 is_stmt 1 view .LVU3863
  11523 002a 2268     		ldr	r2, [r4]
  11524 002c 5368     		ldr	r3, [r2, #4]
-ARM GAS  /tmp/ccybtFir.s 			page 366
+ARM GAS  /tmp/ccxlBB2Q.s 			page 366
 
 
  11525 002e 23F49043 		bic	r3, r3, #18432
@@ -21958,7 +21958,7 @@ ARM GAS  /tmp/ccybtFir.s 			page 1
  11568 0062 0120     		movs	r0, #1
  11569              	.LVL1011:
  374:Drivers/STM32G4xx_HAL_Driver/Src/stm32g4xx_hal_uart.c **** 
-ARM GAS  /tmp/ccybtFir.s 			page 367
+ARM GAS  /tmp/ccxlBB2Q.s 			page 367
 
 
  11570              		.loc 1 374 1 view .LVU3875
@@ -22018,7 +22018,7 @@ ARM GAS  /tmp/ccybtFir.s 			page 1
  11615 0018 23F00103 		bic	r3, r3, #1
  11616 001c 1360     		str	r3, [r2]
  420:Drivers/STM32G4xx_HAL_Driver/Src/stm32g4xx_hal_uart.c ****   {
-ARM GAS  /tmp/ccybtFir.s 			page 368
+ARM GAS  /tmp/ccxlBB2Q.s 			page 368
 
 
  11617              		.loc 1 420 3 view .LVU3887
@@ -22078,7 +22078,7 @@ ARM GAS  /tmp/ccybtFir.s 			page 1
  11659              	.LVL1016:
  11660              	.L597:
  396:Drivers/STM32G4xx_HAL_Driver/Src/stm32g4xx_hal_uart.c **** 
-ARM GAS  /tmp/ccybtFir.s 			page 369
+ARM GAS  /tmp/ccxlBB2Q.s 			page 369
 
 
  11661              		.loc 1 396 5 is_stmt 1 view .LVU3900
@@ -22138,7 +22138,7 @@ ARM GAS  /tmp/ccybtFir.s 			page 1
  11707              		.loc 1 458 1 view .LVU3910
  11708 0004 38B5     		push	{r3, r4, r5, lr}
  11709              	.LCFI49:
-ARM GAS  /tmp/ccybtFir.s 			page 370
+ARM GAS  /tmp/ccxlBB2Q.s 			page 370
 
 
  11710              		.cfi_def_cfa_offset 16
@@ -22198,7 +22198,7 @@ ARM GAS  /tmp/ccybtFir.s 			page 1
  11748              		.loc 1 508 26 is_stmt 0 view .LVU3926
  11749 002e A36A     		ldr	r3, [r4, #40]
  508:Drivers/STM32G4xx_HAL_Driver/Src/stm32g4xx_hal_uart.c ****   {
-ARM GAS  /tmp/ccybtFir.s 			page 371
+ARM GAS  /tmp/ccxlBB2Q.s 			page 371
 
 
  11750              		.loc 1 508 6 view .LVU3927
@@ -22258,7 +22258,7 @@ ARM GAS  /tmp/ccybtFir.s 			page 1
  11793              		.loc 1 535 1 view .LVU3938
  11794 0076 38BD     		pop	{r3, r4, r5, pc}
  11795              	.LVL1025:
-ARM GAS  /tmp/ccybtFir.s 			page 372
+ARM GAS  /tmp/ccxlBB2Q.s 			page 372
 
 
  11796              	.L610:
@@ -22318,7 +22318,7 @@ ARM GAS  /tmp/ccybtFir.s 			page 1
  11840 0092 0120     		movs	r0, #1
  11841              	.LVL1033:
  478:Drivers/STM32G4xx_HAL_Driver/Src/stm32g4xx_hal_uart.c ****   }
-ARM GAS  /tmp/ccybtFir.s 			page 373
+ARM GAS  /tmp/ccxlBB2Q.s 			page 373
 
 
  11842              		.loc 1 478 12 view .LVU3949
@@ -22378,7 +22378,7 @@ ARM GAS  /tmp/ccybtFir.s 			page 1
  590:Drivers/STM32G4xx_HAL_Driver/Src/stm32g4xx_hal_uart.c **** 
  11888              		.loc 1 590 3 is_stmt 1 view .LVU3960
  11889 0018 2268     		ldr	r2, [r4]
-ARM GAS  /tmp/ccybtFir.s 			page 374
+ARM GAS  /tmp/ccxlBB2Q.s 			page 374
 
 
  11890 001a 1368     		ldr	r3, [r2]
@@ -22438,7 +22438,7 @@ ARM GAS  /tmp/ccybtFir.s 			page 1
  11932 005e 1360     		str	r3, [r2]
  623:Drivers/STM32G4xx_HAL_Driver/Src/stm32g4xx_hal_uart.c **** }
  11933              		.loc 1 623 3 view .LVU3973
-ARM GAS  /tmp/ccybtFir.s 			page 375
+ARM GAS  /tmp/ccxlBB2Q.s 			page 375
 
 
  623:Drivers/STM32G4xx_HAL_Driver/Src/stm32g4xx_hal_uart.c **** }
@@ -22498,7 +22498,7 @@ ARM GAS  /tmp/ccybtFir.s 			page 1
  11978              		.cfi_endproc
  11979              	.LFE135:
  11981              		.section	.text.HAL_MultiProcessor_EnableMuteMode,"ax",%progbits
-ARM GAS  /tmp/ccybtFir.s 			page 376
+ARM GAS  /tmp/ccxlBB2Q.s 			page 376
 
 
  11982              		.align	1
@@ -22558,7 +22558,7 @@ ARM GAS  /tmp/ccybtFir.s 			page 1
  12024              		.loc 2 1151 31 view .LVU3996
  12025              	.LBB988:
 1153:Drivers/CMSIS/Include/cmsis_gcc.h **** 
-ARM GAS  /tmp/ccybtFir.s 			page 377
+ARM GAS  /tmp/ccxlBB2Q.s 			page 377
 
 
  12026              		.loc 2 1153 5 view .LVU3997
@@ -22618,7 +22618,7 @@ ARM GAS  /tmp/ccybtFir.s 			page 1
  12068              	.LVL1048:
 2831:Drivers/STM32G4xx_HAL_Driver/Src/stm32g4xx_hal_uart.c **** 
  12069              		.loc 1 2831 17 view .LVU4012
-ARM GAS  /tmp/ccybtFir.s 			page 378
+ARM GAS  /tmp/ccxlBB2Q.s 			page 378
 
 
  12070 002a C0F88830 		str	r3, [r0, #136]
@@ -22678,7 +22678,7 @@ ARM GAS  /tmp/ccybtFir.s 			page 1
 2844:Drivers/STM32G4xx_HAL_Driver/Src/stm32g4xx_hal_uart.c **** 
  12116              		.loc 1 2844 3 discriminator 2 view .LVU4023
 2846:Drivers/STM32G4xx_HAL_Driver/Src/stm32g4xx_hal_uart.c **** 
-ARM GAS  /tmp/ccybtFir.s 			page 379
+ARM GAS  /tmp/ccxlBB2Q.s 			page 379
 
 
  12117              		.loc 1 2846 3 view .LVU4024
@@ -22738,7 +22738,7 @@ ARM GAS  /tmp/ccybtFir.s 			page 1
  12156              		.syntax unified
  12157              	@ 1206 "Drivers/CMSIS/Include/cmsis_gcc.h" 1
  12158 0020 42E80031 		strex r1, r3, [r2]
-ARM GAS  /tmp/ccybtFir.s 			page 380
+ARM GAS  /tmp/ccxlBB2Q.s 			page 380
 
 
  12159              	@ 0 "" 2
@@ -22798,7 +22798,7 @@ ARM GAS  /tmp/ccybtFir.s 			page 1
 3455:Drivers/STM32G4xx_HAL_Driver/Src/stm32g4xx_hal_uart.c ****   huart->pRxBuffPtr  = pData;
  12205              		.loc 1 3455 1 is_stmt 1 view -0
  12206              		.cfi_startproc
-ARM GAS  /tmp/ccybtFir.s 			page 381
+ARM GAS  /tmp/ccxlBB2Q.s 			page 381
 
 
  12207              		@ args = 0, pretend = 0, frame = 0
@@ -22858,7 +22858,7 @@ ARM GAS  /tmp/ccybtFir.s 			page 1
 3462:Drivers/STM32G4xx_HAL_Driver/Src/stm32g4xx_hal_uart.c **** 
  12246              		.loc 1 3462 3 discriminator 3 view .LVU4068
  12247 002a 40F2FF13 		movw	r3, #511
-ARM GAS  /tmp/ccybtFir.s 			page 382
+ARM GAS  /tmp/ccxlBB2Q.s 			page 382
 
 
  12248 002e A0F86030 		strh	r3, [r0, #96]	@ movhi
@@ -22918,7 +22918,7 @@ ARM GAS  /tmp/ccybtFir.s 			page 1
  12288              		.loc 2 1151 31 view .LVU4082
  12289              	.LBB998:
 1153:Drivers/CMSIS/Include/cmsis_gcc.h **** 
-ARM GAS  /tmp/ccybtFir.s 			page 383
+ARM GAS  /tmp/ccxlBB2Q.s 			page 383
 
 
  12290              		.loc 2 1153 5 view .LVU4083
@@ -22978,7 +22978,7 @@ ARM GAS  /tmp/ccybtFir.s 			page 1
  12333              	.LBE996:
 3468:Drivers/STM32G4xx_HAL_Driver/Src/stm32g4xx_hal_uart.c **** 
  12334              		.loc 1 3468 3 is_stmt 1 discriminator 2 view .LVU4097
-ARM GAS  /tmp/ccybtFir.s 			page 384
+ARM GAS  /tmp/ccxlBB2Q.s 			page 384
 
 
 3471:Drivers/STM32G4xx_HAL_Driver/Src/stm32g4xx_hal_uart.c ****   {
@@ -23038,7 +23038,7 @@ ARM GAS  /tmp/ccybtFir.s 			page 1
  12373              	.LBB1003:
 1153:Drivers/CMSIS/Include/cmsis_gcc.h **** 
  12374              		.loc 2 1153 5 view .LVU4114
-ARM GAS  /tmp/ccybtFir.s 			page 385
+ARM GAS  /tmp/ccxlBB2Q.s 			page 385
 
 
 1155:Drivers/CMSIS/Include/cmsis_gcc.h ****    return(result);
@@ -23098,7 +23098,7 @@ ARM GAS  /tmp/ccybtFir.s 			page 1
 3513:Drivers/STM32G4xx_HAL_Driver/Src/stm32g4xx_hal_uart.c **** 
  12417              		.loc 1 3513 1 is_stmt 0 view .LVU4129
  12418 00a0 0020     		movs	r0, #0
-ARM GAS  /tmp/ccybtFir.s 			page 386
+ARM GAS  /tmp/ccxlBB2Q.s 			page 386
 
 
  12419              	.LVL1076:
@@ -23158,7 +23158,7 @@ ARM GAS  /tmp/ccybtFir.s 			page 1
 3484:Drivers/STM32G4xx_HAL_Driver/Src/stm32g4xx_hal_uart.c ****     {
  12462              		.loc 1 3484 5 is_stmt 1 view .LVU4141
 3484:Drivers/STM32G4xx_HAL_Driver/Src/stm32g4xx_hal_uart.c ****     {
-ARM GAS  /tmp/ccybtFir.s 			page 387
+ARM GAS  /tmp/ccxlBB2Q.s 			page 387
 
 
  12463              		.loc 1 3484 20 is_stmt 0 view .LVU4142
@@ -23218,7 +23218,7 @@ ARM GAS  /tmp/ccybtFir.s 			page 1
  12502              		.loc 2 1206 4 view .LVU4157
  12503              		.syntax unified
  12504              	@ 1206 "Drivers/CMSIS/Include/cmsis_gcc.h" 1
-ARM GAS  /tmp/ccybtFir.s 			page 388
+ARM GAS  /tmp/ccxlBB2Q.s 			page 388
 
 
  12505 00de 42E80031 		strex r1, r3, [r2]
@@ -23278,7 +23278,7 @@ ARM GAS  /tmp/ccybtFir.s 			page 1
  12546              		.syntax unified
  12547              	.LBE1013:
  12548              	.LBE1012:
-ARM GAS  /tmp/ccybtFir.s 			page 389
+ARM GAS  /tmp/ccxlBB2Q.s 			page 389
 
 
 3488:Drivers/STM32G4xx_HAL_Driver/Src/stm32g4xx_hal_uart.c ****   }
@@ -23338,7 +23338,7 @@ ARM GAS  /tmp/ccybtFir.s 			page 1
  12591              	.L659:
 3493:Drivers/STM32G4xx_HAL_Driver/Src/stm32g4xx_hal_uart.c ****     {
  12592              		.loc 1 3493 71 discriminator 1 view .LVU4187
-ARM GAS  /tmp/ccybtFir.s 			page 390
+ARM GAS  /tmp/ccxlBB2Q.s 			page 390
 
 
  12593 010c 0369     		ldr	r3, [r0, #16]
@@ -23398,7 +23398,7 @@ ARM GAS  /tmp/ccybtFir.s 			page 1
  12633              	.LBI1019:
 1202:Drivers/CMSIS/Include/cmsis_gcc.h **** {
  12634              		.loc 2 1202 31 view .LVU4202
-ARM GAS  /tmp/ccybtFir.s 			page 391
+ARM GAS  /tmp/ccxlBB2Q.s 			page 391
 
 
  12635              	.LBB1020:
@@ -23458,7 +23458,7 @@ ARM GAS  /tmp/ccybtFir.s 			page 1
 1362:Drivers/STM32G4xx_HAL_Driver/Src/stm32g4xx_hal_uart.c ****   {
  12686              		.loc 1 1362 3 is_stmt 1 view .LVU4210
 1362:Drivers/STM32G4xx_HAL_Driver/Src/stm32g4xx_hal_uart.c ****   {
-ARM GAS  /tmp/ccybtFir.s 			page 392
+ARM GAS  /tmp/ccxlBB2Q.s 			page 392
 
 
  12687              		.loc 1 1362 12 is_stmt 0 view .LVU4211
@@ -23518,7 +23518,7 @@ ARM GAS  /tmp/ccybtFir.s 			page 1
  12724              		.loc 2 1151 31 view .LVU4228
  12725              	.LBB1023:
 1153:Drivers/CMSIS/Include/cmsis_gcc.h **** 
-ARM GAS  /tmp/ccybtFir.s 			page 393
+ARM GAS  /tmp/ccxlBB2Q.s 			page 393
 
 
  12726              		.loc 2 1153 5 view .LVU4229
@@ -23578,7 +23578,7 @@ ARM GAS  /tmp/ccybtFir.s 			page 1
  12768              		.loc 1 1382 5 view .LVU4243
 1382:Drivers/STM32G4xx_HAL_Driver/Src/stm32g4xx_hal_uart.c ****   }
  12769              		.loc 1 1382 13 is_stmt 0 view .LVU4244
-ARM GAS  /tmp/ccybtFir.s 			page 394
+ARM GAS  /tmp/ccxlBB2Q.s 			page 394
 
 
  12770 0034 FFF7FEFF 		bl	UART_Start_Receive_IT
@@ -23638,7 +23638,7 @@ ARM GAS  /tmp/ccybtFir.s 			page 1
  12817              		.loc 1 3527 1 is_stmt 0 view .LVU4253
  12818 0000 10B5     		push	{r4, lr}
  12819              	.LCFI60:
-ARM GAS  /tmp/ccybtFir.s 			page 395
+ARM GAS  /tmp/ccxlBB2Q.s 			page 395
 
 
  12820              		.cfi_def_cfa_offset 8
@@ -23698,7 +23698,7 @@ ARM GAS  /tmp/ccybtFir.s 			page 1
  12856              		.loc 1 3540 41 view .LVU4271
  12857 0026 2049     		ldr	r1, .L682+4
  12858 0028 1163     		str	r1, [r2, #48]
-ARM GAS  /tmp/ccybtFir.s 			page 396
+ARM GAS  /tmp/ccxlBB2Q.s 			page 396
 
 
 3543:Drivers/STM32G4xx_HAL_Driver/Src/stm32g4xx_hal_uart.c **** 
@@ -23758,7 +23758,7 @@ ARM GAS  /tmp/ccybtFir.s 			page 1
  12895              		.loc 1 3564 5 discriminator 1 view .LVU4289
  12896 004e 2268     		ldr	r2, [r4]
  12897              	.LVL1116:
-ARM GAS  /tmp/ccybtFir.s 			page 397
+ARM GAS  /tmp/ccxlBB2Q.s 			page 397
 
 
  12898              	.LBB1027:
@@ -23818,7 +23818,7 @@ ARM GAS  /tmp/ccybtFir.s 			page 1
 3564:Drivers/STM32G4xx_HAL_Driver/Src/stm32g4xx_hal_uart.c ****   }
  12941              		.loc 1 3564 5 discriminator 1 view .LVU4303
  12942              	.LBE1026:
-ARM GAS  /tmp/ccybtFir.s 			page 398
+ARM GAS  /tmp/ccxlBB2Q.s 			page 398
 
 
 3564:Drivers/STM32G4xx_HAL_Driver/Src/stm32g4xx_hal_uart.c ****   }
@@ -23878,7 +23878,7 @@ ARM GAS  /tmp/ccybtFir.s 			page 1
  12981 006e 0832     		adds	r2, r2, #8
  12982              	.LVL1125:
 1206:Drivers/CMSIS/Include/cmsis_gcc.h ****    return(result);
-ARM GAS  /tmp/ccybtFir.s 			page 399
+ARM GAS  /tmp/ccxlBB2Q.s 			page 399
 
 
  12983              		.loc 2 1206 4 is_stmt 0 view .LVU4320
@@ -23938,7 +23938,7 @@ ARM GAS  /tmp/ccybtFir.s 			page 1
 1156:Drivers/CMSIS/Include/cmsis_gcc.h **** }
  13025              		.loc 2 1156 4 is_stmt 0 view .LVU4335
  13026              		.thumb
-ARM GAS  /tmp/ccybtFir.s 			page 400
+ARM GAS  /tmp/ccxlBB2Q.s 			page 400
 
 
  13027              		.syntax unified
@@ -23998,7 +23998,7 @@ ARM GAS  /tmp/ccybtFir.s 			page 1
 3555:Drivers/STM32G4xx_HAL_Driver/Src/stm32g4xx_hal_uart.c **** 
  13070              		.loc 1 3555 7 is_stmt 1 view .LVU4349
 3555:Drivers/STM32G4xx_HAL_Driver/Src/stm32g4xx_hal_uart.c **** 
-ARM GAS  /tmp/ccybtFir.s 			page 401
+ARM GAS  /tmp/ccxlBB2Q.s 			page 401
 
 
  13071              		.loc 1 3555 22 is_stmt 0 view .LVU4350
@@ -24058,7 +24058,7 @@ ARM GAS  /tmp/ccybtFir.s 			page 1
 1475:Drivers/STM32G4xx_HAL_Driver/Src/stm32g4xx_hal_uart.c ****     {
  13118              		.loc 1 1475 25 discriminator 1 view .LVU4360
  13119 000c CAB1     		cbz	r2, .L690
-ARM GAS  /tmp/ccybtFir.s 			page 402
+ARM GAS  /tmp/ccxlBB2Q.s 			page 402
 
 
 1481:Drivers/STM32G4xx_HAL_Driver/Src/stm32g4xx_hal_uart.c **** 
@@ -24118,7 +24118,7 @@ ARM GAS  /tmp/ccybtFir.s 			page 1
  13157              		.loc 2 1156 4 is_stmt 0 view .LVU4377
  13158              		.thumb
  13159              		.syntax unified
-ARM GAS  /tmp/ccybtFir.s 			page 403
+ARM GAS  /tmp/ccxlBB2Q.s 			page 403
 
 
  13160              	.LBE1043:
@@ -24178,7 +24178,7 @@ ARM GAS  /tmp/ccybtFir.s 			page 1
  13202              	.L685:
 1499:Drivers/STM32G4xx_HAL_Driver/Src/stm32g4xx_hal_uart.c **** 
  13203              		.loc 1 1499 1 view .LVU4392
-ARM GAS  /tmp/ccybtFir.s 			page 404
+ARM GAS  /tmp/ccxlBB2Q.s 			page 404
 
 
  13204 003c 38BD     		pop	{r3, r4, r5, pc}
@@ -24233,196 +24233,196 @@ ARM GAS  /tmp/ccybtFir.s 			page 1
  13252              		.file 9 "Drivers/STM32G4xx_HAL_Driver/Inc/stm32g4xx_hal_rcc.h"
  13253              		.file 10 "Drivers/STM32G4xx_HAL_Driver/Inc/stm32g4xx_hal_uart_ex.h"
  13254              		.file 11 "Drivers/STM32G4xx_HAL_Driver/Inc/stm32g4xx_hal.h"
-ARM GAS  /tmp/ccybtFir.s 			page 405
+ARM GAS  /tmp/ccxlBB2Q.s 			page 405
 
 
 DEFINED SYMBOLS
                             *ABS*:00000000 stm32g4xx_hal_uart.c
-     /tmp/ccybtFir.s:21     .text.UART_EndTxTransfer:00000000 $t
-     /tmp/ccybtFir.s:26     .text.UART_EndTxTransfer:00000000 UART_EndTxTransfer
-     /tmp/ccybtFir.s:157    .text.UART_EndRxTransfer:00000000 $t
-     /tmp/ccybtFir.s:162    .text.UART_EndRxTransfer:00000000 UART_EndRxTransfer
-     /tmp/ccybtFir.s:358    .text.UART_TxISR_8BIT:00000000 $t
-     /tmp/ccybtFir.s:363    .text.UART_TxISR_8BIT:00000000 UART_TxISR_8BIT
-     /tmp/ccybtFir.s:523    .text.UART_TxISR_16BIT:00000000 $t
-     /tmp/ccybtFir.s:528    .text.UART_TxISR_16BIT:00000000 UART_TxISR_16BIT
-     /tmp/ccybtFir.s:695    .text.UART_TxISR_8BIT_FIFOEN:00000000 $t
-     /tmp/ccybtFir.s:700    .text.UART_TxISR_8BIT_FIFOEN:00000000 UART_TxISR_8BIT_FIFOEN
-     /tmp/ccybtFir.s:890    .text.UART_TxISR_16BIT_FIFOEN:00000000 $t
-     /tmp/ccybtFir.s:895    .text.UART_TxISR_16BIT_FIFOEN:00000000 UART_TxISR_16BIT_FIFOEN
-     /tmp/ccybtFir.s:1092   .text.HAL_UART_MspInit:00000000 $t
-     /tmp/ccybtFir.s:1098   .text.HAL_UART_MspInit:00000000 HAL_UART_MspInit
-     /tmp/ccybtFir.s:1113   .text.HAL_UART_MspDeInit:00000000 $t
-     /tmp/ccybtFir.s:1119   .text.HAL_UART_MspDeInit:00000000 HAL_UART_MspDeInit
-     /tmp/ccybtFir.s:1134   .text.HAL_UART_DeInit:00000000 $t
-     /tmp/ccybtFir.s:1140   .text.HAL_UART_DeInit:00000000 HAL_UART_DeInit
-     /tmp/ccybtFir.s:1229   .text.HAL_UART_Transmit_IT:00000000 $t
-     /tmp/ccybtFir.s:1235   .text.HAL_UART_Transmit_IT:00000000 HAL_UART_Transmit_IT
-     /tmp/ccybtFir.s:1472   .text.HAL_UART_Transmit_IT:0000009c $d
-     /tmp/ccybtFir.s:1480   .text.HAL_UART_Transmit_DMA:00000000 $t
-     /tmp/ccybtFir.s:1486   .text.HAL_UART_Transmit_DMA:00000000 HAL_UART_Transmit_DMA
-     /tmp/ccybtFir.s:1687   .text.HAL_UART_Transmit_DMA:00000094 $d
-     /tmp/ccybtFir.s:3596   .text.UART_DMATransmitCplt:00000000 UART_DMATransmitCplt
-     /tmp/ccybtFir.s:3866   .text.UART_DMATxHalfCplt:00000000 UART_DMATxHalfCplt
-     /tmp/ccybtFir.s:3961   .text.UART_DMAError:00000000 UART_DMAError
-     /tmp/ccybtFir.s:1694   .text.HAL_UART_DMAPause:00000000 $t
-     /tmp/ccybtFir.s:1700   .text.HAL_UART_DMAPause:00000000 HAL_UART_DMAPause
-     /tmp/ccybtFir.s:1994   .text.HAL_UART_DMAResume:00000000 $t
-     /tmp/ccybtFir.s:2000   .text.HAL_UART_DMAResume:00000000 HAL_UART_DMAResume
-     /tmp/ccybtFir.s:2273   .text.HAL_UART_DMAStop:00000000 $t
-     /tmp/ccybtFir.s:2279   .text.HAL_UART_DMAStop:00000000 HAL_UART_DMAStop
-     /tmp/ccybtFir.s:2527   .text.HAL_UART_Abort:00000000 $t
-     /tmp/ccybtFir.s:2533   .text.HAL_UART_Abort:00000000 HAL_UART_Abort
-     /tmp/ccybtFir.s:2978   .text.HAL_UART_AbortTransmit:00000000 $t
-     /tmp/ccybtFir.s:2984   .text.HAL_UART_AbortTransmit:00000000 HAL_UART_AbortTransmit
-     /tmp/ccybtFir.s:3246   .text.HAL_UART_AbortReceive:00000000 $t
-     /tmp/ccybtFir.s:3252   .text.HAL_UART_AbortReceive:00000000 HAL_UART_AbortReceive
-     /tmp/ccybtFir.s:3570   .text.HAL_UART_TxCpltCallback:00000000 $t
-     /tmp/ccybtFir.s:3576   .text.HAL_UART_TxCpltCallback:00000000 HAL_UART_TxCpltCallback
-     /tmp/ccybtFir.s:3591   .text.UART_DMATransmitCplt:00000000 $t
-     /tmp/ccybtFir.s:3752   .text.UART_EndTransmit_IT:00000000 $t
-     /tmp/ccybtFir.s:3757   .text.UART_EndTransmit_IT:00000000 UART_EndTransmit_IT
-     /tmp/ccybtFir.s:3840   .text.HAL_UART_TxHalfCpltCallback:00000000 $t
-     /tmp/ccybtFir.s:3846   .text.HAL_UART_TxHalfCpltCallback:00000000 HAL_UART_TxHalfCpltCallback
-     /tmp/ccybtFir.s:3861   .text.UART_DMATxHalfCplt:00000000 $t
-     /tmp/ccybtFir.s:3893   .text.HAL_UART_RxCpltCallback:00000000 $t
-     /tmp/ccybtFir.s:3899   .text.HAL_UART_RxCpltCallback:00000000 HAL_UART_RxCpltCallback
-     /tmp/ccybtFir.s:3914   .text.HAL_UART_RxHalfCpltCallback:00000000 $t
-     /tmp/ccybtFir.s:3920   .text.HAL_UART_RxHalfCpltCallback:00000000 HAL_UART_RxHalfCpltCallback
-     /tmp/ccybtFir.s:3935   .text.HAL_UART_ErrorCallback:00000000 $t
-     /tmp/ccybtFir.s:3941   .text.HAL_UART_ErrorCallback:00000000 HAL_UART_ErrorCallback
-     /tmp/ccybtFir.s:3956   .text.UART_DMAError:00000000 $t
-     /tmp/ccybtFir.s:4051   .text.UART_DMAAbortOnError:00000000 $t
-ARM GAS  /tmp/ccybtFir.s 			page 406
+     /tmp/ccxlBB2Q.s:21     .text.UART_EndTxTransfer:00000000 $t
+     /tmp/ccxlBB2Q.s:26     .text.UART_EndTxTransfer:00000000 UART_EndTxTransfer
+     /tmp/ccxlBB2Q.s:157    .text.UART_EndRxTransfer:00000000 $t
+     /tmp/ccxlBB2Q.s:162    .text.UART_EndRxTransfer:00000000 UART_EndRxTransfer
+     /tmp/ccxlBB2Q.s:358    .text.UART_TxISR_8BIT:00000000 $t
+     /tmp/ccxlBB2Q.s:363    .text.UART_TxISR_8BIT:00000000 UART_TxISR_8BIT
+     /tmp/ccxlBB2Q.s:523    .text.UART_TxISR_16BIT:00000000 $t
+     /tmp/ccxlBB2Q.s:528    .text.UART_TxISR_16BIT:00000000 UART_TxISR_16BIT
+     /tmp/ccxlBB2Q.s:695    .text.UART_TxISR_8BIT_FIFOEN:00000000 $t
+     /tmp/ccxlBB2Q.s:700    .text.UART_TxISR_8BIT_FIFOEN:00000000 UART_TxISR_8BIT_FIFOEN
+     /tmp/ccxlBB2Q.s:890    .text.UART_TxISR_16BIT_FIFOEN:00000000 $t
+     /tmp/ccxlBB2Q.s:895    .text.UART_TxISR_16BIT_FIFOEN:00000000 UART_TxISR_16BIT_FIFOEN
+     /tmp/ccxlBB2Q.s:1092   .text.HAL_UART_MspInit:00000000 $t
+     /tmp/ccxlBB2Q.s:1098   .text.HAL_UART_MspInit:00000000 HAL_UART_MspInit
+     /tmp/ccxlBB2Q.s:1113   .text.HAL_UART_MspDeInit:00000000 $t
+     /tmp/ccxlBB2Q.s:1119   .text.HAL_UART_MspDeInit:00000000 HAL_UART_MspDeInit
+     /tmp/ccxlBB2Q.s:1134   .text.HAL_UART_DeInit:00000000 $t
+     /tmp/ccxlBB2Q.s:1140   .text.HAL_UART_DeInit:00000000 HAL_UART_DeInit
+     /tmp/ccxlBB2Q.s:1229   .text.HAL_UART_Transmit_IT:00000000 $t
+     /tmp/ccxlBB2Q.s:1235   .text.HAL_UART_Transmit_IT:00000000 HAL_UART_Transmit_IT
+     /tmp/ccxlBB2Q.s:1472   .text.HAL_UART_Transmit_IT:0000009c $d
+     /tmp/ccxlBB2Q.s:1480   .text.HAL_UART_Transmit_DMA:00000000 $t
+     /tmp/ccxlBB2Q.s:1486   .text.HAL_UART_Transmit_DMA:00000000 HAL_UART_Transmit_DMA
+     /tmp/ccxlBB2Q.s:1687   .text.HAL_UART_Transmit_DMA:00000094 $d
+     /tmp/ccxlBB2Q.s:3596   .text.UART_DMATransmitCplt:00000000 UART_DMATransmitCplt
+     /tmp/ccxlBB2Q.s:3866   .text.UART_DMATxHalfCplt:00000000 UART_DMATxHalfCplt
+     /tmp/ccxlBB2Q.s:3961   .text.UART_DMAError:00000000 UART_DMAError
+     /tmp/ccxlBB2Q.s:1694   .text.HAL_UART_DMAPause:00000000 $t
+     /tmp/ccxlBB2Q.s:1700   .text.HAL_UART_DMAPause:00000000 HAL_UART_DMAPause
+     /tmp/ccxlBB2Q.s:1994   .text.HAL_UART_DMAResume:00000000 $t
+     /tmp/ccxlBB2Q.s:2000   .text.HAL_UART_DMAResume:00000000 HAL_UART_DMAResume
+     /tmp/ccxlBB2Q.s:2273   .text.HAL_UART_DMAStop:00000000 $t
+     /tmp/ccxlBB2Q.s:2279   .text.HAL_UART_DMAStop:00000000 HAL_UART_DMAStop
+     /tmp/ccxlBB2Q.s:2527   .text.HAL_UART_Abort:00000000 $t
+     /tmp/ccxlBB2Q.s:2533   .text.HAL_UART_Abort:00000000 HAL_UART_Abort
+     /tmp/ccxlBB2Q.s:2978   .text.HAL_UART_AbortTransmit:00000000 $t
+     /tmp/ccxlBB2Q.s:2984   .text.HAL_UART_AbortTransmit:00000000 HAL_UART_AbortTransmit
+     /tmp/ccxlBB2Q.s:3246   .text.HAL_UART_AbortReceive:00000000 $t
+     /tmp/ccxlBB2Q.s:3252   .text.HAL_UART_AbortReceive:00000000 HAL_UART_AbortReceive
+     /tmp/ccxlBB2Q.s:3570   .text.HAL_UART_TxCpltCallback:00000000 $t
+     /tmp/ccxlBB2Q.s:3576   .text.HAL_UART_TxCpltCallback:00000000 HAL_UART_TxCpltCallback
+     /tmp/ccxlBB2Q.s:3591   .text.UART_DMATransmitCplt:00000000 $t
+     /tmp/ccxlBB2Q.s:3752   .text.UART_EndTransmit_IT:00000000 $t
+     /tmp/ccxlBB2Q.s:3757   .text.UART_EndTransmit_IT:00000000 UART_EndTransmit_IT
+     /tmp/ccxlBB2Q.s:3840   .text.HAL_UART_TxHalfCpltCallback:00000000 $t
+     /tmp/ccxlBB2Q.s:3846   .text.HAL_UART_TxHalfCpltCallback:00000000 HAL_UART_TxHalfCpltCallback
+     /tmp/ccxlBB2Q.s:3861   .text.UART_DMATxHalfCplt:00000000 $t
+     /tmp/ccxlBB2Q.s:3893   .text.HAL_UART_RxCpltCallback:00000000 $t
+     /tmp/ccxlBB2Q.s:3899   .text.HAL_UART_RxCpltCallback:00000000 HAL_UART_RxCpltCallback
+     /tmp/ccxlBB2Q.s:3914   .text.HAL_UART_RxHalfCpltCallback:00000000 $t
+     /tmp/ccxlBB2Q.s:3920   .text.HAL_UART_RxHalfCpltCallback:00000000 HAL_UART_RxHalfCpltCallback
+     /tmp/ccxlBB2Q.s:3935   .text.HAL_UART_ErrorCallback:00000000 $t
+     /tmp/ccxlBB2Q.s:3941   .text.HAL_UART_ErrorCallback:00000000 HAL_UART_ErrorCallback
+     /tmp/ccxlBB2Q.s:3956   .text.UART_DMAError:00000000 $t
+     /tmp/ccxlBB2Q.s:4051   .text.UART_DMAAbortOnError:00000000 $t
+ARM GAS  /tmp/ccxlBB2Q.s 			page 406
 
 
-     /tmp/ccybtFir.s:4056   .text.UART_DMAAbortOnError:00000000 UART_DMAAbortOnError
-     /tmp/ccybtFir.s:4086   .text.HAL_UART_AbortCpltCallback:00000000 $t
-     /tmp/ccybtFir.s:4092   .text.HAL_UART_AbortCpltCallback:00000000 HAL_UART_AbortCpltCallback
-     /tmp/ccybtFir.s:4107   .text.HAL_UART_Abort_IT:00000000 $t
-     /tmp/ccybtFir.s:4113   .text.HAL_UART_Abort_IT:00000000 HAL_UART_Abort_IT
-     /tmp/ccybtFir.s:4604   .text.HAL_UART_Abort_IT:00000148 $d
-     /tmp/ccybtFir.s:4693   .text.UART_DMATxAbortCallback:00000000 UART_DMATxAbortCallback
-     /tmp/ccybtFir.s:4615   .text.UART_DMARxAbortCallback:00000000 UART_DMARxAbortCallback
-     /tmp/ccybtFir.s:4610   .text.UART_DMARxAbortCallback:00000000 $t
-     /tmp/ccybtFir.s:4688   .text.UART_DMATxAbortCallback:00000000 $t
-     /tmp/ccybtFir.s:4777   .text.HAL_UART_AbortTransmitCpltCallback:00000000 $t
-     /tmp/ccybtFir.s:4783   .text.HAL_UART_AbortTransmitCpltCallback:00000000 HAL_UART_AbortTransmitCpltCallback
-     /tmp/ccybtFir.s:4798   .text.HAL_UART_AbortTransmit_IT:00000000 $t
-     /tmp/ccybtFir.s:4804   .text.HAL_UART_AbortTransmit_IT:00000000 HAL_UART_AbortTransmit_IT
-     /tmp/ccybtFir.s:5083   .text.HAL_UART_AbortTransmit_IT:000000a8 $d
-     /tmp/ccybtFir.s:5093   .text.UART_DMATxOnlyAbortCallback:00000000 UART_DMATxOnlyAbortCallback
-     /tmp/ccybtFir.s:5088   .text.UART_DMATxOnlyAbortCallback:00000000 $t
-     /tmp/ccybtFir.s:5142   .text.HAL_UART_AbortReceiveCpltCallback:00000000 $t
-     /tmp/ccybtFir.s:5148   .text.HAL_UART_AbortReceiveCpltCallback:00000000 HAL_UART_AbortReceiveCpltCallback
-     /tmp/ccybtFir.s:5163   .text.HAL_UART_AbortReceive_IT:00000000 $t
-     /tmp/ccybtFir.s:5169   .text.HAL_UART_AbortReceive_IT:00000000 HAL_UART_AbortReceive_IT
-     /tmp/ccybtFir.s:5515   .text.HAL_UART_AbortReceive_IT:000000d4 $d
-     /tmp/ccybtFir.s:5525   .text.UART_DMARxOnlyAbortCallback:00000000 UART_DMARxOnlyAbortCallback
-     /tmp/ccybtFir.s:5520   .text.UART_DMARxOnlyAbortCallback:00000000 $t
-     /tmp/ccybtFir.s:5571   .text.HAL_UARTEx_RxEventCallback:00000000 $t
-     /tmp/ccybtFir.s:5577   .text.HAL_UARTEx_RxEventCallback:00000000 HAL_UARTEx_RxEventCallback
-     /tmp/ccybtFir.s:5593   .text.HAL_UART_IRQHandler:00000000 $t
-     /tmp/ccybtFir.s:5599   .text.HAL_UART_IRQHandler:00000000 HAL_UART_IRQHandler
-     /tmp/ccybtFir.s:6321   .text.HAL_UART_IRQHandler:000002a8 $d
-     /tmp/ccybtFir.s:6331   .text.HAL_UART_IRQHandler:000002b4 $t
-     /tmp/ccybtFir.s:6606   .text.UART_RxISR_8BIT:00000000 $t
-     /tmp/ccybtFir.s:6611   .text.UART_RxISR_8BIT:00000000 UART_RxISR_8BIT
-     /tmp/ccybtFir.s:6966   .text.UART_RxISR_8BIT:000000d8 $d
-     /tmp/ccybtFir.s:6971   .text.UART_RxISR_16BIT:00000000 $t
-     /tmp/ccybtFir.s:6976   .text.UART_RxISR_16BIT:00000000 UART_RxISR_16BIT
-     /tmp/ccybtFir.s:7331   .text.UART_RxISR_16BIT:000000d4 $d
-     /tmp/ccybtFir.s:7336   .text.UART_RxISR_8BIT_FIFOEN:00000000 $t
-     /tmp/ccybtFir.s:7341   .text.UART_RxISR_8BIT_FIFOEN:00000000 UART_RxISR_8BIT_FIFOEN
-     /tmp/ccybtFir.s:7943   .text.UART_RxISR_8BIT_FIFOEN:000001c0 $d
-     /tmp/ccybtFir.s:7949   .text.UART_RxISR_16BIT_FIFOEN:00000000 $t
-     /tmp/ccybtFir.s:7954   .text.UART_RxISR_16BIT_FIFOEN:00000000 UART_RxISR_16BIT_FIFOEN
-     /tmp/ccybtFir.s:8559   .text.UART_RxISR_16BIT_FIFOEN:000001c0 $d
-     /tmp/ccybtFir.s:8565   .text.UART_DMARxHalfCplt:00000000 $t
-     /tmp/ccybtFir.s:8570   .text.UART_DMARxHalfCplt:00000000 UART_DMARxHalfCplt
-     /tmp/ccybtFir.s:8618   .text.UART_DMAReceiveCplt:00000000 $t
-     /tmp/ccybtFir.s:8623   .text.UART_DMAReceiveCplt:00000000 UART_DMAReceiveCplt
-     /tmp/ccybtFir.s:8919   .text.HAL_UART_ReceiverTimeout_Config:00000000 $t
-     /tmp/ccybtFir.s:8925   .text.HAL_UART_ReceiverTimeout_Config:00000000 HAL_UART_ReceiverTimeout_Config
-     /tmp/ccybtFir.s:8954   .text.HAL_UART_ReceiverTimeout_Config:00000014 $d
-     /tmp/ccybtFir.s:8959   .text.HAL_UART_EnableReceiverTimeout:00000000 $t
-     /tmp/ccybtFir.s:8965   .text.HAL_UART_EnableReceiverTimeout:00000000 HAL_UART_EnableReceiverTimeout
-     /tmp/ccybtFir.s:9042   .text.HAL_UART_EnableReceiverTimeout:00000048 $d
-     /tmp/ccybtFir.s:9047   .text.HAL_UART_DisableReceiverTimeout:00000000 $t
-     /tmp/ccybtFir.s:9053   .text.HAL_UART_DisableReceiverTimeout:00000000 HAL_UART_DisableReceiverTimeout
-     /tmp/ccybtFir.s:9130   .text.HAL_UART_DisableReceiverTimeout:00000048 $d
-     /tmp/ccybtFir.s:9135   .text.HAL_MultiProcessor_EnterMuteMode:00000000 $t
-     /tmp/ccybtFir.s:9141   .text.HAL_MultiProcessor_EnterMuteMode:00000000 HAL_MultiProcessor_EnterMuteMode
-ARM GAS  /tmp/ccybtFir.s 			page 407
+     /tmp/ccxlBB2Q.s:4056   .text.UART_DMAAbortOnError:00000000 UART_DMAAbortOnError
+     /tmp/ccxlBB2Q.s:4086   .text.HAL_UART_AbortCpltCallback:00000000 $t
+     /tmp/ccxlBB2Q.s:4092   .text.HAL_UART_AbortCpltCallback:00000000 HAL_UART_AbortCpltCallback
+     /tmp/ccxlBB2Q.s:4107   .text.HAL_UART_Abort_IT:00000000 $t
+     /tmp/ccxlBB2Q.s:4113   .text.HAL_UART_Abort_IT:00000000 HAL_UART_Abort_IT
+     /tmp/ccxlBB2Q.s:4604   .text.HAL_UART_Abort_IT:00000148 $d
+     /tmp/ccxlBB2Q.s:4693   .text.UART_DMATxAbortCallback:00000000 UART_DMATxAbortCallback
+     /tmp/ccxlBB2Q.s:4615   .text.UART_DMARxAbortCallback:00000000 UART_DMARxAbortCallback
+     /tmp/ccxlBB2Q.s:4610   .text.UART_DMARxAbortCallback:00000000 $t
+     /tmp/ccxlBB2Q.s:4688   .text.UART_DMATxAbortCallback:00000000 $t
+     /tmp/ccxlBB2Q.s:4777   .text.HAL_UART_AbortTransmitCpltCallback:00000000 $t
+     /tmp/ccxlBB2Q.s:4783   .text.HAL_UART_AbortTransmitCpltCallback:00000000 HAL_UART_AbortTransmitCpltCallback
+     /tmp/ccxlBB2Q.s:4798   .text.HAL_UART_AbortTransmit_IT:00000000 $t
+     /tmp/ccxlBB2Q.s:4804   .text.HAL_UART_AbortTransmit_IT:00000000 HAL_UART_AbortTransmit_IT
+     /tmp/ccxlBB2Q.s:5083   .text.HAL_UART_AbortTransmit_IT:000000a8 $d
+     /tmp/ccxlBB2Q.s:5093   .text.UART_DMATxOnlyAbortCallback:00000000 UART_DMATxOnlyAbortCallback
+     /tmp/ccxlBB2Q.s:5088   .text.UART_DMATxOnlyAbortCallback:00000000 $t
+     /tmp/ccxlBB2Q.s:5142   .text.HAL_UART_AbortReceiveCpltCallback:00000000 $t
+     /tmp/ccxlBB2Q.s:5148   .text.HAL_UART_AbortReceiveCpltCallback:00000000 HAL_UART_AbortReceiveCpltCallback
+     /tmp/ccxlBB2Q.s:5163   .text.HAL_UART_AbortReceive_IT:00000000 $t
+     /tmp/ccxlBB2Q.s:5169   .text.HAL_UART_AbortReceive_IT:00000000 HAL_UART_AbortReceive_IT
+     /tmp/ccxlBB2Q.s:5515   .text.HAL_UART_AbortReceive_IT:000000d4 $d
+     /tmp/ccxlBB2Q.s:5525   .text.UART_DMARxOnlyAbortCallback:00000000 UART_DMARxOnlyAbortCallback
+     /tmp/ccxlBB2Q.s:5520   .text.UART_DMARxOnlyAbortCallback:00000000 $t
+     /tmp/ccxlBB2Q.s:5571   .text.HAL_UARTEx_RxEventCallback:00000000 $t
+     /tmp/ccxlBB2Q.s:5577   .text.HAL_UARTEx_RxEventCallback:00000000 HAL_UARTEx_RxEventCallback
+     /tmp/ccxlBB2Q.s:5593   .text.HAL_UART_IRQHandler:00000000 $t
+     /tmp/ccxlBB2Q.s:5599   .text.HAL_UART_IRQHandler:00000000 HAL_UART_IRQHandler
+     /tmp/ccxlBB2Q.s:6321   .text.HAL_UART_IRQHandler:000002a8 $d
+     /tmp/ccxlBB2Q.s:6331   .text.HAL_UART_IRQHandler:000002b4 $t
+     /tmp/ccxlBB2Q.s:6606   .text.UART_RxISR_8BIT:00000000 $t
+     /tmp/ccxlBB2Q.s:6611   .text.UART_RxISR_8BIT:00000000 UART_RxISR_8BIT
+     /tmp/ccxlBB2Q.s:6966   .text.UART_RxISR_8BIT:000000d8 $d
+     /tmp/ccxlBB2Q.s:6971   .text.UART_RxISR_16BIT:00000000 $t
+     /tmp/ccxlBB2Q.s:6976   .text.UART_RxISR_16BIT:00000000 UART_RxISR_16BIT
+     /tmp/ccxlBB2Q.s:7331   .text.UART_RxISR_16BIT:000000d4 $d
+     /tmp/ccxlBB2Q.s:7336   .text.UART_RxISR_8BIT_FIFOEN:00000000 $t
+     /tmp/ccxlBB2Q.s:7341   .text.UART_RxISR_8BIT_FIFOEN:00000000 UART_RxISR_8BIT_FIFOEN
+     /tmp/ccxlBB2Q.s:7943   .text.UART_RxISR_8BIT_FIFOEN:000001c0 $d
+     /tmp/ccxlBB2Q.s:7949   .text.UART_RxISR_16BIT_FIFOEN:00000000 $t
+     /tmp/ccxlBB2Q.s:7954   .text.UART_RxISR_16BIT_FIFOEN:00000000 UART_RxISR_16BIT_FIFOEN
+     /tmp/ccxlBB2Q.s:8559   .text.UART_RxISR_16BIT_FIFOEN:000001c0 $d
+     /tmp/ccxlBB2Q.s:8565   .text.UART_DMARxHalfCplt:00000000 $t
+     /tmp/ccxlBB2Q.s:8570   .text.UART_DMARxHalfCplt:00000000 UART_DMARxHalfCplt
+     /tmp/ccxlBB2Q.s:8618   .text.UART_DMAReceiveCplt:00000000 $t
+     /tmp/ccxlBB2Q.s:8623   .text.UART_DMAReceiveCplt:00000000 UART_DMAReceiveCplt
+     /tmp/ccxlBB2Q.s:8919   .text.HAL_UART_ReceiverTimeout_Config:00000000 $t
+     /tmp/ccxlBB2Q.s:8925   .text.HAL_UART_ReceiverTimeout_Config:00000000 HAL_UART_ReceiverTimeout_Config
+     /tmp/ccxlBB2Q.s:8954   .text.HAL_UART_ReceiverTimeout_Config:00000014 $d
+     /tmp/ccxlBB2Q.s:8959   .text.HAL_UART_EnableReceiverTimeout:00000000 $t
+     /tmp/ccxlBB2Q.s:8965   .text.HAL_UART_EnableReceiverTimeout:00000000 HAL_UART_EnableReceiverTimeout
+     /tmp/ccxlBB2Q.s:9042   .text.HAL_UART_EnableReceiverTimeout:00000048 $d
+     /tmp/ccxlBB2Q.s:9047   .text.HAL_UART_DisableReceiverTimeout:00000000 $t
+     /tmp/ccxlBB2Q.s:9053   .text.HAL_UART_DisableReceiverTimeout:00000000 HAL_UART_DisableReceiverTimeout
+     /tmp/ccxlBB2Q.s:9130   .text.HAL_UART_DisableReceiverTimeout:00000048 $d
+     /tmp/ccxlBB2Q.s:9135   .text.HAL_MultiProcessor_EnterMuteMode:00000000 $t
+     /tmp/ccxlBB2Q.s:9141   .text.HAL_MultiProcessor_EnterMuteMode:00000000 HAL_MultiProcessor_EnterMuteMode
+ARM GAS  /tmp/ccxlBB2Q.s 			page 407
 
 
-     /tmp/ccybtFir.s:9160   .text.HAL_HalfDuplex_EnableTransmitter:00000000 $t
-     /tmp/ccybtFir.s:9166   .text.HAL_HalfDuplex_EnableTransmitter:00000000 HAL_HalfDuplex_EnableTransmitter
-     /tmp/ccybtFir.s:9319   .text.HAL_HalfDuplex_EnableReceiver:00000000 $t
-     /tmp/ccybtFir.s:9325   .text.HAL_HalfDuplex_EnableReceiver:00000000 HAL_HalfDuplex_EnableReceiver
-     /tmp/ccybtFir.s:9478   .text.HAL_LIN_SendBreak:00000000 $t
-     /tmp/ccybtFir.s:9484   .text.HAL_LIN_SendBreak:00000000 HAL_LIN_SendBreak
-     /tmp/ccybtFir.s:9537   .text.HAL_UART_GetState:00000000 $t
-     /tmp/ccybtFir.s:9543   .text.HAL_UART_GetState:00000000 HAL_UART_GetState
-     /tmp/ccybtFir.s:9571   .text.HAL_UART_GetError:00000000 $t
-     /tmp/ccybtFir.s:9577   .text.HAL_UART_GetError:00000000 HAL_UART_GetError
-     /tmp/ccybtFir.s:9596   .text.UART_SetConfig:00000000 $t
-     /tmp/ccybtFir.s:9602   .text.UART_SetConfig:00000000 UART_SetConfig
-     /tmp/ccybtFir.s:9751   .text.UART_SetConfig:0000009a $d
-     /tmp/ccybtFir.s:9761   .text.UART_SetConfig:000000ac $t
-     /tmp/ccybtFir.s:9771   .text.UART_SetConfig:000000c0 $d
-     /tmp/ccybtFir.s:9775   .text.UART_SetConfig:000000c4 $t
-     /tmp/ccybtFir.s:9810   .text.UART_SetConfig:000000e8 $d
-     /tmp/ccybtFir.s:10009  .text.UART_SetConfig:000001f6 $d
-     /tmp/ccybtFir.s:10107  .text.UART_SetConfig:00000270 $d
-     /tmp/ccybtFir.s:13231  .rodata.UARTPrescTable:00000000 UARTPrescTable
-     /tmp/ccybtFir.s:10119  .text.UART_SetConfig:00000298 $t
-     /tmp/ccybtFir.s:10123  .text.UART_SetConfig:000002a0 $d
-     /tmp/ccybtFir.s:10353  .text.UART_SetConfig:00000380 $d
-     /tmp/ccybtFir.s:10359  .text.UART_AdvFeatureConfig:00000000 $t
-     /tmp/ccybtFir.s:10365  .text.UART_AdvFeatureConfig:00000000 UART_AdvFeatureConfig
-     /tmp/ccybtFir.s:10517  .text.UART_WaitOnFlagUntilTimeout:00000000 $t
-     /tmp/ccybtFir.s:10523  .text.UART_WaitOnFlagUntilTimeout:00000000 UART_WaitOnFlagUntilTimeout
-     /tmp/ccybtFir.s:10661  .text.HAL_UART_Transmit:00000000 $t
-     /tmp/ccybtFir.s:10667  .text.HAL_UART_Transmit:00000000 HAL_UART_Transmit
-     /tmp/ccybtFir.s:10886  .text.HAL_UART_Receive:00000000 $t
-     /tmp/ccybtFir.s:10892  .text.HAL_UART_Receive:00000000 HAL_UART_Receive
-     /tmp/ccybtFir.s:11155  .text.UART_CheckIdleState:00000000 $t
-     /tmp/ccybtFir.s:11161  .text.UART_CheckIdleState:00000000 UART_CheckIdleState
-     /tmp/ccybtFir.s:11466  .text.HAL_UART_Init:00000000 $t
-     /tmp/ccybtFir.s:11472  .text.HAL_UART_Init:00000000 HAL_UART_Init
-     /tmp/ccybtFir.s:11576  .text.HAL_HalfDuplex_Init:00000000 $t
-     /tmp/ccybtFir.s:11582  .text.HAL_HalfDuplex_Init:00000000 HAL_HalfDuplex_Init
-     /tmp/ccybtFir.s:11690  .text.HAL_LIN_Init:00000000 $t
-     /tmp/ccybtFir.s:11696  .text.HAL_LIN_Init:00000000 HAL_LIN_Init
-     /tmp/ccybtFir.s:11848  .text.HAL_MultiProcessor_Init:00000000 $t
-     /tmp/ccybtFir.s:11854  .text.HAL_MultiProcessor_Init:00000000 HAL_MultiProcessor_Init
-     /tmp/ccybtFir.s:11982  .text.HAL_MultiProcessor_EnableMuteMode:00000000 $t
-     /tmp/ccybtFir.s:11988  .text.HAL_MultiProcessor_EnableMuteMode:00000000 HAL_MultiProcessor_EnableMuteMode
-     /tmp/ccybtFir.s:12089  .text.HAL_MultiProcessor_DisableMuteMode:00000000 $t
-     /tmp/ccybtFir.s:12095  .text.HAL_MultiProcessor_DisableMuteMode:00000000 HAL_MultiProcessor_DisableMuteMode
-     /tmp/ccybtFir.s:12196  .text.UART_Start_Receive_IT:00000000 $t
-     /tmp/ccybtFir.s:12202  .text.UART_Start_Receive_IT:00000000 UART_Start_Receive_IT
-     /tmp/ccybtFir.s:12656  .text.UART_Start_Receive_IT:0000012c $d
-     /tmp/ccybtFir.s:12665  .text.HAL_UART_Receive_IT:00000000 $t
-     /tmp/ccybtFir.s:12671  .text.HAL_UART_Receive_IT:00000000 HAL_UART_Receive_IT
-     /tmp/ccybtFir.s:12799  .text.HAL_UART_Receive_IT:00000048 $d
-     /tmp/ccybtFir.s:12804  .text.UART_Start_Receive_DMA:00000000 $t
-     /tmp/ccybtFir.s:12810  .text.UART_Start_Receive_DMA:00000000 UART_Start_Receive_DMA
-     /tmp/ccybtFir.s:13081  .text.UART_Start_Receive_DMA:000000a4 $d
-     /tmp/ccybtFir.s:13088  .text.HAL_UART_Receive_DMA:00000000 $t
-     /tmp/ccybtFir.s:13094  .text.HAL_UART_Receive_DMA:00000000 HAL_UART_Receive_DMA
-     /tmp/ccybtFir.s:13222  .text.HAL_UART_Receive_DMA:00000048 $d
-ARM GAS  /tmp/ccybtFir.s 			page 408
+     /tmp/ccxlBB2Q.s:9160   .text.HAL_HalfDuplex_EnableTransmitter:00000000 $t
+     /tmp/ccxlBB2Q.s:9166   .text.HAL_HalfDuplex_EnableTransmitter:00000000 HAL_HalfDuplex_EnableTransmitter
+     /tmp/ccxlBB2Q.s:9319   .text.HAL_HalfDuplex_EnableReceiver:00000000 $t
+     /tmp/ccxlBB2Q.s:9325   .text.HAL_HalfDuplex_EnableReceiver:00000000 HAL_HalfDuplex_EnableReceiver
+     /tmp/ccxlBB2Q.s:9478   .text.HAL_LIN_SendBreak:00000000 $t
+     /tmp/ccxlBB2Q.s:9484   .text.HAL_LIN_SendBreak:00000000 HAL_LIN_SendBreak
+     /tmp/ccxlBB2Q.s:9537   .text.HAL_UART_GetState:00000000 $t
+     /tmp/ccxlBB2Q.s:9543   .text.HAL_UART_GetState:00000000 HAL_UART_GetState
+     /tmp/ccxlBB2Q.s:9571   .text.HAL_UART_GetError:00000000 $t
+     /tmp/ccxlBB2Q.s:9577   .text.HAL_UART_GetError:00000000 HAL_UART_GetError
+     /tmp/ccxlBB2Q.s:9596   .text.UART_SetConfig:00000000 $t
+     /tmp/ccxlBB2Q.s:9602   .text.UART_SetConfig:00000000 UART_SetConfig
+     /tmp/ccxlBB2Q.s:9751   .text.UART_SetConfig:0000009a $d
+     /tmp/ccxlBB2Q.s:9761   .text.UART_SetConfig:000000ac $t
+     /tmp/ccxlBB2Q.s:9771   .text.UART_SetConfig:000000c0 $d
+     /tmp/ccxlBB2Q.s:9775   .text.UART_SetConfig:000000c4 $t
+     /tmp/ccxlBB2Q.s:9810   .text.UART_SetConfig:000000e8 $d
+     /tmp/ccxlBB2Q.s:10009  .text.UART_SetConfig:000001f6 $d
+     /tmp/ccxlBB2Q.s:10107  .text.UART_SetConfig:00000270 $d
+     /tmp/ccxlBB2Q.s:13231  .rodata.UARTPrescTable:00000000 UARTPrescTable
+     /tmp/ccxlBB2Q.s:10119  .text.UART_SetConfig:00000298 $t
+     /tmp/ccxlBB2Q.s:10123  .text.UART_SetConfig:000002a0 $d
+     /tmp/ccxlBB2Q.s:10353  .text.UART_SetConfig:00000380 $d
+     /tmp/ccxlBB2Q.s:10359  .text.UART_AdvFeatureConfig:00000000 $t
+     /tmp/ccxlBB2Q.s:10365  .text.UART_AdvFeatureConfig:00000000 UART_AdvFeatureConfig
+     /tmp/ccxlBB2Q.s:10517  .text.UART_WaitOnFlagUntilTimeout:00000000 $t
+     /tmp/ccxlBB2Q.s:10523  .text.UART_WaitOnFlagUntilTimeout:00000000 UART_WaitOnFlagUntilTimeout
+     /tmp/ccxlBB2Q.s:10661  .text.HAL_UART_Transmit:00000000 $t
+     /tmp/ccxlBB2Q.s:10667  .text.HAL_UART_Transmit:00000000 HAL_UART_Transmit
+     /tmp/ccxlBB2Q.s:10886  .text.HAL_UART_Receive:00000000 $t
+     /tmp/ccxlBB2Q.s:10892  .text.HAL_UART_Receive:00000000 HAL_UART_Receive
+     /tmp/ccxlBB2Q.s:11155  .text.UART_CheckIdleState:00000000 $t
+     /tmp/ccxlBB2Q.s:11161  .text.UART_CheckIdleState:00000000 UART_CheckIdleState
+     /tmp/ccxlBB2Q.s:11466  .text.HAL_UART_Init:00000000 $t
+     /tmp/ccxlBB2Q.s:11472  .text.HAL_UART_Init:00000000 HAL_UART_Init
+     /tmp/ccxlBB2Q.s:11576  .text.HAL_HalfDuplex_Init:00000000 $t
+     /tmp/ccxlBB2Q.s:11582  .text.HAL_HalfDuplex_Init:00000000 HAL_HalfDuplex_Init
+     /tmp/ccxlBB2Q.s:11690  .text.HAL_LIN_Init:00000000 $t
+     /tmp/ccxlBB2Q.s:11696  .text.HAL_LIN_Init:00000000 HAL_LIN_Init
+     /tmp/ccxlBB2Q.s:11848  .text.HAL_MultiProcessor_Init:00000000 $t
+     /tmp/ccxlBB2Q.s:11854  .text.HAL_MultiProcessor_Init:00000000 HAL_MultiProcessor_Init
+     /tmp/ccxlBB2Q.s:11982  .text.HAL_MultiProcessor_EnableMuteMode:00000000 $t
+     /tmp/ccxlBB2Q.s:11988  .text.HAL_MultiProcessor_EnableMuteMode:00000000 HAL_MultiProcessor_EnableMuteMode
+     /tmp/ccxlBB2Q.s:12089  .text.HAL_MultiProcessor_DisableMuteMode:00000000 $t
+     /tmp/ccxlBB2Q.s:12095  .text.HAL_MultiProcessor_DisableMuteMode:00000000 HAL_MultiProcessor_DisableMuteMode
+     /tmp/ccxlBB2Q.s:12196  .text.UART_Start_Receive_IT:00000000 $t
+     /tmp/ccxlBB2Q.s:12202  .text.UART_Start_Receive_IT:00000000 UART_Start_Receive_IT
+     /tmp/ccxlBB2Q.s:12656  .text.UART_Start_Receive_IT:0000012c $d
+     /tmp/ccxlBB2Q.s:12665  .text.HAL_UART_Receive_IT:00000000 $t
+     /tmp/ccxlBB2Q.s:12671  .text.HAL_UART_Receive_IT:00000000 HAL_UART_Receive_IT
+     /tmp/ccxlBB2Q.s:12799  .text.HAL_UART_Receive_IT:00000048 $d
+     /tmp/ccxlBB2Q.s:12804  .text.UART_Start_Receive_DMA:00000000 $t
+     /tmp/ccxlBB2Q.s:12810  .text.UART_Start_Receive_DMA:00000000 UART_Start_Receive_DMA
+     /tmp/ccxlBB2Q.s:13081  .text.UART_Start_Receive_DMA:000000a4 $d
+     /tmp/ccxlBB2Q.s:13088  .text.HAL_UART_Receive_DMA:00000000 $t
+     /tmp/ccxlBB2Q.s:13094  .text.HAL_UART_Receive_DMA:00000000 HAL_UART_Receive_DMA
+     /tmp/ccxlBB2Q.s:13222  .text.HAL_UART_Receive_DMA:00000048 $d
+ARM GAS  /tmp/ccxlBB2Q.s 			page 408
 
 
-     /tmp/ccybtFir.s:13228  .rodata.UARTPrescTable:00000000 $d
-     /tmp/ccybtFir.s:9823   .text.UART_SetConfig:000000f5 $d
-     /tmp/ccybtFir.s:9823   .text.UART_SetConfig:000000f6 $t
-     /tmp/ccybtFir.s:10018  .text.UART_SetConfig:000001ff $d
-     /tmp/ccybtFir.s:10018  .text.UART_SetConfig:00000200 $t
-     /tmp/ccybtFir.s:10132  .text.UART_SetConfig:000002a9 $d
-     /tmp/ccybtFir.s:10132  .text.UART_SetConfig:000002aa $t
+     /tmp/ccxlBB2Q.s:13228  .rodata.UARTPrescTable:00000000 $d
+     /tmp/ccxlBB2Q.s:9823   .text.UART_SetConfig:000000f5 $d
+     /tmp/ccxlBB2Q.s:9823   .text.UART_SetConfig:000000f6 $t
+     /tmp/ccxlBB2Q.s:10018  .text.UART_SetConfig:000001ff $d
+     /tmp/ccxlBB2Q.s:10018  .text.UART_SetConfig:00000200 $t
+     /tmp/ccxlBB2Q.s:10132  .text.UART_SetConfig:000002a9 $d
+     /tmp/ccxlBB2Q.s:10132  .text.UART_SetConfig:000002aa $t
 
 UNDEFINED SYMBOLS
 HAL_DMA_Start_IT
