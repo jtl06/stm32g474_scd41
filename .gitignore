@@ -1,0 +1,17 @@
+# Ignore build artifacts
+build/
+*.o
+*.d
+*.elf
+*.bin
+*.hex
+*.map
+*.lst
+*.log
+
+# STM32CubeMX generated extras
+*.ioc.saved
+*.swo
+
+# VSCode metadata
+.vscode/*.db
