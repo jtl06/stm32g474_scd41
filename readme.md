@@ -1,13 +1,13 @@
-# STM32G474RE + SCD41 + SSD1306 Sensor Display
+# CO2, Humidity, and Temperature Display and Logger
 
-Simple project to start learning embedded development creating a CO2/Temp/Humidity monitor inspired by Aranet products.
+- Simple project to start learning embedded development creating a CO2/Temp/Humidity monitor inspired by Aranet products.
 
 ## Objectives
 
-Interface with SCD41 sensor via i2c
-display CO2 (ppm), humidity (%), and temperature (C) on the SSD1306 screen via i2c
-write to SD card over SPI interface
-Learn various common protocols (I2c, SPI, USB)
+- Interface with SCD41 sensor via i2c
+- display CO2 (ppm), humidity (%), and temperature (C) on the SSD1306 screen via i2c
+- write to SD card over SPI interface
+- Learn various common protocols at an intimate level by implementing them (I2c, SPI, USB)
 
 ## Hardware
 
