@@ -1,9 +1,8 @@
 /* USER CODE BEGIN Header */
 /**
   ******************************************************************************
-  * @file           : main.h
-  * @brief          : Header for main.c file.
-  *                   This file contains the common defines of the application.
+  * @file   app_fatfs.h
+  * @brief  Header for fatfs applications
   ******************************************************************************
   * @attention
   *
@@ -19,17 +18,13 @@
 /* USER CODE END Header */
 
 /* Define to prevent recursive inclusion -------------------------------------*/
-#ifndef __MAIN_H
-#define __MAIN_H
-
-#ifdef __cplusplus
-extern "C" {
-#endif
+#ifndef __APP_FATFS_H
+#define __APP_FATFS_H
 
 /* Includes ------------------------------------------------------------------*/
-#include "stm32g4xx_hal.h"
-#include "stm32g4xx_nucleo.h"
-#include <stdio.h>
+#include "ff.h"
+#include "ff_gen_drv.h"
+#include "user_diskio.h" /* defines USER_Driver as external */
 
 /* Private includes ----------------------------------------------------------*/
 /* USER CODE BEGIN Includes */
@@ -44,7 +39,6 @@ extern "C" {
 /* Exported constants --------------------------------------------------------*/
 /* USER CODE BEGIN EC */
 
-
 /* USER CODE END EC */
 
 /* Exported macro ------------------------------------------------------------*/
@@ -53,40 +47,21 @@ extern "C" {
 /* USER CODE END EM */
 
 /* Exported functions prototypes ---------------------------------------------*/
-void Error_Handler(void);
-
+int32_t MX_FATFS_Init(void);
+int32_t MX_FATFS_Process(void);
 /* USER CODE BEGIN EFP */
 
 /* USER CODE END EFP */
 
 /* Private defines -----------------------------------------------------------*/
-#define RCC_OSC32_IN_Pin GPIO_PIN_14
-#define RCC_OSC32_IN_GPIO_Port GPIOC
-#define RCC_OSC32_OUT_Pin GPIO_PIN_15
-#define RCC_OSC32_OUT_GPIO_Port GPIOC
-#define RCC_OSC_IN_Pin GPIO_PIN_0
-#define RCC_OSC_IN_GPIO_Port GPIOF
-#define RCC_OSC_OUT_Pin GPIO_PIN_1
-#define RCC_OSC_OUT_GPIO_Port GPIOF
-#define T_SWDIO_Pin GPIO_PIN_13
-#define T_SWDIO_GPIO_Port GPIOA
-#define T_SWCLK_Pin GPIO_PIN_14
-#define T_SWCLK_GPIO_Port GPIOA
-#define T_SWO_Pin GPIO_PIN_3
-#define T_SWO_GPIO_Port GPIOB
-
 /* USER CODE BEGIN Private defines */
-
-/* --------  SD‑card SPI driver bindings  -------- */
-#define SD_SPI_HANDLE        hspi2          /* SPI2 on PB13/14/15          */
-#define SPI1_CS_GPIO_Port    GPIOB          /* the port that drives CS     */
-#define SPI1_CS_Pin          GPIO_PIN_6     /* the pin that drives CS (PB6)*/
-
-
+#define APP_OK                      0
+#define APP_ERROR                  -1
+#define APP_SD_UNPLUGGED           -2
 /* USER CODE END Private defines */
 
-#ifdef __cplusplus
-}
-#endif
+extern FATFS USERFatFs;    /* File system object for USER logical drive */
+extern FIL USERFile;       /* File  object for USER */
+extern char USERPath[4];   /* USER logical drive path */
 
-#endif /* __MAIN_H */
+#endif /*__APP_FATFS_H */
