@@ -1,18 +1,4 @@
-/*
- * SSD1306xLED - Drivers for SSD1306 controlled dot matrix OLED/PLED 128x64 displays
- *
- * @created: 2014-08-12
- * @author: Neven Boyanov
- *
- * Source code available at: https://bitbucket.org/tinusaur/ssd1306xled
- *
- */
-
-// ----------------------------------------------------------------------------
-
-// ----------------------------------------------------------------------------
-
-/* Standard ASCII 6x8 font */
+/* Standard ASCII 6x8 font by Neven Boyanov */
 const uint8_t font6x8[] = {
   0x00, 0x00, 0x00, 0x00, 0x00, 0x00, // sp
   0x00, 0x00, 0x00, 0x2f, 0x00, 0x00, // !
@@ -107,5 +93,3 @@ const uint8_t font6x8[] = {
   0x00, 0x44, 0x64, 0x54, 0x4C, 0x44, // z
   0x14, 0x14, 0x14, 0x14, 0x14, 0x14, // horiz lines
 };
-
-// ----------------------------------------------------------------------------
