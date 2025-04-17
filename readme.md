@@ -12,6 +12,7 @@ display CO2 (ppm), humidity (%), and temperature (C) on the SSD1306 screen via i
 - NUCLEO-G474RE development board
 - SCD41 sensor
 - SSD1306 OLED display
+- SD (or micro SD card) to SPI breakout board
 
 ## Software and tools used
 

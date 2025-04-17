@@ -14,4 +14,4 @@ build/
 *.swo
 
 # VSCode metadata
-.vscode/*.db
+.vscode/
