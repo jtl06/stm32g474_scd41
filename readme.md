@@ -23,8 +23,6 @@
 - saelae logic analyzer
 
 ## TODO
-- Write I2C driver (shouldnt be to bad?)
-- Write SPI driver (moderately difficult?)
-- Add USB connectivity (need board with USB... maybe nucleo stm32C071?)
+- Add USB connectivity
 - Write USB driver from scratch (difficult?)
-- Make custom PCB and case (doable... battery powered?)
+- Make custom PCB and case
